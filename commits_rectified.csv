@@ -1,0 +1,1394 @@
+commit_hash,message,parents,is_merge,modified_files,Rectifier_Needed
+e89dd84ac491e9f838f2ea30d57030ad31626ed8,Initial import,[],False,"['README', 'examples/plot_memory.py', 'minimon.py']",No
+d90221d73ab3ddd0c4838fb611e57793e7302ed4,Update example.,['e89dd84ac491e9f838f2ea30d57030ad31626ed8'],False,"['README', 'examples/plot_memory.py']",Yes
+afdbc15735e1d2b50ccf00d58bb108f63d3bfbb5,update,['d90221d73ab3ddd0c4838fb611e57793e7302ed4'],False,"['examples/plot_memory.py', 'minimon.py']",Yes
+fa3859aa878bc9060175a92e456d36d20294e45f,Update minimon.py,['afdbc15735e1d2b50ccf00d58bb108f63d3bfbb5'],False,['minimon.py'],Yes
+7c4562d91950203b9e364c9fe08e77509efc9e17,more,['fa3859aa878bc9060175a92e456d36d20294e45f'],False,"['examples/plot_memory.py', 'minimon.py']",No
+1ea6f64e83226cd9097252bbff5393bc6e8e59ab,Line-by-line sort of works.,['7c4562d91950203b9e364c9fe08e77509efc9e17'],False,"['minimon.py', 'test.py']",No
+9a7e1dd6ff05842f2904f8ba51198774094b0963,more,['1ea6f64e83226cd9097252bbff5393bc6e8e59ab'],False,"['minimon.py', 'test.py']",No
+a9e839aedf06a619dcd391c0ee5c760edb426aed,more,['9a7e1dd6ff05842f2904f8ba51198774094b0963'],False,"['minimon.py', 'test.py']",No
+4b85f04d7b628513dd027c7f9a0d87626aeca75d,Refactoring,['a9e839aedf06a619dcd391c0ee5c760edb426aed'],False,"['README.rst', 'memory_profiler.py', 'setup.py']",No
+28b55bcdd9d8a963dbc6ce8bd0ce594426a6a024,Support for callable function.,['4b85f04d7b628513dd027c7f9a0d87626aeca75d'],False,['memory_profiler.py'],No
+695c56cf2da7218c6fed3a74456a14c9ff5c7691,Use find_script,['28b55bcdd9d8a963dbc6ce8bd0ce594426a6a024'],False,['memory_profiler.py'],No
+95e549c94ff035091464b832f56454da33e4af81,version 0.1,['695c56cf2da7218c6fed3a74456a14c9ff5c7691'],False,['memory_profiler.py'],No
+76745998505624f470a87799a9a73cc4d9627c5f,use @profile,['95e549c94ff035091464b832f56454da33e4af81'],False,['memory_profiler.py'],No
+8800fe9252802753643a0e48de52c9d8d12f52f6,Port to OSX and other fixes,['76745998505624f470a87799a9a73cc4d9627c5f'],False,"['examples/plot_memory.py', 'memory_profiler.py']",Yes
+8fc520062c6fc69ad3e2a7599786430ecc816b1b,Make a decent README,['8800fe9252802753643a0e48de52c9d8d12f52f6'],False,"['README.rst', 'examples/example.py', 'memory_profiler.py', 'test.py']",No
+867209c2d680a4d29d0f297e9648f956a0d2a3fc,Better output,['8fc520062c6fc69ad3e2a7599786430ecc816b1b'],False,"['README.rst', 'memory_profiler.py']",No
+8af133fea446421398a575faa8ec1b73e70fc632,Update README,['867209c2d680a4d29d0f297e9648f956a0d2a3fc'],False,['README.rst'],Yes
+c953ca4a9df3a3321166803752608b70e2f2632a,FIX: display last statement,['8af133fea446421398a575faa8ec1b73e70fc632'],False,['memory_profiler.py'],Yes
+c0a83159604527b609121ccde934c9fd3892e92d,Update README,['c953ca4a9df3a3321166803752608b70e2f2632a'],False,['README.rst'],Yes
+d656943991c6e96b7eef8be638d5a26c3a473f5e,0.2 release,['c0a83159604527b609121ccde934c9fd3892e92d'],False,['memory_profiler.py'],No
+992bb0a8c911e1e35b51f319d132fee6bc2a35c0,Update README,['d656943991c6e96b7eef8be638d5a26c3a473f5e'],False,['README.rst'],Yes
+ec9ee7032b01cf9350628a57f9c5111a48093366,Fix typos in README and make a new release,['992bb0a8c911e1e35b51f319d132fee6bc2a35c0'],False,"['README.rst', 'memory_profiler.py']",Yes
+5b1ed01abecc4b89551f68823043b458c7ffd83e,Works on linux and 2.6,['ec9ee7032b01cf9350628a57f9c5111a48093366'],False,"['README.rst', 'memory_profiler.py']",No
+5a41519ecc470e3cbcd2816e1000c250fa192d7c,new release,['5b1ed01abecc4b89551f68823043b458c7ffd83e'],False,['memory_profiler.py'],No
+ea5d79bd10b52b61ad28ac06d7c40fdae2dbc05d,comments,['5a41519ecc470e3cbcd2816e1000c250fa192d7c'],False,['memory_profiler.py'],No
+4214cfc13d033c43044eb4c9293258609fc6934f,FIX: README.rst was not included in source distribution,['ea5d79bd10b52b61ad28ac06d7c40fdae2dbc05d'],False,"['MANIFEST', 'memory_profiler.py']",Yes
+d56c6c6d1b0f2b2fadee17b765438f991417a7c6,Print the memory of current line (move line events one line up),['4214cfc13d033c43044eb4c9293258609fc6934f'],False,"['memory_profiler.py', 'setup.py']",No
+7a9ec119e190866b5c61a8c810a2155774d05572,0.7,['d56c6c6d1b0f2b2fadee17b765438f991417a7c6'],False,['memory_profiler.py'],No
+303cab8df4b2274c5086cde80fc53ab49e5e80f4,Explicit error for non-Unix,['7a9ec119e190866b5c61a8c810a2155774d05572'],False,['memory_profiler.py'],No
+ffe1fd28d66fca10b0f4aa0fd412e2ef496a0fbc,FIX: line display,['303cab8df4b2274c5086cde80fc53ab49e5e80f4'],False,['memory_profiler.py'],Yes
+7b12f7bc176100919cbb6654c5e698490f0df94c,0.8,['ffe1fd28d66fca10b0f4aa0fd412e2ef496a0fbc'],False,['memory_profiler.py'],No
+da139fdfa0548fab7a015d5d79701c84d2c43c95,Update README,['7b12f7bc176100919cbb6654c5e698490f0df94c'],False,['README.rst'],Yes
+b7150348b0cb1afc380a4bf581a07d959fba7511,Python3 compat (not yet there),['da139fdfa0548fab7a015d5d79701c84d2c43c95'],False,['memory_profiler.py'],No
+dd81553bc47b5e73377838872af474946eb96ec2,cosmetic,['b7150348b0cb1afc380a4bf581a07d959fba7511'],False,['memory_profiler.py'],No
+75ca170cd5b5bc62508c4da6a9dd44457fd203dc,"Added windows and other platforms support by using the psutil module, falling back to the original subprocess method if psutil is not installed.",['dd81553bc47b5e73377838872af474946eb96ec2'],False,['memory_profiler.py'],No
+da9817994b29e5f7a0c204236a401908d1318c70,Fixed windows support,['75ca170cd5b5bc62508c4da6a9dd44457fd203dc'],False,['memory_profiler.py'],Yes
+88865641c960ca0a578fbaf75a6706484e7b6489,cosmetic changes.,['da9817994b29e5f7a0c204236a401908d1318c70'],False,['memory_profiler.py'],Yes
+7321a6f4a337140db27a4e395da913ec09369200,Added AUTHORS section to README,['88865641c960ca0a578fbaf75a6706484e7b6489'],False,['README.rst'],No
+6d2c37f0e766e1828e449e903f3dacbf658006df,cosmetic,['7321a6f4a337140db27a4e395da913ec09369200'],False,['README.rst'],No
+697bed0a9516721a2f06e6dea09123b7e0b2c8c5,Remove unused file,['6d2c37f0e766e1828e449e903f3dacbf658006df'],False,['test.py'],No
+5fc0ecb048233d5ee751e74a67bb18e5fe85c868,Use -l -v by default,['697bed0a9516721a2f06e6dea09123b7e0b2c8c5'],False,"['README.rst', 'memory_profiler.py']",No
+ddd3033e4b9ec58dae49d3c7914e9d60a898442c,0.9 release,['5fc0ecb048233d5ee751e74a67bb18e5fe85c868'],False,['memory_profiler.py'],No
+a60ed7245a14aee34f430268754186bb6c15b488,-l -v are now on by default,['ddd3033e4b9ec58dae49d3c7914e9d60a898442c'],False,['README.rst'],No
+bd3bf41f0d2f4f8a1d47637a871815ab79f19192,Add FAQ,['a60ed7245a14aee34f430268754186bb6c15b488'],False,['README.rst'],No
+7491a9a99fe2803032ddb286193382e613d74d5c,Add increment to output,['bd3bf41f0d2f4f8a1d47637a871815ab79f19192'],False,['memory_profiler.py'],No
+e837f2c6e5e7dfa8a78d9c00be11ab5749550b2a,Update README and make the example non-numpy,['7491a9a99fe2803032ddb286193382e613d74d5c'],False,"['README.rst', 'examples/example.py']",Yes
+e8bc912f069ea423639d4972b8ccd310af50a320,README formatting,['e837f2c6e5e7dfa8a78d9c00be11ab5749550b2a'],False,['README.rst'],No
+5b9a1019411cc20c77b1b78b352e123e30c78a85,0.10 release,['e8bc912f069ea423639d4972b8ccd310af50a320'],False,['memory_profiler.py'],No
+1db78b113a9fc2b3b3901e2614204c9db9bdd770,Stupid MANIFEST.in,['5b9a1019411cc20c77b1b78b352e123e30c78a85'],False,"['MANIFEST', 'MANIFEST.in']",No
+f489d396a0629800a0e49566cf5ac334b4dab736,0.11 release,['1db78b113a9fc2b3b3901e2614204c9db9bdd770'],False,['memory_profiler.py'],No
+b6b93a5d7ef88da3938d02ad37e2c1fc94760e5e,"Change the command line parser to argparse
+
+According to the docs, optparse is deprecated
+(http://docs.python.org/py3k/library/optparse.html), so that leaves us
+with argparse.
+
+Rundown of what was done:
++ removed arguments:
+    * -o since output can just be redirected
+    * -l and -v they're not necessary
++ made the filename a positional argument
++ made the necessary changes to accomodate for the above",['f489d396a0629800a0e49566cf5ac334b4dab736'],False,['memory_profiler.py'],Yes
+ea8a8f26c74949085c3569234d1571a498e6a834,Make getting a file's contents more Pythonic,['b6b93a5d7ef88da3938d02ad37e2c1fc94760e5e'],False,['memory_profiler.py'],No
+f2a308a6b5c8a7eb2dfb99f62bd1c34fb5acccd2,"Merge pull request #2 from octavo/master
+
+Use argparse cmd line parser instead of optparse","['f489d396a0629800a0e49566cf5ac334b4dab736', 'ea8a8f26c74949085c3569234d1571a498e6a834']",True,[],No
+336263ca6a01dac4c11c3c9b10024dcf3c44d408,Change old string formatting to new,['f2a308a6b5c8a7eb2dfb99f62bd1c34fb5acccd2'],False,['memory_profiler.py'],Yes
+23f6bf680f017eaecb947f0fe4d85b3c67b91f48,README formatting,['336263ca6a01dac4c11c3c9b10024dcf3c44d408'],False,['README.rst'],No
+b7e2cddeca38ab506bcef1a8260ceccce9496838,Fix UserWarning that occurs in Python 3,['23f6bf680f017eaecb947f0fe4d85b3c67b91f48'],False,['memory_profiler.py'],Yes
+7d006a5c0cb2224052b19192db6287bb09b28f55,"Convert str of unicode chars to str of bytes
+
+This fixes:
+  ...
+  File ""memory_profiler.py"", line 31, in _get_memory
+    stdout=subprocess.PIPE).communicate()[0].split('\n')
+TypeError: Type str doesn't support the buffer API",['b7e2cddeca38ab506bcef1a8260ceccce9496838'],False,['memory_profiler.py'],Yes
+2c4b471604188d3f2ca4bbb794bd13378ab9a67d,"Alter some dictionary operations to work in Py3
+
+dict.keys() returns a view object in py3. we can iterate over them, but
+since we want to have the keys sorted as well, we have to turn the view
+into a list and sort them via the sorted function.
+
+Use in operator instead of dict.has_key() to test for key membership as
+it works in py2.2+.",['7d006a5c0cb2224052b19192db6287bb09b28f55'],False,['memory_profiler.py'],No
+2e298df0fe544ca4a3e470d64156cf21e61c1409,"Make field names in str replacemnt fields explicit
+
+This is so that Python 2.6 doesn't break",['2c4b471604188d3f2ca4bbb794bd13378ab9a67d'],False,['memory_profiler.py'],No
+570a8863ba08801a55369224a22ef83ccf1a995b,"Merge pull request #4 from octavo/master
+
+Fix Python3 Support","['f2a308a6b5c8a7eb2dfb99f62bd1c34fb5acccd2', '2e298df0fe544ca4a3e470d64156cf21e61c1409']",True,[],Yes
+027243cfb9920d53239a05e3b15015808af2cb17,Revert back to optparse (no argparse in py2.6),['570a8863ba08801a55369224a22ef83ccf1a995b'],False,['memory_profiler.py'],No
+88bb527e5c86a96a1203d86b70e1ff079b33f43b,Add @octavo to the credits.,['570a8863ba08801a55369224a22ef83ccf1a995b'],False,['README.rst'],No
+374ddd202030d1dc1260e6bb5902cec37b02b330,"Merge pull request #5 from octavo/master
+
+Revert back to optparse","['88bb527e5c86a96a1203d86b70e1ff079b33f43b', '027243cfb9920d53239a05e3b15015808af2cb17']",True,[],No
+e236aa8684e1dac8a175393754d851ef500fadf6,Remove debugging trace.,['374ddd202030d1dc1260e6bb5902cec37b02b330'],False,['memory_profiler.py'],No
+21a8343ae9c7d69ceb765e3cbdd78347b0826c67,cleanup,['e236aa8684e1dac8a175393754d851ef500fadf6'],False,['memory_profiler.py'],No
+c05a8a78ccde397b3807adc0b2c9a1c61410ba9b,"FIX: exit gratefully from empty measurements
+
+And added example",['21a8343ae9c7d69ceb765e3cbdd78347b0826c67'],False,"['examples/example_loop.py', 'memory_profiler.py']",Yes
+9be69790c6ed77c2550f13adc2700ec1d35418d1,FIX issue #8,['c05a8a78ccde397b3807adc0b2c9a1c61410ba9b'],False,['memory_profiler.py'],Yes
+605fb322fabdd01cc2c7c0594a1ec508d873d29c,0.12 release,['9be69790c6ed77c2550f13adc2700ec1d35418d1'],False,['memory_profiler.py'],No
+124d113eb8331703a15bd542feee0413eac1baf7,"FIX: second try at issue #8.
+
+not perfect but makes more sense than previous solution.",['605fb322fabdd01cc2c7c0594a1ec508d873d29c'],False,"['.idea/dictionaries/fabian.xml', 'examples/example_loop.py', 'memory_profiler.py', 'test/__init__.py', 'test/test_loop.py']",Yes
+53af062ee9586e01485826f0ffd8ec836348a1fb,Add .gitignore,['124d113eb8331703a15bd542feee0413eac1baf7'],False,['.gitignore'],No
+bb95d3e19f8fc1900493bf3f11990c6e88a9323b,rm conf file,['53af062ee9586e01485826f0ffd8ec836348a1fb'],False,['.idea/dictionaries/fabian.xml'],No
+1bf6a15af1c22a881fe5b4b17e27ee17f379d341,Add test for function,['bb95d3e19f8fc1900493bf3f11990c6e88a9323b'],False,['test/test_func.py'],No
+bfe4fc3f8a893c03abcef2b7730ddf7ed7a31c6f,"FIX: sys.argv on executed scripts.
+
+fixes issue #10",['1bf6a15af1c22a881fe5b4b17e27ee17f379d341'],False,['memory_profiler.py'],Yes
+a9b5c4799d47deb89006a018c67c999e87a7cfb1,update test,['bfe4fc3f8a893c03abcef2b7730ddf7ed7a31c6f'],False,['test/test_func.py'],Yes
+307f0c0c953349aec05f9c559e02ed4ac4b15e0a,"another release
+
+![yay](http://cf2.8tracks.us/mix_covers/000/045/290/4833989106.max200.jpg)",['a9b5c4799d47deb89006a018c67c999e87a7cfb1'],False,['memory_profiler.py'],No
+c08deaa9c859a912c40e9a1213a9d4b29b411b41,Cleanup,['307f0c0c953349aec05f9c559e02ed4ac4b15e0a'],False,['memory_profiler.py'],No
+ddb32317b4f81d26f397f884beadaba05adefc94,"Merge pull request #11 from octavo/cleanup
+
+Cleanup","['307f0c0c953349aec05f9c559e02ed4ac4b15e0a', 'c08deaa9c859a912c40e9a1213a9d4b29b411b41']",True,[],No
+ec3ad5298cc1d9db9fe27920e3eb8d216c3d80da,Use cached lines,['ddb32317b4f81d26f397f884beadaba05adefc94'],False,['memory_profiler.py'],No
+40b034c359e00e904df1c7441bf9de4affe4ee8e,Add MANIFEST got .gitignore,['ec3ad5298cc1d9db9fe27920e3eb8d216c3d80da'],False,['.gitignore'],No
+c2a644b71c70ce5bab455ff14dde2a1869ea1c9f,Update README,['40b034c359e00e904df1c7441bf9de4affe4ee8e'],False,['README.rst'],Yes
+78bc76a3db5fa509ad71df83c9332bf76e73b710,New release,['c2a644b71c70ce5bab455ff14dde2a1869ea1c9f'],False,['memory_profiler.py'],No
+ad3042b32a917eb435a1bc5f594797b31deb0ee6,Better debugging when filename is not found.,['40b034c359e00e904df1c7441bf9de4affe4ee8e'],False,['memory_profiler.py'],No
+0091f03887ac881c4c73981d7b72e893d6f4122c,Merge branch 'master' of github.com:fabianp/memory_profiler,"['ad3042b32a917eb435a1bc5f594797b31deb0ee6', '78bc76a3db5fa509ad71df83c9332bf76e73b710']",True,[],No
+5887e96c69615bba60008db19b70a04c2db46efe,"PEP8, typo fixes",['0091f03887ac881c4c73981d7b72e893d6f4122c'],False,['memory_profiler.py'],Yes
+249ffe7863be84e343f806297cb52a6fc967b6ee,"Added mprun magic (old style, seems to work)",['5887e96c69615bba60008db19b70a04c2db46efe'],False,['memory_profiler.py'],No
+9b1cd1ad73a2b6d98f315a474d3f76e9dea376c0,FIX: forgot print statements,['249ffe7863be84e343f806297cb52a6fc967b6ee'],False,['memory_profiler.py'],Yes
+167641e0480616e5037bea9dd42819bac8482104,"Merge pull request #13 from vene/master
+
+[WIP] add IPython magics","['0091f03887ac881c4c73981d7b72e893d6f4122c', '9b1cd1ad73a2b6d98f315a474d3f76e9dea376c0']",True,[],No
+9d7fc7734e26cf94eeb3fdee9c017b71153fcefa,Add Vlad to the credits,['167641e0480616e5037bea9dd42819bac8482104'],False,['README.rst'],No
+fbb16fbc8fb5a7d0de1026737535f3cdaeab312e,Make magics more robust and flexible,['9b1cd1ad73a2b6d98f315a474d3f76e9dea376c0'],False,['memory_profiler.py'],No
+ebc2432bfe4de1783726d0c55a9fa91a57507b5c,Updated README,['fbb16fbc8fb5a7d0de1026737535f3cdaeab312e'],False,['README.rst'],Yes
+dc64a7c5fb631b5c3fd420f71a0ae2197bce9ddc,"Merge branch 'master' of https://github.com/vene/memory_profiler
+
+Conflicts:
+	README.rst","['9d7fc7734e26cf94eeb3fdee9c017b71153fcefa', 'ebc2432bfe4de1783726d0c55a9fa91a57507b5c']",True,[],No
+43a83a60b32d53f5069463b89a13add4ccd83b67,FIX: issue #16,['dc64a7c5fb631b5c3fd420f71a0ae2197bce9ddc'],False,['memory_profiler.py'],Yes
+1106b74fa9b74c278a06f2ec8cee0c578ed25e3b,FIX: Python3 support (issue #14),['43a83a60b32d53f5069463b89a13add4ccd83b67'],False,['memory_profiler.py'],Yes
+f93840f8961da6e9fccfb5d307bf513618d74cda,DOC: add instructions to create IPython profile,['1106b74fa9b74c278a06f2ec8cee0c578ed25e3b'],False,['README.rst'],No
+0fd6554879aea92c4299452b7df6b9e2b26061c2,"Merge pull request #17 from vene/master
+
+Add instructions to create IPython profile","['1106b74fa9b74c278a06f2ec8cee0c578ed25e3b', 'f93840f8961da6e9fccfb5d307bf513618d74cda']",True,[],No
+fe61948ae25e630f9bd77ca0892ae3faae2c0afc,0.15 release,['0fd6554879aea92c4299452b7df6b9e2b26061c2'],False,['memory_profiler.py'],No
+1bcd779aa0744b543ae80d9c867eff7dc924d328,"Default to 1 loop in memit, add meaningful warning for functions without files in %mprun",['f93840f8961da6e9fccfb5d307bf513618d74cda'],False,['memory_profiler.py'],No
+1cb18a7386cddd74af3bffee10090debc2da3a37,"Merge pull request #18 from vene/master
+
+User experience and waiting time improvement","['fe61948ae25e630f9bd77ca0892ae3faae2c0afc', '1bcd779aa0744b543ae80d9c867eff7dc924d328']",True,[],Yes
+33caba84b83d3a2838bf76de9ad4d1b604dc3779,Cleaner output,['1cb18a7386cddd74af3bffee10090debc2da3a37'],False,['memory_profiler.py'],No
+b8a12bcd4e98112dfed88db21a29c33f0f183bb9,Cleaner output,['33caba84b83d3a2838bf76de9ad4d1b604dc3779'],False,['memory_profiler.py'],No
+2866dfd757d08611b03c196cb6b21203d80dfa81,"Add memory-based debugging
+
+Conflicts:
+
+	memory_profiler.py",['b8a12bcd4e98112dfed88db21a29c33f0f183bb9'],False,['memory_profiler.py'],No
+5075c0d39acb7bea6982679687c61146cf6b59ef,Some Python3 compatibility,['2866dfd757d08611b03c196cb6b21203d80dfa81'],False,['memory_profiler.py'],No
+7c70c16e9448f81c22d2878e0f7c3ad358ecb0c2,Some more Python3 fixes,['5075c0d39acb7bea6982679687c61146cf6b59ef'],False,['memory_profiler.py'],Yes
+570351a01b4b77ae9a3ce32296d19e12151e76df,README reordering,['7c70c16e9448f81c22d2878e0f7c3ad358ecb0c2'],False,['README.rst'],No
+004a376ed1d063888eb352b45a762fd38a5ef71c,Python3 compat,['570351a01b4b77ae9a3ce32296d19e12151e76df'],False,['memory_profiler.py'],No
+eea7e2f8c2b5b5d4ff7ff49aa0f939377c9d6db8,MISC,['004a376ed1d063888eb352b45a762fd38a5ef71c'],False,['README.rst'],Yes
+4389d64c1fcac0c022649cc0bca61467413d42b9,0.16 release,['eea7e2f8c2b5b5d4ff7ff49aa0f939377c9d6db8'],False,['memory_profiler.py'],No
+e07028e5266ab3c2a69796ffa5850c4759fae4c2,Doc update,['4389d64c1fcac0c022649cc0bca61467413d42b9'],False,"['README.rst', 'memory_profiler.py']",Yes
+c897818d18c2b68278c6df2618ddc142eaa95a1c,memory_usage working and some documentation.,['e07028e5266ab3c2a69796ffa5850c4759fae4c2'],False,"['README.rst', 'memory_profiler.py']",No
+9de431ebfa7702b89b5a266585f28c99bfd6bdff,Cosmetic,['c897818d18c2b68278c6df2618ddc142eaa95a1c'],False,"['README.rst', 'memory_profiler.py']",No
+062befa2b3e196df2111b9b7c049d0f011e812ff,Use memory_usage in magic_memit,['9de431ebfa7702b89b5a266585f28c99bfd6bdff'],False,"['README.rst', 'memory_profiler.py']",No
+bfe2d2dfa208c3aae8c1e2ac15a6a8d12abd373b,docstring,['062befa2b3e196df2111b9b7c049d0f011e812ff'],False,['memory_profiler.py'],No
+7c1623503b6571a70a4f26b67c91c088f5e7f87c,Update README,['bfe2d2dfa208c3aae8c1e2ac15a6a8d12abd373b'],False,['README.rst'],Yes
+9cfe0e85dcaa160bf5dd2a74b245473764bd8309,0.17 release,['7c1623503b6571a70a4f26b67c91c088f5e7f87c'],False,['memory_profiler.py'],No
+42182a7ca89015ab5764dbf5d4d674facfa5cca5,Cosmetic update,['9cfe0e85dcaa160bf5dd2a74b245473764bd8309'],False,"['README.rst', 'setup.py']",Yes
+2a26da8bce4b2c72b5da3b1be263be63ffebf2d2,MISC README update,['42182a7ca89015ab5764dbf5d4d674facfa5cca5'],False,['README.rst'],Yes
+26d6227bfc244ae89a2c43194866b7aa3314f75c,Fix typo in README.,['2a26da8bce4b2c72b5da3b1be263be63ffebf2d2'],False,['README.rst'],Yes
+8685498c9950b74fb8c4ed1b066479f49a820c57,Fix spelling mistake.,['26d6227bfc244ae89a2c43194866b7aa3314f75c'],False,['README.rst'],Yes
+4dfcb5fba8b388f40872098dada2a2e9606962c6,"Merge pull request #19 from stefanv/readme
+
+Fix typo in README.","['2a26da8bce4b2c72b5da3b1be263be63ffebf2d2', '8685498c9950b74fb8c4ed1b066479f49a820c57']",True,[],Yes
+55763dd886b0be4cbf11a75eff46482f05adbf43,IPython casing style in title,['4dfcb5fba8b388f40872098dada2a2e9606962c6'],False,['README.rst'],No
+2cb64e573fcb6f80a9c875f298d080338c000f18,"Merge pull request #22 from ogrisel/patch-1
+
+IPython casing style in title","['4dfcb5fba8b388f40872098dada2a2e9606962c6', '55763dd886b0be4cbf11a75eff46482f05adbf43']",True,[],No
+523b4ba864729a2b81163a7c8b08a049a08e7c5a,Fix interger division error,['2cb64e573fcb6f80a9c875f298d080338c000f18'],False,['memory_profiler.py'],Yes
+64b0a5dc43c3992b891d97e3345c8ef174a2c1aa,FIX --pdb-mmem,['523b4ba864729a2b81163a7c8b08a049a08e7c5a'],False,"['memory_profiler.py', 'test/test_with.py']",Yes
+3be7c092629c07b8c1af07c422970daacc2345e9,FIX memory_usage() with no arguments (fixes issue #23),['64b0a5dc43c3992b891d97e3345c8ef174a2c1aa'],False,['memory_profiler.py'],Yes
+ac686a0294479d4f8ac64caa19427d7d622efefe,Document the breakpoints feature,['3be7c092629c07b8c1af07c422970daacc2345e9'],False,['README.rst'],No
+b2c807c2dff8c167d3d3c835f3a35b2736018f45,Release 0.18,['ac686a0294479d4f8ac64caa19427d7d622efefe'],False,['memory_profiler.py'],No
+642d0bc98d47855e525996af3dc535bb31fae7e9,allow undecorated calls with memory_profiler using command line argument,['b2c807c2dff8c167d3d3c835f3a35b2736018f45'],False,"['README.rst', 'examples/example_undecorated.py', 'memory_profiler.py']",No
+4ae4c9040250e7653355cae6a414e43bb4ecb5f6,Add function decorator for non-script usage.,['b2c807c2dff8c167d3d3c835f3a35b2736018f45'],False,"['README.rst', 'memory_profiler.py']",No
+014f6f8139a992e07aa56508aa149e71c61b86b5,Added stream option to profile,['4ae4c9040250e7653355cae6a414e43bb4ecb5f6'],False,['memory_profiler.py'],No
+a8dc01d6c48494c78999707fb0c47800f3cdb5df,"Ignore unrecognized args.
+
+Fix by @amcnabb. Fixes issue #27",['014f6f8139a992e07aa56508aa149e71c61b86b5'],False,['memory_profiler.py'],Yes
+4051083296bef7651321e680343ae0ca1bb97f4f,0.19 release,['a8dc01d6c48494c78999707fb0c47800f3cdb5df'],False,['memory_profiler.py'],No
+e2bc2eb071ee3edc661b267bed997cbcb0e9d2ed,more robust memory_usage,['4051083296bef7651321e680343ae0ca1bb97f4f'],False,['memory_profiler.py'],No
+5e6e3e13ba626adfbc12a0cd53b6ef41a325e88a,docstrings,['e2bc2eb071ee3edc661b267bed997cbcb0e9d2ed'],False,['memory_profiler.py'],No
+adfc6fd3a036d52707703dde8b1b1ab469a8caa7,BUG: iterate over ints,['5e6e3e13ba626adfbc12a0cd53b6ef41a325e88a'],False,['memory_profiler.py'],No
+79bb1aa5b2d8e67ab16e47e536c3bf1affa5e641,FIX: for keyword arguments,['adfc6fd3a036d52707703dde8b1b1ab469a8caa7'],False,['memory_profiler.py'],Yes
+a3fafb82452ce154ee939d07ddd26028fee821bd,FIX previous commit,['79bb1aa5b2d8e67ab16e47e536c3bf1affa5e641'],False,['memory_profiler.py'],Yes
+22f21ab0e1f951ab05f5ca575ebc696dcf40a444,New strategy to get memory consumption,['a3fafb82452ce154ee939d07ddd26028fee821bd'],False,['memory_profiler.py'],No
+92e17ea6977ae81071c9ce7816b21d77984114ae,Update README,['22f21ab0e1f951ab05f5ca575ebc696dcf40a444'],False,['README.rst'],Yes
+404bca9a54f15796c3d834569affbae541d39569,0.20 release,['92e17ea6977ae81071c9ce7816b21d77984114ae'],False,['memory_profiler.py'],No
+7efe1155505b8832f3dca94807452aaf42ade452,No need for run_in_place anymore,['404bca9a54f15796c3d834569affbae541d39569'],False,['memory_profiler.py'],No
+57b4d4a952cd8f6c602f320d85110ead800683d4,Use Pipes for communcation,['7efe1155505b8832f3dca94807452aaf42ade452'],False,['memory_profiler.py'],No
+4211151e11db3252b3234b639e9466ed4e20f1cd,0.21 release,['57b4d4a952cd8f6c602f320d85110ead800683d4'],False,['memory_profiler.py'],No
+37aa53965f03016c9e33ef751c70e3a05155427f,increased number of decimals displayed in logs,['4211151e11db3252b3234b639e9466ed4e20f1cd'],False,['memory_profiler.py'],No
+a13554c86c772e69e2912276685da2dc425dbbb9,"Merge pull request #32 from sbrother/master
+
+Increasing the accuracy of logfiles","['4211151e11db3252b3234b639e9466ed4e20f1cd', '37aa53965f03016c9e33ef751c70e3a05155427f']",True,[],No
+7da377ade2949ec7cabf36f4f48cbbbc60e3a577,Add option --precision and support for Control-C,['a13554c86c772e69e2912276685da2dc425dbbb9'],False,['memory_profiler.py'],No
+f6d6c3c96b2fe117ce37e830aff6b1f2d5c9ef70,"Allow loading directly as an IPython extension.
+
+Closes gh-25",['7da377ade2949ec7cabf36f4f48cbbbc60e3a577'],False,['memory_profiler.py'],No
+1760e229a6285a93ba20440fa23ab01734eaadc3,Update README info on IPython,['f6d6c3c96b2fe117ce37e830aff6b1f2d5c9ef70'],False,['README.rst'],Yes
+103fb0ad78614122fd20b96b46bcbe6a84fe0cc6,"Merge pull request #33 from takluyver/ipython-extension
+
+Ipython extension","['7da377ade2949ec7cabf36f4f48cbbbc60e3a577', '1760e229a6285a93ba20440fa23ab01734eaadc3']",True,[],No
+2d6da9361dce29a53301ff6020018f04f2c99373,Update README.rst,['103fb0ad78614122fd20b96b46bcbe6a84fe0cc6'],False,['README.rst'],Yes
+29e4085ca906a29ec790f86a1d1c57b2b0568081,"Python 3.x support for %mprun.
+
+I also added supported Python versions to setup.py explicitly.",['2d6da9361dce29a53301ff6020018f04f2c99373'],False,"['.gitignore', 'memory_profiler.py', 'setup.py']",No
+3c43406486ce1c5d0421cd077dde1c28269dd049,IPython error message is fixed,['2d6da9361dce29a53301ff6020018f04f2c99373'],False,['memory_profiler.py'],Yes
+aa128e8113ecc725694ba2e5f9d4116f726b1bbc,"bikeshedding (style fixes):
+
+- PEP8 spaces for inline comments;
+- more meaningful variable names instead of `a,b=Pipe()` (taken from Python docs);
+- don't shadow builtins 'dict' and 'dir' with local variables;
+- remove unneeded indentation;
+- use 'with' for opening files",['3c43406486ce1c5d0421cd077dde1c28269dd049'],False,['memory_profiler.py'],Yes
+625497bd80c604bf8288d7d77b9625d2b82a3b7a,"Merge pull request #35 from kmike/mprun-py3k
+
+Python 3.x support for %mprun.","['2d6da9361dce29a53301ff6020018f04f2c99373', '29e4085ca906a29ec790f86a1d1c57b2b0568081']",True,[],No
+8cfb871e1c55d32c00fecd9aee55ee8580e129e7,"Merge pull request #37 from kmike/small-fixes
+
+Small fixes","['625497bd80c604bf8288d7d77b9625d2b82a3b7a', 'aa128e8113ecc725694ba2e5f9d4116f726b1bbc']",True,[],Yes
+727a015381e1de331b83ee34ee6ec387d810827b,FIX #36,['8cfb871e1c55d32c00fecd9aee55ee8580e129e7'],False,['memory_profiler.py'],Yes
+0543e2c5dc03168f58ce00f2fe66440d881c567a,Typo in README.rst ammount -> amount,['727a015381e1de331b83ee34ee6ec387d810827b'],False,['README.rst'],No
+124aa8a2ab0c28e41c59eeae9ed0283807e71a6c,"Merge pull request #40 from gak/master
+
+Typo in README.rst ammount -> amount","['727a015381e1de331b83ee34ee6ec387d810827b', '0543e2c5dc03168f58ce00f2fe66440d881c567a']",True,[],No
+d63484ab02996a29e3ec90364ab7c9366d92ba1a,"0.24 release
+
+For some reason the one on PYPI was 0.23 (?) so I skip a couple of
+versions.",['124aa8a2ab0c28e41c59eeae9ed0283807e71a6c'],False,['memory_profiler.py'],No
+95687f38f85e98adce31402f0c7b4d8114bff912,"memory_usage accepts Popen as argument
+
+The ""proc"" argument of memory_usage() can now be a subprocess.Popen
+object.",['d63484ab02996a29e3ec90364ab7c9366d92ba1a'],False,['memory_profiler.py'],No
+b04760ab0cfffbdb6bf1ca512854e5541421fe02,"Added mem_profile executable
+
+mem_profile allows both launching and monitoring a process.",['95687f38f85e98adce31402f0c7b4d8114bff912'],False,"['mem_profile', 'memory_profiler.py']",No
+ba30dce0ce7a6ca33d60e2a5f82d91340efc8904,"timeout parameter works for Popen process
+
+In memory_usage(), when passing proc as a Popen object, the timeout
+parameter is now properly handled.
+
+Updated memory_usage documentation.",['b04760ab0cfffbdb6bf1ca512854e5541421fe02'],False,['memory_profiler.py'],Yes
+fb1e743640ff0d0ce5cb54da339345dec693eb1a,"Renamed mem_profile to mprofile
+
+Output file now contains a timestamp.
+
+setup.py now properly installs the mprofile executable.",['ba30dce0ce7a6ca33d60e2a5f82d91340efc8904'],False,"['mem_profile', 'mprofile', 'setup.py']",No
+8fa4550c36d49f180cd3869f223e5f3cc37c1c05,"Added -o option to memory_profiler
+
+Output of 'python -m memory_profiler -o ""bar.out"" script.py' goes
+into file ""bar.out"" instead of standard output.",['fb1e743640ff0d0ce5cb54da339345dec693eb1a'],False,['memory_profiler.py'],No
+58208ae8a888a2b34b0d2a81c5e0ac019f78ef32,"Added timestamps to mprofile output
+
+The output of mprofile now includes timestamp information, in
+addition to memory consumption.
+
+A ""timestamps"" option has been added to memory_usage()",['8fa4550c36d49f180cd3869f223e5f3cc37c1c05'],False,"['memory_profiler.py', 'mprofile', 'test/test_loop.py', 'test/test_loop_decorated.py']",No
+a17bdc80f195fad45670bced6c7c2fb009407fc7,"Plotting of mprofile output
+
+The ""mplot"" script has been added. Plots of memory consumption can
+be done with it.",['58208ae8a888a2b34b0d2a81c5e0ac019f78ef32'],False,"['.gitignore', 'mplot']",No
+4fe3646e106afa1ffe6cc0ee791ef3235a7e2b7c,Added mplot to setup.py,['a17bdc80f195fad45670bced6c7c2fb009407fc7'],False,['setup.py'],No
+cac54d9bb95b051d5559456ca8aa5ab081f49387,"Added timestamping feature
+
+Added a --timestamp option that when turned on, output timestamps
+for start and end of every decorated function, instead of memory
+profile.
+This options is intended to be used together with the mprofile script,
+to be able to plot the lifetime of some functions  on the global
+memory graph.",['4fe3646e106afa1ffe6cc0ee791ef3235a7e2b7c'],False,['memory_profiler.py'],No
+0dcd9ef3e5f136d22d25ea3071ecfc60c63a8d3c,"Timestamping is handled by mprofile and mplot
+
+An --python option has been added to mprofile, just to add the proper
+timestamping options to the run python program.
+mplot now looks for a timestamp file, and plot the additional
+information as vertical lines.",['cac54d9bb95b051d5559456ca8aa5ab081f49387'],False,"['mplot', 'mprofile', 'test/test_loop_decorated.py', 'test/test_mprofile.py']",No
+b639130fe911b046e5cffdb9f199e504a7982b79,"Added a check in TimeStamper
+
+TimeStamper now raises a clear exception when provided with something
+that is not callable.",['0dcd9ef3e5f136d22d25ea3071ecfc60c63a8d3c'],False,['memory_profiler.py'],No
+7293915b784caf1b06758166fa6b336de5a92948,"Added explanatory messages to mplot.
+
+Improvement of error handling in mplot: a clear message is printed
+whether pylab is not found or no input file are automatically detected.",['b639130fe911b046e5cffdb9f199e504a7982b79'],False,['mplot'],Yes
+e12bc556ed278ab2610e358061963af99e9abc48,"Changed the display of timestamps
+
+Execution times are now shown on the memory graph using a kind of
+brackets instead of just vertical lines. This makes reading the graph
+easier.
+
+Graphing is now correct for any sampling frequency.",['7293915b784caf1b06758166fa6b336de5a92948'],False,['mplot'],Yes
+27e8a21bcb20d07cdbacc58144909b2b7a068a89,"Added --interval option to mprofile
+
+This options is used to change the sampling period. Example:
+mprofile -T 0.2 <program>
+
+Will execute <program> and record its memory usage every .2s.",['e12bc556ed278ab2610e358061963af99e9abc48'],False,"['mplot', 'mprofile']",Yes
+cce3c576426cd0fb2fa1620c16bda92cce555bb0,Allow memory_profiler to take a function for convenience,['fb1e743640ff0d0ce5cb54da339345dec693eb1a'],False,['memory_profiler.py'],No
+38bbd30895d1633a57d06afba8f18f2dfb436824,"Fix docstring of memit and repeat function calling
+
+Thanks Mikhail Korobov for submitting the report.",['cce3c576426cd0fb2fa1620c16bda92cce555bb0'],False,['memory_profiler.py'],Yes
+c0c38f2adfe2873218b7d11987eb3d12a75bc970,0.25 release,['38bbd30895d1633a57d06afba8f18f2dfb436824'],False,['memory_profiler.py'],No
+c868ce4045ac6fdc2cb6e23a6be0dc2873a2eae1,"Added option to monitor children processes
+
+To get the memory usage of the main process and its children processes,
+use the --include-children of mprofile. Only the sum of all memory usage
+is recorded, no per-process details are available.",['27e8a21bcb20d07cdbacc58144909b2b7a068a89'],False,"['memory_profiler.py', 'mprofile']",No
+278ae40c8a3beab0e92512bfdb07311033978f68,Remove remaining references to -i in memit,['c0c38f2adfe2873218b7d11987eb3d12a75bc970'],False,['memory_profiler.py'],No
+dc0c8aa60b5960d240b0dcea270efa1e5a314a2c,"FIX: if the called script creates a global 'options'
+
+Patch by mennucc1@debian.org",['278ae40c8a3beab0e92512bfdb07311033978f68'],False,['memory_profiler.py'],Yes
+5c3934209df4848fbefd2fbace8eada7719a08cb,"mplot can superimpose curves
+
+mplot now read every argument on its command-line, and plot every
+graph on the same plot.
+
+Graph layout has been clarified: legend is now outside the axis.",['c868ce4045ac6fdc2cb6e23a6be0dc2873a2eae1'],False,['mplot'],No
+a5e3231e46024d7a5cb33374d098593220b3a6e3,cosmetic,['dc0c8aa60b5960d240b0dcea270efa1e5a314a2c'],False,['README.rst'],No
+3319aee087f4f397c16de38dd036788dd9be8ccb,"Added maction
+
+This script is intended for various actions of profile files.
+Only removal is implemented in this commit.
+
+maction rm -1   # deletes most recent profile from current dir.",['5c3934209df4848fbefd2fbace8eada7719a08cb'],False,"['maction', 'mplot']",No
+f345720bdd26ec24491f416fac5e7aa0acace2e2,Hide memory_profiler.py from argument list,['a5e3231e46024d7a5cb33374d098593220b3a6e3'],False,['memory_profiler.py'],No
+3cab3b93938c3d5035996ed3dc86642a4e9ccf6e,version 0.26,['f345720bdd26ec24491f416fac5e7aa0acace2e2'],False,['memory_profiler.py'],No
+4936183842b11ff08a640da775b8807c513b1314,Merge branch 'master' into mprofile,"['3319aee087f4f397c16de38dd036788dd9be8ccb', 'f345720bdd26ec24491f416fac5e7aa0acace2e2']",True,[],No
+dd421c6b1d2ea46e51ea066feb588ac6ecc0b7ea,"profile.timestamp is a context manager
+
+Timestamp block of codes is now possible thanks to the
+profile.timestamp() function that returns a context manager.
+
+Example:
+with profile.timestamp(""block1""):
+    f()
+
+""block1"" is the label that will be used for the plotting.",['4936183842b11ff08a640da775b8807c513b1314'],False,['memory_profiler.py'],No
+bd5e9007c69d59fbadc7cb858ac56c96019746c5,"Added numpy_example.py
+
+This script is intended to show differences between numbers output by
+'python -m memory_profiler' and 'mprofile --python'",['dd421c6b1d2ea46e51ea066feb588ac6ecc0b7ea'],False,['examples/numpy_example.py'],No
+a8c848f748d73c1c67e8cd050b3ace0fe6687fd3,_get_memory() uses the resource module from std lib.,['3cab3b93938c3d5035996ed3dc86642a4e9ccf6e'],False,"['Makefile', 'memory_profiler.py', 'test/test_with.py']",No
+f75f2839e8dcc6652ed37d20999b229e24c170cf,Clean management of global variables. Added a bunch of tests,['a8c848f748d73c1c67e8cd050b3ace0fe6687fd3'],False,"['Makefile', 'memory_profiler.py', 'test/test_as.py', 'test/test_global.py', 'test/test_import.py']",No
+5dcc68b547ee49fcc306df6c8615791dd1b293d1,cosmetic.,['f75f2839e8dcc6652ed37d20999b229e24c170cf'],False,['memory_profiler.py'],No
+18b5afb651e026de7e0754c931800391dc72c193,cosmetic.,['5dcc68b547ee49fcc306df6c8615791dd1b293d1'],False,['memory_profiler.py'],No
+07c7c988958428e4f2d3640d10f681dae880f5ed,FIX: PID for ps,['18b5afb651e026de7e0754c931800391dc72c193'],False,['memory_profiler.py'],Yes
+9d55698b5e9b55979c8949f8abde82c8392e33cc,"Correct units (for linux)
+
+Not sure this should be the same on OSX ...",['07c7c988958428e4f2d3640d10f681dae880f5ed'],False,['memory_profiler.py'],No
+3f22f6d4b8a21d270a19e6d602150b718e623559,optional variable $PYTHON in makefile,['9d55698b5e9b55979c8949f8abde82c8392e33cc'],False,['Makefile'],No
+ee3f8bd78afe9f53f6251fadbfd85dcd4b04528a,Add file README_DEV,['3f22f6d4b8a21d270a19e6d602150b718e623559'],False,['README_DEV.rst'],No
+0726230a6e8781be1a9a3fd3d13df456e0966b87,Set version to 0.26-git,['ee3f8bd78afe9f53f6251fadbfd85dcd4b04528a'],False,['memory_profiler.py'],No
+44b1791416ab504b65d83bb2c0b2b5781dca405f,Cleanup,['0726230a6e8781be1a9a3fd3d13df456e0966b87'],False,['memory_profiler.py'],No
+99a68d176e334e1e4100f51ba40e5c037e63f5c0,using xrange in python2,['44b1791416ab504b65d83bb2c0b2b5781dca405f'],False,['memory_profiler.py'],No
+5f137da4c07fbf68b67d417660a0373fcc2bf8ef,using while,['99a68d176e334e1e4100f51ba40e5c037e63f5c0'],False,['memory_profiler.py'],No
+b51d6d79724ecd5e924a92f6077a77e0572b310d,"Merge pull request #45 from s7v7nislands/using_xrange
+
+don't use range in python2","['44b1791416ab504b65d83bb2c0b2b5781dca405f', '5f137da4c07fbf68b67d417660a0373fcc2bf8ef']",True,[],No
+2ff06e707ce79fe294fa85962ae6786662273d80,Update README.rst,['b51d6d79724ecd5e924a92f6077a77e0572b310d'],False,['README.rst'],Yes
+7ec2b316420ee192445910e5aeb4805ee24d23e7,Update README.rst,['2ff06e707ce79fe294fa85962ae6786662273d80'],False,['README.rst'],Yes
+10956a8e2a6a173908137cff68cd8e00f59ad2f3,"Memory usage at entering and leaving functions
+
+When using timestamping, memory usage is now recorded when entering
+and leaving functions. This provides for more accurate measurement at
+these points.
+
+mplot has been adapted to handle this new piece of information.",['bd5e9007c69d59fbadc7cb858ac56c96019746c5'],False,"['memory_profiler.py', 'mplot']",No
+f3ec782486a6db33118867f6c060a4ebdd8ec495,"Added ""clean"" action to maction
+
+This action removes all profile files in the current directory.",['10956a8e2a6a173908137cff68cd8e00f59ad2f3'],False,['maction'],No
+b0071d302b6094a9ea0f1484f45615c964c8d9c2,"Merge branch 'master' into mprofile
+
+Conflicts:
+	memory_profiler.py","['f3ec782486a6db33118867f6c060a4ebdd8ec495', '7ec2b316420ee192445910e5aeb4805ee24d23e7']",True,[],No
+5d241dad8b8c6979d66b73bd0fdb02d780240e4e,Corrected a small typo left after the merge.,['b0071d302b6094a9ea0f1484f45615c964c8d9c2'],False,['memory_profiler.py'],No
+4e967155282a2583e1d49b30a9b722166d96dad5,Update README.rst,['7ec2b316420ee192445910e5aeb4805ee24d23e7'],False,['README.rst'],Yes
+92a30905d37ff88a5d959a7d0afc216b0471eb62,Override builtins,['4e967155282a2583e1d49b30a9b722166d96dad5'],False,['memory_profiler.py'],No
+0af6a49662d148086c88b97833f2926aac1d77d3,Merge branch 'master' into mprofile,"['5d241dad8b8c6979d66b73bd0fdb02d780240e4e', '92a30905d37ff88a5d959a7d0afc216b0471eb62']",True,[],No
+6be0021673351d7a6687850056dfbbe9e705e49e,"Timestamps and memory usage stored in one file
+
+Got rid of the _ts file for timestamp storage. The file format has
+been changed just for this. It opens the possibility for many new
+features (like per-process memory monitoring).",['0af6a49662d148086c88b97833f2926aac1d77d3'],False,"['memory_profiler.py', 'mplot', 'mprofile']",Yes
+31a3eae45eed3eae49a7c5b0aec9686da60ee76e,"Added ""list"" command to maction
+
+And fixed a bad bug in maction (""rm"" wasn't working anymore).",['6be0021673351d7a6687850056dfbbe9e705e49e'],False,['maction'],Yes
+7c71e32b69e44570da77e2a8fdf6225639118151,Added a workaround for matplotlib strange behaviour,['31a3eae45eed3eae49a7c5b0aec9686da60ee76e'],False,['mplot'],No
+fd8a891ce4e59dae8177408c983c18fee90ad7ca,"No memory_profiler args is transmitted
+
+Invoked script used to received the memory_profiler options in sys.argv
+in addition of their own. This is completely fixed now.",['92a30905d37ff88a5d959a7d0afc216b0471eb62'],False,['memory_profiler.py'],Yes
+1971740d19dde3be64bd1d3af7753b642bfbb42b,"Merge pull request #50 from pgervais/sys_argv_fix
+
+No memory_profiler args is transmitted","['92a30905d37ff88a5d959a7d0afc216b0471eb62', 'fd8a891ce4e59dae8177408c983c18fee90ad7ca']",True,[],Yes
+ed8281ab786f79800439a317a473fd1802517e13,Update README.rst,['1971740d19dde3be64bd1d3af7753b642bfbb42b'],False,['README.rst'],Yes
+27bba76ec398765f0021c14249e1d40cd1e22886,Merge remote-tracking branch 'fabianp/master' into mprofile,"['7c71e32b69e44570da77e2a8fdf6225639118151', 'ed8281ab786f79800439a317a473fd1802517e13']",True,[],No
+a05c9c132cc1debffb64fd606ce7fe8a5faf1420,"Add max_usage and retval kwargs to memory_usage()
+
+The max_usage parameter modifies the behavior of the function so that it
+only keeps track of the peak mem usage over the duration of the
+profiling. This is useful for profiling very long running processes.
+
+The retval parameter is for profiling Python functions. If set, the
+return value of the profiled function will be kept and returned in a
+tuple along with the memory usage.
+
+Signed-off-by: cheesinglee <cheesinglee@gmail.com>",['ed8281ab786f79800439a317a473fd1802517e13'],False,['memory_profiler.py'],No
+673f477fda944cb66e9ae557b6a59d61da97aab6,"Minor changes
+
+Fixed stupid copy-paste error in external process part of memory_usage()
+
+Add ret to docstring of memory_usage()
+
+Signed-off-by: cheesinglee <cheesinglee@gmail.com>",['a05c9c132cc1debffb64fd606ce7fe8a5faf1420'],False,['memory_profiler.py'],Yes
+d5201e1c9e03397ec7dd93322a682e76663ad643,Units of getrusage() seem to be different in OSX,['673f477fda944cb66e9ae557b6a59d61da97aab6'],False,['memory_profiler.py'],No
+825f11296efbfed98ba7a812849edb18199ddc7d,test refactoring,['d5201e1c9e03397ec7dd93322a682e76663ad643'],False,['test/test_loop.py'],No
+13e1192dfcc5d26d0c447a97a62d988d8ba791f6,"Fix for issue #52
+
+module resource seems to give wrong measurements on some
+cases.",['825f11296efbfed98ba7a812849edb18199ddc7d'],False,['memory_profiler.py'],Yes
+9e4b963bbba463e83048fa209610a62a7661be2f,"Merge remote branch 'fabianp/master' into mprofile
+
+Conflicts:
+	memory_profiler.py
+	test/test_loop.py
+
+The resulting code has been only lightly tested. The new ""max_usage"" keyword
+has not been tested, in particular.","['27bba76ec398765f0021c14249e1d40cd1e22886', '13e1192dfcc5d26d0c447a97a62d988d8ba791f6']",True,[],No
+d339c05826646ac3685d4623e87ad0646a9181fc,0.27 release,['13e1192dfcc5d26d0c447a97a62d988d8ba791f6'],False,['memory_profiler.py'],No
+3b59db18b96651e4423e58ae52cf6c2ca5dd8216,Add refresh interval (-i)) option to %memit,['d339c05826646ac3685d4623e87ad0646a9181fc'],False,"['README.rst', 'memory_profiler.py']",No
+8796d5ef9a86824670dfd9bfb3d742a236732ba6,"Merge branch 'mprofile' of github.com:pgervais/memory_profiler into pgervais-mprofile
+
+Conflicts:
+	memory_profiler.py","['3b59db18b96651e4423e58ae52cf6c2ca5dd8216', '9e4b963bbba463e83048fa209610a62a7661be2f']",True,[],No
+627403aaf0b7bbad7fc608cc27adef98c44f3d44,refactoring,['8796d5ef9a86824670dfd9bfb3d742a236732ba6'],False,"['maction', 'mprof', 'setup.py']",No
+e8df9caf862b59d7b704b6318c068831275e632f,refactoring,['627403aaf0b7bbad7fc608cc27adef98c44f3d44'],False,"['README.rst', 'maction', 'mprof']",No
+9bfd761d3ea9929716d94fa055edcad8d196b0c0,refactoring,['e8df9caf862b59d7b704b6318c068831275e632f'],False,"['README.rst', 'mplot', 'mprof']",No
+9e79e9293fa7eab9223f8535e040bb02206d3810,BUG: make it work on OSX 10.8,['9bfd761d3ea9929716d94fa055edcad8d196b0c0'],False,['memory_profiler.py'],No
+6fed905b88f819d7b197a0cfff00b494619f62b7,STY: pep8 and related fixes,['9e79e9293fa7eab9223f8535e040bb02206d3810'],False,['memory_profiler.py'],Yes
+f2b2550bdaa24b174c6101f819e0dac6ab4654b5,"Merge pull request #53 from dengemann/pep8_fixes
+
+STY: pep8 and related fixes","['9e79e9293fa7eab9223f8535e040bb02206d3810', '6fed905b88f819d7b197a0cfff00b494619f62b7']",True,[],Yes
+d851f99d144cb0bb64948c213fe12c6453a55c49,Fixed parameters handling on 'mprof plot',['f2b2550bdaa24b174c6101f819e0dac6ab4654b5'],False,['mprof'],Yes
+02f33b17f5f1863fb8d7311cf72b577df34e880c,"Merge pull request #54 from pgervais/parameter_fix
+
+Fixed parameters handling on 'mprof plot'","['f2b2550bdaa24b174c6101f819e0dac6ab4654b5', 'd851f99d144cb0bb64948c213fe12c6453a55c49']",True,[],Yes
+55d975445327a742f953133bd4721ce176846cf1,remove code that uses the resource module (unused code),['02f33b17f5f1863fb8d7311cf72b577df34e880c'],False,['memory_profiler.py'],No
+8d4d71859fbf46c3016570151f7ed6fbd112a3ab,Added documentation for the 'mprof' script,['55d975445327a742f953133bd4721ce176846cf1'],False,['README.rst'],No
+5752f3e1b522a00e88cf13f1651054a18eb818dd,"Updated some information, fixed a typo.",['8d4d71859fbf46c3016570151f7ed6fbd112a3ab'],False,['README.rst'],Yes
+318694d32e4d1a748388e39cbab465024df87b64,"Merge pull request #56 from pgervais/mprof_doc
+
+Added documentation on mprof script","['55d975445327a742f953133bd4721ce176846cf1', '5752f3e1b522a00e88cf13f1651054a18eb818dd']",True,[],No
+adca2ed6ec160a3f35a00a9465b689158d742ca8,FIX: shebang line,['318694d32e4d1a748388e39cbab465024df87b64'],False,['mprof'],Yes
+03ff6c0b9eb907152ba97bc6ecbcb83a3e5b0610,Detect if it's a Python file and add the --python option automatically.,['adca2ed6ec160a3f35a00a9465b689158d742ca8'],False,['mprof'],No
+205ec4fa558971d4fdf950fef1599583de2ad63c,Add the option --nopython,['03ff6c0b9eb907152ba97bc6ecbcb83a3e5b0610'],False,['mprof'],No
+e1f143f37b84c0eb035e37a546903d465ed389b8,MB -> MiB. Thanks @ovillellas for reporting!,['205ec4fa558971d4fdf950fef1599583de2ad63c'],False,"['examples/numpy_example.py', 'memory_profiler.py', 'mprof']",No
+9f89fad064deead5ac99d00bd7bce874be302da7,Tighter space in printed output,['e1f143f37b84c0eb035e37a546903d465ed389b8'],False,['memory_profiler.py'],No
+a981185ff077c7cd3095a0b37f8d26ffce53792d,"Added --title option to 'mprof plot'
+
+This option allows to set the title of figures created by 'mprof plot'.",['9f89fad064deead5ac99d00bd7bce874be302da7'],False,['mprof'],No
+78d4ef9f288d0f2be02059fd286e307cc9da7f61,"Got rid of numpy is read_mprofile_file
+
+Numpy is still required for plotting, but only when pylab is used.",['a981185ff077c7cd3095a0b37f8d26ffce53792d'],False,['mprof'],No
+b4bbce73c438f9e343b228c9bcd45703ce15fac0,"Proper handling of empty profile files
+
+When interrupting ""mprof run"", an empty file can be generated, which
+caused problem with ""mprof plot"". A clear error message is now displayed
+to the user.",['78d4ef9f288d0f2be02059fd286e307cc9da7f61'],False,['mprof'],No
+1e791ca55310f24e0565f421f024ec93c27ac3db,"Command line is saved in profile file
+
+The full command line of what was run during the profiling is now
+saved into the profile file. It is used to set the graph title with
+'mprof plot'.",['b4bbce73c438f9e343b228c9bcd45703ce15fac0'],False,['mprof'],No
+9eba5ee676ee01d8384638c69e2c129c835f6ace,"Plot all memory usage information
+
+Memory usage when entering and leaving a function is now included
+with the other measurements. This fixes some discrepancies between
+brackets and curves when sampling frequency was low.
+
+Add an option to prevent displaying of timestamps in plots
+(mprof plot -n)",['1e791ca55310f24e0565f421f024ec93c27ac3db'],False,['mprof'],Yes
+2fa5f90f97c79a7550521016ba2fe568a65143af,"'mprof run' writes continuously in file
+
+Memory usage measurement are written to file directly, without waiting
+for the monitored process to finish. This has several advantages:
+
+- mprof memory usage is constant (no in-memory storage of measurement)
+- allows for some basic on-line monitoring (using 'tail -f' on profile
+  file)
+- When the child process is killed, every measurement taken so far are
+  accessible (which was not the case before)",['9f89fad064deead5ac99d00bd7bce874be302da7'],False,"['memory_profiler.py', 'mprof']",No
+de1c88cdf2fe79a04b0f4e161cf4e6f275b17a6b,"Merge pull request #57 from pgervais/plot_options
+
+Plot improvements","['9f89fad064deead5ac99d00bd7bce874be302da7', '9eba5ee676ee01d8384638c69e2c129c835f6ace']",True,[],Yes
+8b232ec211f889e4e60c7efc687255955f4ddbae,Update README.rst,['de1c88cdf2fe79a04b0f4e161cf4e6f275b17a6b'],False,['README.rst'],Yes
+d3bf1cdb645eb5478bae28cfdd0f924b8d1f58e6,"Merge branch 'master' of github.com:fabianp/memory_profiler
+
+Conflicts:
+	mprof","['2fa5f90f97c79a7550521016ba2fe568a65143af', '8b232ec211f889e4e60c7efc687255955f4ddbae']",True,[],No
+7ab61c046b290971f81e5f83e21caf3fe0f67780,"[BUG] Fixed some bugs left by merging
+
+And a bug preventing memory_usage() to be used with stream=None.",['d3bf1cdb645eb5478bae28cfdd0f924b8d1f58e6'],False,"['memory_profiler.py', 'mprof']",Yes
+0174ffdf2226ea85ebba11b6f770d1e7659e6945,0.28 release,['7ab61c046b290971f81e5f83e21caf3fe0f67780'],False,['memory_profiler.py'],No
+d2223b73de6e8e98da640bcf7907a11ec1d6be1b,"fixed issue 7 ""ignores last line""
+also better solution for issue 8 ""strange behavior for growing dictionaries/tuples""
+- trace_memory_usage() inside the loops no longer create list objects
+- trace_memory_usage() currently saves first line of the function
+- fixed line number count in show_results()",['0174ffdf2226ea85ebba11b6f770d1e7659e6945'],False,['memory_profiler.py'],Yes
+0caa43eda3469ba4099945cd8c2edca66a3dbd2c,Use maximum memory usage for loops,['d2223b73de6e8e98da640bcf7907a11ec1d6be1b'],False,['memory_profiler.py'],No
+7db71ebee09e2b10d6f7143fca05248d2020b7a8,0.29 release,['0caa43eda3469ba4099945cd8c2edca66a3dbd2c'],False,['memory_profiler.py'],No
+51adf6bf86b5a63aabca29b538c1822f754db63e,FIX: errors reported by flake8 (pyflakes + pep8),['7db71ebee09e2b10d6f7143fca05248d2020b7a8'],False,['memory_profiler.py'],Yes
+c09c04a18e29479615ad937b47c3620bf07f5133,"Merge pull request #60 from ogrisel/flake8
+
+FIX: errors reported by flake8 (pyflakes + pep8)","['7db71ebee09e2b10d6f7143fca05248d2020b7a8', '51adf6bf86b5a63aabca29b538c1822f754db63e']",True,[],Yes
+183a4bc9de7b512eef49a38968d618aed7750d5d,"use max_usage=True in %memit (less memory consumption)
+
+Also some refactoring",['c09c04a18e29479615ad937b47c3620bf07f5133'],False,['memory_profiler.py'],No
+369f940a34dcb148cccb8799c6741bb450229236,Better output of %memit,['183a4bc9de7b512eef49a38968d618aed7750d5d'],False,['memory_profiler.py'],No
+317a93ac3de7589592e6dac8e09154195b2e47d9,fix typo in stdout template,['369f940a34dcb148cccb8799c6741bb450229236'],False,['memory_profiler.py'],Yes
+6bbda1e23705d0889469e35e4286c897027e3cd7,"Merge pull request #62 from iandyh/master
+
+fix typo in stdout template","['369f940a34dcb148cccb8799c6741bb450229236', '317a93ac3de7589592e6dac8e09154195b2e47d9']",True,[],Yes
+1da5ed8b34cb5d7dded80cbf4fce1108d7b1760b,version 0.30,['6bbda1e23705d0889469e35e4286c897027e3cd7'],False,['memory_profiler.py'],No
+4b1d470323ad9963757d05f3801b7933c55aa119,#63 Run original trace callback also. Restore original trace callback once LineProfiler is disabled.,['1da5ed8b34cb5d7dded80cbf4fce1108d7b1760b'],False,['memory_profiler.py'],No
+9f91aa03aaf45d73ee32586a054a5f0044fae7ef,FIX: make it possible to call memory_usage on functions with anonymous args,['4b1d470323ad9963757d05f3801b7933c55aa119'],False,"['Makefile', 'memory_profiler.py', 'test/test_import.py', 'test/test_memory_usage.py']",Yes
+34e7f9b9aac5acb612f12a6d32c9cfacf38df777,"Merge pull request #65 from ogrisel/memory-usage-anonymous-args
+
+FIX: make it possible to call memory_usage on functions with anonymous args","['4b1d470323ad9963757d05f3801b7933c55aa119', '9f91aa03aaf45d73ee32586a054a5f0044fae7ef']",True,[],Yes
+6de83c296a9d7ca2d6c55aee19a4285674fd8dd1,"FIX: Change `itervalues`, `iteritems` to `values`, `items` to work on both Python 2 and Python 3..",['34e7f9b9aac5acb612f12a6d32c9cfacf38df777'],False,"['memory_profiler.py', 'mprof']",Yes
+1e911e3dff9efd9c1822e7695024a3af2dc80726,"Merge pull request #67 from ZhanruiLiang/master
+
+FIX: Change `itervalues`, `iteritems` to `values`, `items` to work on bo...","['34e7f9b9aac5acb612f12a6d32c9cfacf38df777', '6de83c296a9d7ca2d6c55aee19a4285674fd8dd1']",True,[],Yes
+b38cc15febd6c3de49f878a88024e83be84ba6ff,Profile nested functions,['1e911e3dff9efd9c1822e7695024a3af2dc80726'],False,"['memory_profiler.py', 'test/test_nested.py']",No
+f6924d68df5b05bd3f31d5c02c62c032d7e97b86,Add include_children parameter when creating MemTimer object for external processes. Fix #69,['1e911e3dff9efd9c1822e7695024a3af2dc80726'],False,['memory_profiler.py'],Yes
+3b25886d0a3ec3b089826b42af71ee481cd5bde9,return mem avoids entering the next block. This is not en if else case,['f6924d68df5b05bd3f31d5c02c62c032d7e97b86'],False,['memory_profiler.py'],No
+3fa7aafb0ac9c05c83fd9726ba1ffd6a7c27ec82,"Merge pull request #70 from guillermo-carrasco/master
+
+Add include_children parameter when creating MemTimer object for external processes","['1e911e3dff9efd9c1822e7695024a3af2dc80726', '3b25886d0a3ec3b089826b42af71ee481cd5bde9']",True,[],No
+2e38041201d3653e562a751cc2926658e1c3c33d,0.31 release,['3fa7aafb0ac9c05c83fd9726ba1ffd6a7c27ec82'],False,['memory_profiler.py'],No
+8ecc4dab2224c69b02e2593e28d40ba903190419,merged from fabian HEAD,"['642d0bc98d47855e525996af3dc535bb31fae7e9', '2e38041201d3653e562a751cc2926658e1c3c33d']",True,[],No
+9cafafa1ba117e2784f49d16afeb5721f431afc7,tweak to legend placement,['8ecc4dab2224c69b02e2593e28d40ba903190419'],False,['mprof'],No
+e3bc89a70d44ad1733d0037ac1e33dbe3d4fa60c,removed dead code,['9cafafa1ba117e2784f49d16afeb5721f431afc7'],False,['mprof'],No
+74c6d0408248d91e91e5b12fe674811a3a8d3a62,ENH: magic cmd option to set include_children=True,['2e38041201d3653e562a751cc2926658e1c3c33d'],False,['memory_profiler.py'],No
+b59c898928bf709febd21ca3ab6a58f62ddc4a04,"remove double import warnings
+
+seems that warnings is already imported at the top level of the module",['2e38041201d3653e562a751cc2926658e1c3c33d'],False,['memory_profiler.py'],No
+364c3ef9e22acc0391d93fcc59c7ba24583a2cd7,"Merge pull request #80 from peter1000/patch-1
+
+remove double import warnings","['2e38041201d3653e562a751cc2926658e1c3c33d', 'b59c898928bf709febd21ca3ab6a58f62ddc4a04']",True,[],No
+58df1969abff7df427a6922112e10bfd4caec54c,"Inconsistent indentation: previous line used spaces, this line uses tabs",['364c3ef9e22acc0391d93fcc59c7ba24583a2cd7'],False,['test/test_as.py'],No
+bda8664d404044742544936d9a223cf9520e6982,"Merge pull request #81 from peter1000/patch-1
+
+Inconsistent indentation: previous line used spaces, this line uses tabs","['364c3ef9e22acc0391d93fcc59c7ba24583a2cd7', '58df1969abff7df427a6922112e10bfd4caec54c']",True,[],No
+ba8ada6c94ca0ebac7366a43c3ac2211f20206ad,explicitly fail if psutil is missing and include_children is True,['74c6d0408248d91e91e5b12fe674811a3a8d3a62'],False,['memory_profiler.py'],No
+1f9f63aedb233c74ed8a0f98756b1fb8052f31fd,FIX: bad test for the detection of the -c flag,['ba8ada6c94ca0ebac7366a43c3ac2211f20206ad'],False,['memory_profiler.py'],Yes
+f1b961525eddc11c001300844519bf92872dfe6a,"Merge pull request #72 from ianozsvald/mplot_legend_fix
+
+Mplot legend fix","['bda8664d404044742544936d9a223cf9520e6982', 'e3bc89a70d44ad1733d0037ac1e33dbe3d4fa60c']",True,[],Yes
+5ade0faf090fe4aa8b06222bf56e56d2e8475ff4,"Merge pull request #78 from ogrisel/include_children-magic
+
+[MRG] ENH: magic cmd option to set include_children=True","['f1b961525eddc11c001300844519bf92872dfe6a', '1f9f63aedb233c74ed8a0f98756b1fb8052f31fd']",True,[],No
+1692b503eeb4c7f4176f1b275963001c31d7a3c6,"Merge pull request #68 from immerrr/profile-nested-functions
+
+Profile nested functions","['5ade0faf090fe4aa8b06222bf56e56d2e8475ff4', 'b38cc15febd6c3de49f878a88024e83be84ba6ff']",True,[],No
+3689a28b6eac9bef291e95e7b972cb8a05198956,Remove unused code (thanks @peter1000),['1692b503eeb4c7f4176f1b275963001c31d7a3c6'],False,['memory_profiler.py'],No
+f91780a59eed60bcb20787754ae893282c8998b5,"Replace psutil methods deprecated on v2.0.0
+
+- Replaced deprecated psutil.get_memory_info() by
+psutil.memory_info()",['3689a28b6eac9bef291e95e7b972cb8a05198956'],False,['memory_profiler.py'],No
+155765b696cd5c50851dc2a53bdd50ab5951f822,Added backward compatibility for psutil < 2.0.0,['f91780a59eed60bcb20787754ae893282c8998b5'],False,['memory_profiler.py'],No
+b0b4a3caa5f738b80899381411e8d93ac83c0928,"Merge pull request #83 from trein/master
+
+Replaced psutil methods deprecated on v2.0.0","['3689a28b6eac9bef291e95e7b972cb8a05198956', '155765b696cd5c50851dc2a53bdd50ab5951f822']",True,[],No
+baf0fccd7a098742c2ed9e94c9be183c841fa86d,"Parameterize @profile decorator with precision
+
+Add precision parameter to @profile decorator to specify precision if import is
+used instead of -m memory_profiler",['b0b4a3caa5f738b80899381411e8d93ac83c0928'],False,"['Makefile', 'README.rst', 'memory_profiler.py', 'test/test_precision_command_line.py', 'test/test_precision_import.py']",No
+186799b23eb2a49623ee8dadbf9d13f68205f08a,added SpeedIT to: Projects using memory_profiler,['b0b4a3caa5f738b80899381411e8d93ac83c0928'],False,['README.rst'],No
+9aea3ecf7bd84258a27f4750f0ef82f5b2cabff0,"Merge pull request #85 from peter1000/patch-1
+
+added SpeedIT to: Projects using memory_profiler","['b0b4a3caa5f738b80899381411e8d93ac83c0928', '186799b23eb2a49623ee8dadbf9d13f68205f08a']",True,[],No
+3247a33c21bcb1a3a465dd2f915c8cc9a75ff62c,Change parameter name to avoid name conflict,['baf0fccd7a098742c2ed9e94c9be183c841fa86d'],False,['memory_profiler.py'],Yes
+40963ebdeb2874eab00ad1dac5ee181cde0f7455,import setuptools because I love `python setup.py develop`,['3689a28b6eac9bef291e95e7b972cb8a05198956'],False,['setup.py'],No
+3d44876ae8979b1a2c7f94b5acd3135a59529a44,IPython memory usage,['40963ebdeb2874eab00ad1dac5ee181cde0f7455'],False,['README.rst'],No
+cd85fdf7d7e02098db4e4e8ef5c904b6a72dc190,"Merge branch 'master' of github.com:fabianp/memory_profiler
+
+Conflicts:
+	README.rst","['3d44876ae8979b1a2c7f94b5acd3135a59529a44', '9aea3ecf7bd84258a27f4750f0ef82f5b2cabff0']",True,[],No
+47d65baa13abc8b3887a4ded6bd1a96b36853b35,"Merge pull request #84 from justhalf/parameterized_decorator
+
+Parameterize @profile decorator with precision","['cd85fdf7d7e02098db4e4e8ef5c904b6a72dc190', '3247a33c21bcb1a3a465dd2f915c8cc9a75ff62c']",True,[],No
+de9a92884f7111dd2f3417705fcd21dac00aa0a3,"mprof plot: add option to save plot to file
+
+Use as: mprof plot -o <filename>.<ext>",['47d65baa13abc8b3887a4ded6bd1a96b36853b35'],False,['mprof'],No
+cfc9be15a9eb3b1211ea98e614d8a3a6853c03f5,mprof plot: more line colors,['de9a92884f7111dd2f3417705fcd21dac00aa0a3'],False,['mprof'],No
+2a8e81bf271392327301825e551fc4114a2d5857,"Merge pull request #86 from kynan/save-plot-to-file
+
+Add option to save plot to file instead of displaying","['47d65baa13abc8b3887a4ded6bd1a96b36853b35', 'cfc9be15a9eb3b1211ea98e614d8a3a6853c03f5']",True,[],No
+829c379a22313be9ddfa2e2dd1624e513787f38a,"FIX: new ref link update
+
+FIX: new ref link update",['2a8e81bf271392327301825e551fc4114a2d5857'],False,['README.rst'],Yes
+4da80112472c1eea5a90d86059220027e08f90fd,"Merge pull request #87 from peter1000/patch-1
+
+FIX: new ref link update","['2a8e81bf271392327301825e551fc4114a2d5857', '829c379a22313be9ddfa2e2dd1624e513787f38a']",True,[],Yes
+7175b2943f67eeffc97e4a43656e069b6edb64ad,add lincese file,['4da80112472c1eea5a90d86059220027e08f90fd'],False,['COPYING'],No
+538dd0393cf4485e7e8d56e774c6a93343b53431,version 0.32,['7175b2943f67eeffc97e4a43656e069b6edb64ad'],False,"['memory_profiler.py', 'setup.py']",No
+5be9f83706cea6a6cae1ad4eb0ca072c89832938,Update COPYING,['538dd0393cf4485e7e8d56e774c6a93343b53431'],False,['COPYING'],Yes
+721c5b5536f8e22dbc5ecb785eb86056d4818fb2,Update README.rst,['5be9f83706cea6a6cae1ad4eb0ca072c89832938'],False,['README.rst'],Yes
+30cf67fc403d54fec5e42dd0b07a25ebb36a4070,Correct the license,['721c5b5536f8e22dbc5ecb785eb86056d4818fb2'],False,['setup.py'],No
+43393405ca0e8e5cf549a9358382287d0c93df6d,"Merge pull request #89 from changwoo/master
+
+Correct the license","['721c5b5536f8e22dbc5ecb785eb86056d4818fb2', '30cf67fc403d54fec5e42dd0b07a25ebb36a4070']",True,[],No
+fe9415e207d1b7c1e222a02cf3c9f19ef8f9fa49,better doc and example for mprof,['43393405ca0e8e5cf549a9358382287d0c93df6d'],False,"['mprof', 'test/test_func.py', 'test/test_mprofile.py']",No
+8d72e54c395d7d721bd4101a7f8fed3c6ecc9b41,Better help message for mprof,['fe9415e207d1b7c1e222a02cf3c9f19ef8f9fa49'],False,['mprof'],No
+aaf3ae481774d31316e71a58450f0ce8fe651635,avoid loading attribute if not exists,['8d72e54c395d7d721bd4101a7f8fed3c6ecc9b41'],False,['memory_profiler.py'],No
+7cf3b3eea920684955f1f093389a76e35bc49aea,"Merge pull request #92 from multiSnow/master
+
+avoid loading attribute if not exists in psutil.Process","['8d72e54c395d7d721bd4101a7f8fed3c6ecc9b41', 'aaf3ae481774d31316e71a58450f0ce8fe651635']",True,[],No
+6694c530d1d60a9e00cda8578fb98c3056937016,Add comment on psutil 2.0,['7cf3b3eea920684955f1f093389a76e35bc49aea'],False,['memory_profiler.py'],No
+9ff038f85734afbdb9a25d7626eb13f3a3081b56,only append if profile number is converted,['6694c530d1d60a9e00cda8578fb98c3056937016'],False,['mprof'],No
+05e9714eac18a6d9d8c581391cd5604360331b70,Quit if no file found at all and tell when using last profile data,['9ff038f85734afbdb9a25d7626eb13f3a3081b56'],False,['mprof'],No
+42f683fb3155dfd96edd5ee1ffc80c384715a235,"Merge pull request #93 from shyba/fix/help-messages
+
+Fix/help messages","['6694c530d1d60a9e00cda8578fb98c3056937016', '05e9714eac18a6d9d8c581391cd5604360331b70']",True,[],Yes
+95d5cafefe3c4124861eb7ba0afd5a7f43d44bd8,"- Generation of report from memory_profiler
+- Added reporting feature via logging module",['42f683fb3155dfd96edd5ee1ffc80c384715a235'],False,"['README.rst', 'examples/example.py', 'examples/reportingViaLogger.py', 'examples/reporting_file.py']",No
+744c5abe0724f91e86b358e5170a97247619bf37,"- Generation of report from memory_profiler
+- Added reporting feature via logging module",['95d5cafefe3c4124861eb7ba0afd5a7f43d44bd8'],False,['memory_profiler.py'],No
+9d605c869e01de505ed513cdb0adb50508e9792d,updated README,['744c5abe0724f91e86b358e5170a97247619bf37'],False,['README.rst'],Yes
+f855b6fc45d0c11759a865064c15a1dd4e4a2f6d,"Rename reportingViaLogger.py to reporting_logger.py
+
+Renamed filename",['9d605c869e01de505ed513cdb0adb50508e9792d'],False,['examples/reporting_logger.py'],No
+ce73d205d86c3f4e30f9130f8f9238d682f3cd2c,Update README.rst,['f855b6fc45d0c11759a865064c15a1dd4e4a2f6d'],False,['README.rst'],Yes
+96272299e46e9fb85764b6ffcc9e5012456df4ee,Updated based on review comments,['ce73d205d86c3f4e30f9130f8f9238d682f3cd2c'],False,"['README.rst', 'memory_profiler.py']",Yes
+0b1a273d96757add04a2ea0bd22d5d7572c655f4,"Merge pull request #95 from sagaru/master
+
+Reporting for memory_profiler","['42f683fb3155dfd96edd5ee1ffc80c384715a235', '96272299e46e9fb85764b6ffcc9e5012456df4ee']",True,[],No
+8b50ac14e37f6e52407c7b1428aa3aa17a610143,"Update README.rst
+
+Updated project list",['96272299e46e9fb85764b6ffcc9e5012456df4ee'],False,['README.rst'],Yes
+0e032d99388d7e1468fa38984ed700b29646b2f7,"Merge pull request #96 from sagaru/master
+
+Update README.rst","['0b1a273d96757add04a2ea0bd22d5d7572c655f4', '8b50ac14e37f6e52407c7b1428aa3aa17a610143']",True,[],Yes
+46d47ae38f98e72d02bca3cba9bb1b987c5983bc,Update README.rst,['0e032d99388d7e1468fa38984ed700b29646b2f7'],False,['README.rst'],Yes
+29c5f4bd38eaade075e5b0587dbfbaed1db0452d,Update README.rst,['46d47ae38f98e72d02bca3cba9bb1b987c5983bc'],False,['README.rst'],Yes
+16ffef7b23ac720d45b0bb6be14bf1732cf75c44,Check arguments before logging in run_action.,['29c5f4bd38eaade075e5b0587dbfbaed1db0452d'],False,['mprof'],No
+9b0d6e04a7e57ea2a5afc8719576946729bad140,"Merge pull request #99 from nvdv/bugfix
+
+Check arguments before logging in run_action.","['29c5f4bd38eaade075e5b0587dbfbaed1db0452d', '16ffef7b23ac720d45b0bb6be14bf1732cf75c44']",True,[],Yes
+73772a8bd7cba8cac674d6a0f8f437c9a8f6b9df,Switch case for _clean_locals variable.,['29c5f4bd38eaade075e5b0587dbfbaed1db0452d'],False,['memory_profiler.py'],No
+a05270f16bd18087a1c7f2c46ae9c9ef2ce49eed,"Merge pull request #100 from nvdv/var_rename
+
+Switch case for _clean_locals variable.","['9b0d6e04a7e57ea2a5afc8719576946729bad140', '73772a8bd7cba8cac674d6a0f8f437c9a8f6b9df']",True,[],No
+4a37b2abdb25f1e527e7d4512ed5009219c21f93,New release,['a05270f16bd18087a1c7f2c46ae9c9ef2ce49eed'],False,"['README.rst', 'memory_profiler.py']",No
+77d06a3b5b33c897f18c48d9e22d28506eb0878c,new release,['4a37b2abdb25f1e527e7d4512ed5009219c21f93'],False,['memory_profiler.py'],No
+fe77c9b92ed439b05d34a69ff5d8b096e5827dfc,new version,['77d06a3b5b33c897f18c48d9e22d28506eb0878c'],False,"['README.rst', 'memory_profiler.py']",No
+0e53367d24128ed4960c0f8210e8d046303c2a9d,Fix for issue #101,['fe77c9b92ed439b05d34a69ff5d8b096e5827dfc'],False,['memory_profiler.py'],Yes
+18dccd18565763459ecb49434db81c9bf8b5fab3,"Warn about memory_profiler/mprof interplay
+
+This took me time to track down - running memory_profiler in a script run via mprof will prevent the function timings being recorded & plotted on the graph.",['0e53367d24128ed4960c0f8210e8d046303c2a9d'],False,['README.rst'],No
+d8bffbf2376cf74d4c752e3c53b3eb33e867203f,"Merge pull request #102 from pbowyer/patch-1
+
+Warn about memory_profiler/mprof interplay","['0e53367d24128ed4960c0f8210e8d046303c2a9d', '18dccd18565763459ecb49434db81c9bf8b5fab3']",True,[],No
+fdab5be7fe335f834b60f7beee1632f72a96eb4c,fix for plots cut out of figure,['0e53367d24128ed4960c0f8210e8d046303c2a9d'],False,"['examples/numpy_example.py', 'memory_profiler.py', 'mprof']",Yes
+018a4775bd5a03ec68769b3061728ee5d52b3511,Merge branch 'master' of github.com:fabianp/memory_profiler,"['fdab5be7fe335f834b60f7beee1632f72a96eb4c', 'd8bffbf2376cf74d4c752e3c53b3eb33e867203f']",True,[],No
+8ad99995cc04210451ab7cc41ad409945fe130f5,Add %%mprun and %%memit cell magics.,['018a4775bd5a03ec68769b3061728ee5d52b3511'],False,"['README.rst', 'memory_profiler.py']",No
+219e9b92aaa1e9775e0ede8f89f543d83ce3b7ac,"Merge pull request #104 from korzeniewskipl/cell_magics
+
+Add %%mprun and %%memit cell magics for IPython.","['018a4775bd5a03ec68769b3061728ee5d52b3511', '8ad99995cc04210451ab7cc41ad409945fe130f5']",True,[],No
+909017dea183338da8d72ad2cc2a6f266015cf07,FIX __func__ attribute under Python 3,['219e9b92aaa1e9775e0ede8f89f543d83ce3b7ac'],False,['memory_profiler.py'],Yes
+beca98e4dc206fdc6acdedc35f645bd02d918110,Add 'window' support to plot a particular time range,['909017dea183338da8d72ad2cc2a6f266015cf07'],False,['mprof'],No
+b894c6e4d8065fed49ded1f87b4950b3658b1921,Update README.rst,['909017dea183338da8d72ad2cc2a6f266015cf07'],False,['README.rst'],Yes
+23d8a23665af56e77fb0903e8818dd46f51f5b36,New version,['b894c6e4d8065fed49ded1f87b4950b3658b1921'],False,['memory_profiler.py'],No
+1af4784db76fd44095fa9a1d2a04c24955301347,"Fix ""NameError: name 'OptionValueError' is not defined""",['beca98e4dc206fdc6acdedc35f645bd02d918110'],False,['mprof'],Yes
+fdf9ef3ab33bb8b57857979a91571728376fa762,temporary fix for #106,['23d8a23665af56e77fb0903e8818dd46f51f5b36'],False,['memory_profiler.py'],Yes
+d3c57424665cb2304f40d469f9e73fc3b9c76257,"Merge pull request #105 from pbowyer/xlim
+
+Add 'window' support to mprof to plot a particular time range","['fdf9ef3ab33bb8b57857979a91571728376fa762', '1af4784db76fd44095fa9a1d2a04c24955301347']",True,[],No
+7aad92e4b6254c49cc298ac25a426616c47febc0,Bogus computation of memory for process children,['d3c57424665cb2304f40d469f9e73fc3b9c76257'],False,['memory_profiler.py'],No
+2bd93b6494e80525f06fdbb278ebedc720f9765e,"Merge pull request #109 from florentx/patch-1
+
+Bogus computation of memory for process children","['d3c57424665cb2304f40d469f9e73fc3b9c76257', '7aad92e4b6254c49cc298ac25a426616c47febc0']",True,[],No
+17156325f6cab26e5e387045a3da968fb1ab9b5e,Ignore *.egg-info,['2bd93b6494e80525f06fdbb278ebedc720f9765e'],False,['.gitignore'],No
+f30ff08b0d5aafe3202233d5f7224548163119ee,Review code,['17156325f6cab26e5e387045a3da968fb1ab9b5e'],False,['memory_profiler.py'],No
+372b290a0ab8217d1780ae7624d486debd4e190a,Refactor to compute memory of generators and list/set/dict comprehensions,['f30ff08b0d5aafe3202233d5f7224548163119ee'],False,"['Makefile', 'memory_profiler.py', 'test/test_gen.py']",No
+cc2f4f194188fda358f3487b06f0840fbf68471a,Test issue #42,['372b290a0ab8217d1780ae7624d486debd4e190a'],False,['test/test_gen.py'],No
+0a4e3e7f4d0f9c5c30028302ae1e535f8044a089,"Merge pull request #110 from florentx/refactor_lineprofiler
+
+Refactor lineprofiler","['2bd93b6494e80525f06fdbb278ebedc720f9765e', 'cc2f4f194188fda358f3487b06f0840fbf68471a']",True,[],No
+0e25b08045aadf86d95a1dd2a98076e23d65d837,release 0.39,['0a4e3e7f4d0f9c5c30028302ae1e535f8044a089'],False,['memory_profiler.py'],No
+ad64aa0059dc73727c37f6e4b7060d7ca85d1d01,release 0.40,['0e25b08045aadf86d95a1dd2a98076e23d65d837'],False,['memory_profiler.py'],No
+239992d205f684b0d096c871afe7f8d10547144f,add travis-ci file,['0a4e3e7f4d0f9c5c30028302ae1e535f8044a089'],False,['.travis.yml'],No
+109f449b254ad90e106edc29a3a7cc942c6f8f21,update travis,['239992d205f684b0d096c871afe7f8d10547144f'],False,['.travis.yml'],Yes
+44f2a71b502aa2cf8d693947a3dd51bc609d698d,Add travis build to README,['109f449b254ad90e106edc29a3a7cc942c6f8f21'],False,['README.rst'],No
+423729c7e2f9a6455351e9bc33004ff408bafefe,update travis,['44f2a71b502aa2cf8d693947a3dd51bc609d698d'],False,['.travis.yml'],Yes
+c7442affea9325fd646a65be9bf313216a9127de,Make mprun python-2 compatible,['423729c7e2f9a6455351e9bc33004ff408bafefe'],False,"['Makefile', 'memory_profiler.py']",No
+b2b936c2200b49482ce87faaadca966d8828df8e,"FIX: unicode in python3, function does not exist",['c7442affea9325fd646a65be9bf313216a9127de'],False,['memory_profiler.py'],Yes
+5b973822b365dfee327009c6fc4f6e9fe37086fe,new version,['b2b936c2200b49482ce87faaadca966d8828df8e'],False,['memory_profiler.py'],No
+c08a8860a694b2374840aa1ed164d42260834b9a,add ipython to travis,['5b973822b365dfee327009c6fc4f6e9fe37086fe'],False,['.travis.yml'],No
+d52f82a3c0be67b839ff37254dec7a489cf508f0,updated python version verification so it doesn't break on future python 4 release,['c08a8860a694b2374840aa1ed164d42260834b9a'],False,['memory_profiler.py'],Yes
+796d0bec50e5664935192687ea54e95f9fcef8d0,"Merge pull request #112 from Streppel/master
+
+updated python version verification so it doesn't break on future pyt…","['c08a8860a694b2374840aa1ed164d42260834b9a', 'd52f82a3c0be67b839ff37254dec7a489cf508f0']",True,[],Yes
+8fb44f180cb85ca19a358dc4c60cec05190ffc0f,Add unicode tests,['ad64aa0059dc73727c37f6e4b7060d7ca85d1d01'],False,"['Makefile', 'test/test_unicode.py']",No
+6bb856bfddcc63dcec302b6f8145dadc04279af5,"Merge branch 'master' of github.com:fabianp/memory_profiler
+
+Conflicts:
+	memory_profiler.py","['8fb44f180cb85ca19a358dc4c60cec05190ffc0f', '796d0bec50e5664935192687ea54e95f9fcef8d0']",True,[],No
+cc593b316c7b61b4d37ae81282fa6898b59d5879,FIX test,['6bb856bfddcc63dcec302b6f8145dadc04279af5'],False,['test/test_unicode.py'],Yes
+5db8084a3d88868632a6d1d0abed665782c103ce,FIX: fix issue #113 reported by @reza1615,['cc593b316c7b61b4d37ae81282fa6898b59d5879'],False,"['memory_profiler.py', 'test/test_unicode.py']",Yes
+f836d57d50b416af9fd124c4acecf9a57f8b9ea6,FIX: unicode for Python3,['5db8084a3d88868632a6d1d0abed665782c103ce'],False,['memory_profiler.py'],Yes
+e496c5d9430f3675e89a186e855c99c34d096e61,ENH: allow memit magic to return a result object,['f836d57d50b416af9fd124c4acecf9a57f8b9ea6'],False,['memory_profiler.py'],No
+5eef560b0ddf74446760baadddd27d4e0b987fe1,ENH: added quiet as well,['e496c5d9430f3675e89a186e855c99c34d096e61'],False,['memory_profiler.py'],No
+0c5f6f736178ae7124e0ade4ae9843f2d97f4634,Addressing @superbobry's comments,['5eef560b0ddf74446760baadddd27d4e0b987fe1'],False,['memory_profiler.py'],No
+aa8b30cfee6e34056f6eac1b6b2eefaccf90cbfd,"Merge pull request #116 from wasade/returnable_memit
+
+Allow %memit to return a result object and to be quiet","['f836d57d50b416af9fd124c4acecf9a57f8b9ea6', '0c5f6f736178ae7124e0ade4ae9843f2d97f4634']",True,[],No
+86acef852c15e071ddbda5e4619c1de220fcb0a7,"ENH added optional ``tracemalloc`` backend
+
+It is now possible to use ``tracemalloc`` to analyze memory usage Python
+code on Python 3.4 and above. ``tracemalloc`` allows for more precise
+measurements compared to ``psutil``. However, it only works either for
+pure Python code or for C extensions allocating memory via ``PyMem_Alloc``.
+
+To use the new backend code run ``memory_profiler`` with ``--backend``
+option, e.g.
+
+    $ python -m memory_profiler --backend=tracemalloc script.py
+
+Also if you use ``memory_profiler`` with imported decorator you can specify
+backend as an argument to the decorator function:
+
+    @profile(backend='tracemalloc')
+    def f(n):
+        a = [0] * n
+        return a
+
+``backend`` parameter to ``@profile`` has priority over ``--backend``.
+
+Note that using ``tracemalloc`` in ``mprof`` and IPython magic is not
+supported at the moment.",['aa8b30cfee6e34056f6eac1b6b2eefaccf90cbfd'],False,"['memory_profiler.py', 'mprof', 'test/test_tracemalloc.py']",No
+9e83dfc23236306c0279190fd97ed59135bebece,FIX little fix for Python 3.3-,['86acef852c15e071ddbda5e4619c1de220fcb0a7'],False,['memory_profiler.py'],Yes
+30a1617b636e9ae470705d433f76a34094716521,FIX added a workaround for ``OrderedDict.move_to_end``,['9e83dfc23236306c0279190fd97ed59135bebece'],False,['memory_profiler.py'],Yes
+d0c8a3943ffeee25d96b7d65e158fe405728ba4c,FIX added a choosing backend in memory_usage function,['30a1617b636e9ae470705d433f76a34094716521'],False,['memory_profiler.py'],Yes
+361c75133663bbf31a40d00f5614916fc5bde1a2,FIX choosing backend in ``profile`` decorator fixed,['d0c8a3943ffeee25d96b7d65e158fe405728ba4c'],False,['memory_profiler.py'],Yes
+fc44641d566e58f3274421eb6a1c10718dd67e64,TEST added test for ``tracemalloc``,['361c75133663bbf31a40d00f5614916fc5bde1a2'],False,"['Makefile', 'test/test_tracemalloc.py']",No
+e0b37a5336ca9b22978d7d4966cf8bd5c5bddb99,FIX line length according to PEP8,['fc44641d566e58f3274421eb6a1c10718dd67e64'],False,"['memory_profiler.py', 'test/test_tracemalloc.py']",Yes
+4565b8f559f931473f495e96130250da418a3179,FIX global variable _backend_choosen removed,['e0b37a5336ca9b22978d7d4966cf8bd5c5bddb99'],False,['memory_profiler.py'],Yes
+636b3448d272b2b66a509ae16ad210471bd87f58,FIX string format changed to support Python 2,['4565b8f559f931473f495e96130250da418a3179'],False,['memory_profiler.py'],Yes
+0d956a1df6d1ebc5353e6ac0f54265028a27b59d,multiprocessing example,['aa8b30cfee6e34056f6eac1b6b2eefaccf90cbfd'],False,"['.gitignore', 'examples/multiprocessing_example.py']",No
+a846fa63db2c32e0b6ce1db70176fb4e268bbdfc,child process memory now recorded seperately in mpmprof,['0d956a1df6d1ebc5353e6ac0f54265028a27b59d'],False,"['memory_profiler.py', 'mpmprof']",No
+e32679b9c91c66e3eaf9ebfe6882cbf7410233b6,plot function for mpmproc,['a846fa63db2c32e0b6ce1db70176fb4e268bbdfc'],False,['mpmprof'],No
+4a268812c97ce2b550d38b7812fc6eabec16a858,FIX ``_backend_chosen`` variable deleted from everywhere,['636b3448d272b2b66a509ae16ad210471bd87f58'],False,['memory_profiler.py'],Yes
+eba604c1ab7dec31dd561329b79efa7fd45fbeda,FIX TODO's removed,['4a268812c97ce2b550d38b7812fc6eabec16a858'],False,['memory_profiler.py'],Yes
+946aa5e006916fb752b3060dbc83b68790e0762b,FIX OrderedDict changed to list in ``choose_backend`` function,['eba604c1ab7dec31dd561329b79efa7fd45fbeda'],False,['memory_profiler.py'],Yes
+03411e9a5e77452df1eda2091101c76958bcf0da,remove global variable _backend,['946aa5e006916fb752b3060dbc83b68790e0762b'],False,['memory_profiler.py'],No
+62b8560a48f0cee39c231bdb1126c70c3a9fef92,ValueError was too much. Use warning instead.,['03411e9a5e77452df1eda2091101c76958bcf0da'],False,['memory_profiler.py'],No
+ac3ab35cc81de8c7c8307d61521cfd983e3d833c,Update acknowledgements,['62b8560a48f0cee39c231bdb1126c70c3a9fef92'],False,['README.rst'],Yes
+036bd76bcb721fdddec0a8f780bef86c07180547,bug fixes,['ac3ab35cc81de8c7c8307d61521cfd983e3d833c'],False,['memory_profiler.py'],Yes
+925a587c1f86fdde3ceb8887fe23792c9350f9e9,cosmetic,['036bd76bcb721fdddec0a8f780bef86c07180547'],False,['memory_profiler.py'],No
+386a0bfd0f4532d887b800bce928e559c30137c9,Bug fixes,['925a587c1f86fdde3ceb8887fe23792c9350f9e9'],False,['memory_profiler.py'],Yes
+5a92a5f7ae7d90d7bd561ce5e66d7bde81855d03,bug fixes,['386a0bfd0f4532d887b800bce928e559c30137c9'],False,['memory_profiler.py'],Yes
+987e621c6a94299bb0eed01ce7f6b39dda16b8f7,cosmetic,['5a92a5f7ae7d90d7bd561ce5e66d7bde81855d03'],False,['memory_profiler.py'],No
+ac1193c43efcde3d403e4cf037d2eae7ff398ba6,"Merge pull request #119 from fabianp/demiurg906-tracemalloc-backend
+
+some improvements over @demiurg906's pull request","['aa8b30cfee6e34056f6eac1b6b2eefaccf90cbfd', '987e621c6a94299bb0eed01ce7f6b39dda16b8f7']",True,[],Yes
+237492a61ec5a302f64d63cdf70ccb4ed9d0d354,"More user friendly error message
+
+This is helpful as if tkinter is not installed the ImportError is caught
+here and although the user has installed matplotlib the error message
+says matplotlib is needed.
+So this small change fixes this.",['ac1193c43efcde3d403e4cf037d2eae7ff398ba6'],False,['mprof'],Yes
+4e8089d577683d9db94b3d2da70b8554b613eef9,More general solution,['237492a61ec5a302f64d63cdf70ccb4ed9d0d354'],False,['mprof'],No
+e0ca6031136b3a5ab9cbb964eda184f61ed9bc57,"Merge pull request #120 from Thalmann/master
+
+More user friendly error message","['ac1193c43efcde3d403e4cf037d2eae7ff398ba6', '4e8089d577683d9db94b3d2da70b8554b613eef9']",True,[],No
+bf31b8c8d6aa6e1137296fb0d5f606c946bec636,MANIFEST.in: Include the license file.,['e0ca6031136b3a5ab9cbb964eda184f61ed9bc57'],False,['MANIFEST.in'],No
+271e17399f4978715edd956d4ff6d2525c83439b,"Merge pull request #124 from jakirkham/inc_license
+
+Include the license file","['e0ca6031136b3a5ab9cbb964eda184f61ed9bc57', 'bf31b8c8d6aa6e1137296fb0d5f606c946bec636']",True,[],No
+861f53116529d32d0f669e3eec9686e3a519c0c4,"Better error message for mprof run
+
+thanks to @anntzer for reporting!",['271e17399f4978715edd956d4ff6d2525c83439b'],False,['mprof'],No
+fe3027f4099de7e69053b5b6729d660b3059c431,"Fix 1 typo in the comments of function mem_usage
+
+Very helpful program, thanks!",['861f53116529d32d0f669e3eec9686e3a519c0c4'],False,['memory_profiler.py'],Yes
+a6d4ea45d7a21f30c6adb37985792b06394ca25a,"Merge pull request #126 from tarvos21/master
+
+Fix 1 typo in the comments of function mem_usage","['861f53116529d32d0f669e3eec9686e3a519c0c4', 'fe3027f4099de7e69053b5b6729d660b3059c431']",True,[],Yes
+a9e5a026a1c5a588ce0c51101af966980b9e3311,Fix for issue #71,['a6d4ea45d7a21f30c6adb37985792b06394ca25a'],False,['memory_profiler.py'],Yes
+4fe1d5725fbc01d32ce0bfb1781b449fef7b6049,Fix issue #131,['a9e5a026a1c5a588ce0c51101af966980b9e3311'],False,['memory_profiler.py'],Yes
+d38c3c59cee8d899ce2b414e277afa293d6b57cd,0.42 release,['4fe1d5725fbc01d32ce0bfb1781b449fef7b6049'],False,['memory_profiler.py'],No
+1c38945944749e7005e09db6eb90d245c117f818,Catch the right exception for issue #71,['d38c3c59cee8d899ce2b414e277afa293d6b57cd'],False,['memory_profiler.py'],No
+bed17eaaf18d2dc114a5c3c635f63cb7512d0e8e,release 0.43,['1c38945944749e7005e09db6eb90d245c117f818'],False,['memory_profiler.py'],No
+bdf9995643ae14606e0fbeb1d82b9e5f94c9b48b,merge with upstream,"['e32679b9c91c66e3eaf9ebfe6882cbf7410233b6', 'bed17eaaf18d2dc114a5c3c635f63cb7512d0e8e']",True,[],No
+aab15edbc9f45968f1faf54a92a539b7a8a946bb,merge mpmprof into mprof,['bdf9995643ae14606e0fbeb1d82b9e5f94c9b48b'],False,"['examples/multiprocessing_example.py', 'memory_profiler.py', 'mpmprof', 'mprof']",No
+f1cee23af020607ff0c76f23db7f902752dd8d6a,added max child usage marker and update readme,['aab15edbc9f45968f1faf54a92a539b7a8a946bb'],False,"['README.rst', 'mprof']",Yes
+099c5c88f1731e971094d7a0da6b02103ab8e479,fixed image,['f1cee23af020607ff0c76f23db7f902752dd8d6a'],False,['README.rst'],Yes
+9c62f0a99ecd9b63547ad37fcae2583fa6874b07,return child as nested list from memory_usage,['099c5c88f1731e971094d7a0da6b02103ab8e479'],False,"['README.rst', 'memory_profiler.py']",No
+d333fdac11e2ca17179d602e94de81ab7d6dfca7,minor update to readme,['9c62f0a99ecd9b63547ad37fcae2583fa6874b07'],False,['README.rst'],Yes
+52c5788f7e47c748a3c9db15d16a763442c34fe1,launch multiprocessing programs without in python mode,['d333fdac11e2ca17179d602e94de81ab7d6dfca7'],False,"['examples/multiprocessing_example.py', 'mprof']",No
+4ea1d2b08b7c9772ee133df6ae8d607fc0b87c52,cleanup redundant code,['52c5788f7e47c748a3c9db15d16a763442c34fe1'],False,['mprof'],No
+8a81c2218e96235527feb2cc733867d31f1d7c1e,new release,['4ea1d2b08b7c9772ee133df6ae8d607fc0b87c52'],False,['memory_profiler.py'],No
+fe430ffdfab6f755eebd5b386f9628e4a3c78618,FIX: run without the python keyword,['8a81c2218e96235527feb2cc733867d31f1d7c1e'],False,['mprof'],Yes
+9f4fc0710405db3a22020e83d855b9c361c8b9fe,new release,['fe430ffdfab6f755eebd5b386f9628e4a3c78618'],False,['memory_profiler.py'],No
+f61af67938809e1cff8eeb313876cc47ab8f4dd4,make compatible with python 2.6,['9f4fc0710405db3a22020e83d855b9c361c8b9fe'],False,"['memory_profiler.py', 'test/test_gen.py']",No
+cd0f00d3de5896f701cba7e56115719f7b3b6a56,test_ipython does not exist,['f61af67938809e1cff8eeb313876cc47ab8f4dd4'],False,['Makefile'],No
+ddc8f9c7da01b62ce365dc155e295006fb060765,Merge branch 'jun66j5-py26-compat',"['9f4fc0710405db3a22020e83d855b9c361c8b9fe', 'cd0f00d3de5896f701cba7e56115719f7b3b6a56']",True,[],No
+dd33068184dedebc58fcf8f9f19230d9a66f8acf,"Fix idx out of range
+
+Mod operator precedes add",['ddc8f9c7da01b62ce365dc155e295006fb060765'],False,['mprof'],Yes
+7675442697233fccc01ec4dc4634d8ffff34ae3f,"Merge pull request #142 from skinnyh/skinnyh-patch-1
+
+Fix idx out of range","['ddc8f9c7da01b62ce365dc155e295006fb060765', 'dd33068184dedebc58fcf8f9f19230d9a66f8acf']",True,[],Yes
+6b7335053d16c4d40b626d4d306704538f1f885b,"mprof: use sys.executable instead of system-wide python
+
+Thanks @acs @superbobry!",['7675442697233fccc01ec4dc4634d8ffff34ae3f'],False,['mprof'],No
+4ee712608cb9307d7fc9e5b495d496f991313d7d,0.46 release,['6b7335053d16c4d40b626d4d306704538f1f885b'],False,['memory_profiler.py'],No
+f9287016f54209c28a83122e117b9b2a49b530db,mprof: use sys.executable instead of system-wide python (take 2),['4ee712608cb9307d7fc9e5b495d496f991313d7d'],False,['mprof'],No
+962ae2a5a2fb97dcd10d47be072887ce13abbced,Better description for mprof plot,['f9287016f54209c28a83122e117b9b2a49b530db'],False,['mprof'],No
+3801038cb6e2725a6193cfad3415c35a7de51e8b,new release 0.47,['962ae2a5a2fb97dcd10d47be072887ce13abbced'],False,['memory_profiler.py'],No
+5005a6244bf29b9bfb1255682d19a98c1f409443,"BF: Capture return value of `choose_backend`
+
+Without this fix, I get `NameError: name '_backend' is not defined` when calling `exec_with_profiler` directly",['962ae2a5a2fb97dcd10d47be072887ce13abbced'],False,['memory_profiler.py'],Yes
+598784833285195ac1a45356aa7ce9705b5219ad,"Merge pull request #147 from arokem/patch-1
+
+BF: Capture return value of `choose_backend`","['962ae2a5a2fb97dcd10d47be072887ce13abbced', '5005a6244bf29b9bfb1255682d19a98c1f409443']",True,[],No
+46be3704c21c4a9bee0f746094762a1b6948840b,Matplotlib backend option,['598784833285195ac1a45356aa7ce9705b5219ad'],False,['mprof'],No
+1eff08e9150429ee07efe475d9d8790b9db02377,"Merge pull request #150 from rth/agg-backend
+
+Allow to define a custom matplolib backend for plotting","['598784833285195ac1a45356aa7ce9705b5219ad', '46be3704c21c4a9bee0f746094762a1b6948840b']",True,[],No
+5f3906a987db109db9d73767996b89f40ba32619,https://github.com/fabianp/memory_profiler/issues/152,['1eff08e9150429ee07efe475d9d8790b9db02377'],False,['memory_profiler.py'],No
+fde9234d01d4edc124d14bb561ac21049096ee3c,Using has_psutil,['5f3906a987db109db9d73767996b89f40ba32619'],False,['memory_profiler.py'],No
+2cd53678065bf81ab018503f046054d746f9a8a2,Python 3 SyntaxError for print,['fde9234d01d4edc124d14bb561ac21049096ee3c'],False,['memory_profiler.py'],No
+091d314389211dce5191a095443e28b9c3b16c01,Feedback,['2cd53678065bf81ab018503f046054d746f9a8a2'],False,['memory_profiler.py'],No
+995980b788860778cea995eb01008fd39240c6de,"Test: add non-regression test for handling of exceptions.
+
+Also, make memory_profiler return in case of exception
+instead of shutting down the full program.",['091d314389211dce5191a095443e28b9c3b16c01'],False,"['Makefile', 'README.rst', 'memory_profiler.py', 'test/test_exception.py']",No
+f9fe75c67ebd48656fa5a9073d1e9a3e3df603f3,Merge branch 'mhaseebtariq-master',"['3801038cb6e2725a6193cfad3415c35a7de51e8b', '995980b788860778cea995eb01008fd39240c6de']",True,[],No
+1432dda4cd9793dd7fbfb984d9d7f0f564805763,Remove unused variable,['f9fe75c67ebd48656fa5a9073d1e9a3e3df603f3'],False,['memory_profiler.py'],No
+456388bdb22da0d9cde2b5c418daf5f4aa2a385e,correct spelling mistake,['1432dda4cd9793dd7fbfb984d9d7f0f564805763'],False,['memory_profiler.py'],No
+2b4a86b6d05e29d9b4659d5e23dea33ef73b4a43,"Merge pull request #157 from EdwardBetts/spelling
+
+correct spelling mistake","['1432dda4cd9793dd7fbfb984d9d7f0f564805763', '456388bdb22da0d9cde2b5c418daf5f4aa2a385e']",True,[],No
+176743215545c2384e8a6e29b64a0b1dd21d1543,Fix typo in readme,['2b4a86b6d05e29d9b4659d5e23dea33ef73b4a43'],False,['README.rst'],Yes
+e2a97b936de6c4c8473c74cdd800c7271435934e,"Merge pull request #160 from ajyoon/patch-1
+
+Fix typo in readme","['2b4a86b6d05e29d9b4659d5e23dea33ef73b4a43', '176743215545c2384e8a6e29b64a0b1dd21d1543']",True,[],Yes
+a3c4b58ca3f9a18559f7ef6fea1651c72f06ef1c,"WIP: Make psutil required
+
+Now the import does not work, needs fixing.",['e2a97b936de6c4c8473c74cdd800c7271435934e'],False,"['README.rst', 'memory_profiler.py', 'setup.py']",Yes
+5abb5b2956b7b1767e41c525aba9c3a1bd4a4257,"Single source package version
+
+I admit the approach is complex... But it is the only
+reliable way to do it with a single file.",['a3c4b58ca3f9a18559f7ef6fea1651c72f06ef1c'],False,['setup.py'],No
+bdbaaea6b1f33a788f7727b6e7d1e7f78f9084aa,Bump version,['5abb5b2956b7b1767e41c525aba9c3a1bd4a4257'],False,['memory_profiler.py'],No
+0c83aff9043fd5addab25b3e3804995adab14c6b,Cleanup,['bdbaaea6b1f33a788f7727b6e7d1e7f78f9084aa'],False,['setup.py'],No
+4fb941e880357adb6e7778e5c12c11bee109c87d,Use Travis container infrastructure,['0c83aff9043fd5addab25b3e3804995adab14c6b'],False,['.travis.yml'],No
+15a7e1270595185e7c7732230faaea8527a9be19,"Merge pull request #168 from Juanlu001/require-psutil
+
+Require psutil","['e2a97b936de6c4c8473c74cdd800c7271435934e', '4fb941e880357adb6e7778e5c12c11bee109c87d']",True,[],No
+947a25a4a73f34c7b798d6f850a6f6d81679e213,memory calculation with deltas,['15a7e1270595185e7c7732230faaea8527a9be19'],False,"['delta_memory_test.py', 'memory_profiler.py']",No
+e0668c59205f77d1879a39c7e87f11771eab9374,Restore encoding,['947a25a4a73f34c7b798d6f850a6f6d81679e213'],False,['memory_profiler.py'],No
+6617d0e93830ed3082d8cd0ba59382f9fbe1cb88,"Merge pull request #166 from Juanlu001/memory-deltas-redux
+
+Memory calculation with deltas","['15a7e1270595185e7c7732230faaea8527a9be19', 'e0668c59205f77d1879a39c7e87f11771eab9374']",True,[],No
+4c993784e66170f9508ca74a4179c96971fcecfb,Use pip instead of conda,['6617d0e93830ed3082d8cd0ba59382f9fbe1cb88'],False,['.travis.yml'],No
+7eba9ed305c69370d08a31f368280eb700f0d30a,Test more Python versions,['4c993784e66170f9508ca74a4179c96971fcecfb'],False,['.travis.yml'],No
+8adbf1694aef9408b898e11851f130f5d3d6dac4,Optionally test experimental Python versions,['7eba9ed305c69370d08a31f368280eb700f0d30a'],False,['.travis.yml'],No
+29702172bbea29b34e94743d2d44a2f9ba2ef63c,Add yours truly to README,['8adbf1694aef9408b898e11851f130f5d3d6dac4'],False,['README.rst'],No
+ea376e5d04e83c508df1206b14b118ccfb1023ff,Fix optional Python versions in Travis config,['29702172bbea29b34e94743d2d44a2f9ba2ef63c'],False,['.travis.yml'],Yes
+67e5fed8a5d2027a215a1e8dbf09d2cd030e8008,"Merge pull request #169 from Juanlu001/modernize-infrastructure
+
+Modernize infrastructure","['6617d0e93830ed3082d8cd0ba59382f9fbe1cb88', 'ea376e5d04e83c508df1206b14b118ccfb1023ff']",True,[],No
+f36ef23c8c35ae92b5d2dcc796dfa3d5272e02be,replace deprecated optparse with argparse,['67e5fed8a5d2027a215a1e8dbf09d2cd030e8008'],False,"['memory_profiler.py', 'mprof']",No
+6ee7a697f1e60d803c818787130d57fe82daf1c0,"Merge pull request #128 from skwbc/argparse
+
+Replace deprecated optparse with argparse","['67e5fed8a5d2027a215a1e8dbf09d2cd030e8008', 'f36ef23c8c35ae92b5d2dcc796dfa3d5272e02be']",True,[],No
+371fe944f88fc54bbc8f2631dbce7992030f21e1,Update links to new GitHub organization,['6ee7a697f1e60d803c818787130d57fe82daf1c0'],False,['README.rst'],Yes
+c5d2527d83db18e9fcc78d7ff6a53019072ef43b,"More robust tracking of subprocesses for macOS.
+
+Ignore psutil.AccessDenied when trying to access children - root cause
+is discussed in Issue 71.",['371fe944f88fc54bbc8f2631dbce7992030f21e1'],False,['memory_profiler.py'],No
+6988f4974dbf4044df89d76138e8a1b212afa377,"Merge pull request #170 from sasaabuse/master
+
+More robust tracking of subprocesses for macOS.","['371fe944f88fc54bbc8f2631dbce7992030f21e1', 'c5d2527d83db18e9fcc78d7ff6a53019072ef43b']",True,[],No
+ba586d1d48b2d78663999c8c0b7dfa992b818152,Fix SIGKILL not available in Windows,['6988f4974dbf4044df89d76138e8a1b212afa377'],False,['memory_profiler.py'],Yes
+a563dd0f4d752aebce7a6637e664a813e46df08c,"Fix mprof command not working in Windows
+
+Adds mprof.bat to python scripts so the mprof command can be executed",['ba586d1d48b2d78663999c8c0b7dfa992b818152'],False,"['mprof.bat', 'setup.py']",Yes
+480ba0d6d8fd85e9c2962f3a44282e9873f2bce1,"Merge pull request #172 from bernizt/master
+
+Fix missing SIGKILL signal and mprof command in Windows","['6988f4974dbf4044df89d76138e8a1b212afa377', 'a563dd0f4d752aebce7a6637e664a813e46df08c']",True,[],Yes
+f030f779e0670198f15a495627991f7f2f0023aa,0.48 release,['480ba0d6d8fd85e9c2962f3a44282e9873f2bce1'],False,"['memory_profiler.py', 'test/test_func.py']",No
+2588edf1a0139427d005ae9bcda93278ba183f5d,start 0.49 development cycle,['f030f779e0670198f15a495627991f7f2f0023aa'],False,['memory_profiler.py'],No
+2e355a6854b444b9ff9deb8a05db00ae56bd9b2a,"I inadvertedly changed this in f030f779, reverting",['2588edf1a0139427d005ae9bcda93278ba183f5d'],False,['test/test_func.py'],Yes
+7e02ef4ea8a6138297f1c08d26f10dc98cd6f4b5,"Add mprof.bat to list of distribution files
+
+This file would be missing when creating the source distribution
+from a non-windows computer.",['a563dd0f4d752aebce7a6637e664a813e46df08c'],False,['MANIFEST.in'],No
+2c7ed3124638fd89acd82e7331351fa09ab27e03,"Merge pull request #174 from bernizt/fix-broken-dist
+
+Fix missing mprof.bat inside tar distribution","['2e355a6854b444b9ff9deb8a05db00ae56bd9b2a', '7e02ef4ea8a6138297f1c08d26f10dc98cd6f4b5']",True,[],Yes
+73b5a8dc287bb6dff9aae852f70929db920ec96b,0.49 release,['2e355a6854b444b9ff9deb8a05db00ae56bd9b2a'],False,['memory_profiler.py'],No
+c9fcc8faf3c0c62fb7c8f8051baf0bce73afc6cd,start of 0.50 development cycle,['73b5a8dc287bb6dff9aae852f70929db920ec96b'],False,['memory_profiler.py'],No
+d7da557166473b63774fa68895acb240fb99ca5c,Merge branch 'master' of github.com:pythonprofilers/memory_profiler,"['c9fcc8faf3c0c62fb7c8f8051baf0bce73afc6cd', '2c7ed3124638fd89acd82e7331351fa09ab27e03']",True,[],No
+8a9b1b7a6781c4bd3dd69433763ca4db1bbf1add,0.50 release,['d7da557166473b63774fa68895acb240fb99ca5c'],False,['memory_profiler.py'],No
+6478e660a908503b963f0e1ae7dca1f7440e43fb,FIX: solve issue #181,['8a9b1b7a6781c4bd3dd69433763ca4db1bbf1add'],False,['mprof'],Yes
+901fa682eff42a2ae6e023adcc768f521623f9b5,remove forgotten print statement,['6478e660a908503b963f0e1ae7dca1f7440e43fb'],False,['mprof'],No
+76e271f6f9c73c7580b1e2fabfcb14c661b271d6,Fix typo,['901fa682eff42a2ae6e023adcc768f521623f9b5'],False,['README.rst'],Yes
+51062935126916da3bb36923224dc71182f55f85,"Merge pull request #183 from chen2aaron/patch-1
+
+Fix typo","['901fa682eff42a2ae6e023adcc768f521623f9b5', '76e271f6f9c73c7580b1e2fabfcb14c661b271d6']",True,[],Yes
+ca55ac79d581e5988210d6e6087588810a1c1512,"Allow passing args to profiled script or module
+
+Also attempted to clarify usage
+Made to address https://github.com/pythonprofilers/memory_profiler/issues/179",['51062935126916da3bb36923224dc71182f55f85'],False,"['memory_profiler.py', 'mprof']",No
+7b920986cb361d0f852a0a6a6962080daa07ac89,Fix UnicodeDecocdError when profile result writing to filestream,['51062935126916da3bb36923224dc71182f55f85'],False,"['memory_profiler.py', 'test/test_stream_unicode.py']",Yes
+306acd1cf4a6136bea262939c1c4bc0c0e2af3a1,"Merge pull request #184 from axlan/pass-args
+
+Allow passing args to profiled script or module","['51062935126916da3bb36923224dc71182f55f85', 'ca55ac79d581e5988210d6e6087588810a1c1512']",True,[],No
+c23bd1474ebad1174784292c99f00c94070cc549,"Add --ouput option to mprof run
+
+Allow specifying path to output of memory profile",['306acd1cf4a6136bea262939c1c4bc0c0e2af3a1'],False,['mprof'],No
+429e5bbb2470c05077430fec6f155cce46cada05,"Fix typo in PID clause of memory_usage
+
+It looks like the PID multiprocess code was copied from the Popen
+clause. `_get_child_memory` called with just `proc`, not `proc.pid`",['306acd1cf4a6136bea262939c1c4bc0c0e2af3a1'],False,['memory_profiler.py'],Yes
+d320c1d934a726fad108a36c76c18e98f39f25ba,"Merge pull request #190 from guyer/fix_pid_usage
+
+Fix typo in PID clause of memory_usage","['306acd1cf4a6136bea262939c1c4bc0c0e2af3a1', '429e5bbb2470c05077430fec6f155cce46cada05']",True,[],Yes
+ce947e1f88434ac248b82c47eda6607c433fa25a,"Merge pull request #189 from guyer/output_file
+
+Add --ouput option to mprof run","['d320c1d934a726fad108a36c76c18e98f39f25ba', 'c23bd1474ebad1174784292c99f00c94070cc549']",True,[],No
+3a5a36cfbe49405d40e1b4dfccf73c2218e87b04,"Fix default filename
+
+Also move comment on output into option help",['ce947e1f88434ac248b82c47eda6607c433fa25a'],False,['mprof'],Yes
+0b6e2bf0264bb845c65c8e8238760df8876a570d,"Merge pull request #191 from guyer/fix_default_output
+
+Fix default filename","['ce947e1f88434ac248b82c47eda6607c433fa25a', '3a5a36cfbe49405d40e1b4dfccf73c2218e87b04']",True,[],Yes
+ee2188d4f70bed9cd260e3fc2b542f8695a50058,"Adds wraps decorator to profile, rev roll to 0.53.0",['0b6e2bf0264bb845c65c8e8238760df8876a570d'],False,"['.gitignore', 'Makefile', 'memory_profiler.py']",No
+0cecc6900083a9c8bbf0036f47e4ffdd07aa9343,Adds test of profiled function's name and docstring,['ee2188d4f70bed9cd260e3fc2b542f8695a50058'],False,"['Makefile', 'test/test_mprofile.py']",No
+95300297e2023f6a3f50f9b016516699a1a95dc9,"Merge pull request #198 from spacether/master
+
+Adds wraps decorator to profile, fixes issue #186","['0b6e2bf0264bb845c65c8e8238760df8876a570d', '0cecc6900083a9c8bbf0036f47e4ffdd07aa9343']",True,[],Yes
+64c8199213012c8b145508f15c2f105d58201a65,"Make memory_profiler work with Python 2.7 tracemalloc
+
+The tracemalloc module can be made to work on Python 2.7 with [the project providing patches against the Pyithon 2.7 source code](http://pytracemalloc.readthedocs.io/install.html#manual-installation). These two changes make `memory_profiler.py` work with tracemalloc on Python 2.",['95300297e2023f6a3f50f9b016516699a1a95dc9'],False,['memory_profiler.py'],Yes
+abd66f1c74e9f5a6e8fb9514afaf2204b80b96da,lso stop tracemalloc when using exec_with_profiler on Py2,['64c8199213012c8b145508f15c2f105d58201a65'],False,['memory_profiler.py'],No
+8e5e27bfd777d512f8b952d63598c6c89b639d66,"Correctly handle try/except in exec_with_profiler
+
+Do away with the PY2 distinction altogether; Python 2 supports the same `exec()` pattern. Now the `try:...finally:` block properly applies in both 2 and 3.",['abd66f1c74e9f5a6e8fb9514afaf2204b80b96da'],False,['memory_profiler.py'],No
+4089e3ed4d5c4197925a2df8393d4cbfca745ae5,"Merge pull request #201 from mjpieters/patch-1
+
+Make memory_profiler work with Python 2.7 tracemalloc","['95300297e2023f6a3f50f9b016516699a1a95dc9', '8e5e27bfd777d512f8b952d63598c6c89b639d66']",True,[],No
+f8220c3873ac2791d58bf9557dce618ad75ee270,Move delta_memory_test.py to test directory,['4089e3ed4d5c4197925a2df8393d4cbfca745ae5'],False,['delta_memory_test.py'],No
+5fe38da926738a7715c860053a498859e2db0c87,"Fixes #195 ""large negative increment values""
+
+This should fix #195. Increment should reflect the largest increment with respect to the previous line, which is not what the previous code was doing. If run in a for loop, for some reason it was accumulating the increments.
+
+I also disabled a test that was assuming that the increment of a function that deletes its temporaries need to be zero, which given the above should not be its behaviour.",['f8220c3873ac2791d58bf9557dce618ad75ee270'],False,"['memory_profiler.py', 'test/test_tracemalloc.py']",Yes
+6a00eb7f45efe0e7b64038c65391902b10c74195,first attempt to switch to entry_points,['f8220c3873ac2791d58bf9557dce618ad75ee270'],False,"['mprof.py', 'setup.py']",No
+f8f5fa3502c0449c60aaa713ea24c8c6733b280f,fix name qualifier,['6a00eb7f45efe0e7b64038c65391902b10c74195'],False,['setup.py'],Yes
+c5b892148f6bac1a64e4309d9ec6c8440e2088ef,remove mprof.bat file (now unneeded),['f8f5fa3502c0449c60aaa713ea24c8c6733b280f'],False,['mprof.bat'],No
+1d81b575bdcba27023c9f29fcdbf6acd878e6035,pkg_resources requires python >= 3.4,['c5b892148f6bac1a64e4309d9ec6c8440e2088ef'],False,['.travis.yml'],No
+5094e6ae725f498e03ce29583d556d5520824421,drop python 3.3 support,['1d81b575bdcba27023c9f29fcdbf6acd878e6035'],False,['.travis.yml'],No
+3978bb6dd226c7b8995fd9cd0481d19e24a24c50,add conda-forge package link,['5094e6ae725f498e03ce29583d556d5520824421'],False,['README.rst'],No
+e37acbd9c31d67a967ea61ec1acae31ea7d472f7,fixed link,['3978bb6dd226c7b8995fd9cd0481d19e24a24c50'],False,['README.rst'],Yes
+2a2cbac8609582f1755b6ba5ec24974a819c39c3,"Merge pull request #203 from carlodri/entry_points
+
+Switch to entry_points for scripts","['f8220c3873ac2791d58bf9557dce618ad75ee270', 'e37acbd9c31d67a967ea61ec1acae31ea7d472f7']",True,[],No
+4eca794cf55e0e45dc7b2db7f1be67e3fe9ef9b7,v0.54,['2a2cbac8609582f1755b6ba5ec24974a819c39c3'],False,['memory_profiler.py'],No
+957ff4e3b66da5b7d7472c232738419f3ca8a9bf,"Merge pull request #202 from fabianp/fix_195
+
+Fixes #195 ""large negative increment values""","['4eca794cf55e0e45dc7b2db7f1be67e3fe9ef9b7', '5fe38da926738a7715c860053a498859e2db0c87']",True,[],Yes
+c12eab35e84b8f66f99a6058dd2a569be681ac5b,"Stop recommending `easy_install`
+
+All python n00bs should use `pip` these days. Those who shouldn't are not n00bs and won't be needing help from the readme.",['957ff4e3b66da5b7d7472c232738419f3ca8a9bf'],False,['README.rst'],No
+959d9fc10f210c90f77dea80e8a42d39a291c613,"Merge pull request #214 from jeffwidman/patch-1
+
+Stop recommending `easy_install`","['957ff4e3b66da5b7d7472c232738419f3ca8a9bf', 'c12eab35e84b8f66f99a6058dd2a569be681ac5b']",True,[],No
+4b06b89cd1d7e0afb19490c7678a589c70e88ceb,"Make function legend in mprof plot unambiguous
+
+Previously, if the profiling was run on multiple same-named functions in
+different classes or modules, the plot legend did not make clear which
+bracket measured which function.",['959d9fc10f210c90f77dea80e8a42d39a291c613'],False,"['Makefile', 'mprof.py', 'test/test_mprof.py']",No
+19165e76a4da2bfe819d1f606ef0f3f468f3ab40,Fix typo,['4b06b89cd1d7e0afb19490c7678a589c70e88ceb'],False,['mprof.py'],Yes
+9c50e75e33f9d9ba1524fe9e86b9b4c493d66843,adding logger and propagate exit code option,['959d9fc10f210c90f77dea80e8a42d39a291c613'],False,['mprof.py'],No
+06072355940a67a17003330224b211a4106450a8,add tests,['9c50e75e33f9d9ba1524fe9e86b9b4c493d66843'],False,"['Makefile', 'mprof.py', 'test/test_exit_code.py']",No
+c69bfe8457d87dbe50ca4803b721416d5fc8047d,add valid case,['06072355940a67a17003330224b211a4106450a8'],False,['test/test_exit_code.py'],No
+fefde7db45b83e9f06269d8f92d97007e0b7ad23,2.7 regexp compat,['c69bfe8457d87dbe50ca4803b721416d5fc8047d'],False,['test/test_exit_code.py'],No
+9d896c68b11bafead3f26df298aa935f3f037878,add newline at end of file,['19165e76a4da2bfe819d1f606ef0f3f468f3ab40'],False,['test/test_mprof.py'],No
+218afbe1165e47fa1d4d01e709e5657c0bba37f6,"Merge pull request #218 from maxhgerlach/clearer_plot_legend
+
+Make function legend in mprof plot unambiguous","['959d9fc10f210c90f77dea80e8a42d39a291c613', '9d896c68b11bafead3f26df298aa935f3f037878']",True,[],No
+e07aff503f8634f971e51ce487f02ea09ef5944b,remove printing args,['fefde7db45b83e9f06269d8f92d97007e0b7ad23'],False,['mprof.py'],No
+5ee0a904548ee2c9448d34687f90fb72f7351e92,Merge branch 'master' into master,"['e07aff503f8634f971e51ce487f02ea09ef5944b', '218afbe1165e47fa1d4d01e709e5657c0bba37f6']",True,[],No
+077d67b9a4a4d48fc618dc32cde7d05c8390fd1f,"Merge pull request #220 from hnykda/master
+
+Optionally propagate the exit code","['218afbe1165e47fa1d4d01e709e5657c0bba37f6', '5ee0a904548ee2c9448d34687f90fb72f7351e92']",True,[],No
+8194a59de2460f1501782b8df735bb58e3eb8e60,version 0.55,['077d67b9a4a4d48fc618dc32cde7d05c8390fd1f'],False,['memory_profiler.py'],No
+c5f79b82aa2ab6b905b30c4295e68315078320fd,Merge branch 'master' into stream-unicode-bugfix,"['7b920986cb361d0f852a0a6a6962080daa07ac89', '8194a59de2460f1501782b8df735bb58e3eb8e60']",True,[],Yes
+c0911004a761252dbf683328dc5fb3b214fb5248,fix max_iter calc when float is given,['8194a59de2460f1501782b8df735bb58e3eb8e60'],False,['memory_profiler.py'],Yes
+cedd23862c37a138d395445ace04f436a7c97f59,"Merge pull request #222 from perminovs/fix-float-round
+
+fix max_iter calc when float is given","['8194a59de2460f1501782b8df735bb58e3eb8e60', 'c0911004a761252dbf683328dc5fb3b214fb5248']",True,[],Yes
+1ecaf4edae1d84684dcc560df1e798aa7ed9a46d,"Unpacking return value if max_usage is True
+
+If the memory_usage function is called with (callable, arglist,
+kwargs), as target and max_usage is True, the function now returns
+a number instead of a list with one entry.",['cedd23862c37a138d395445ace04f436a7c97f59'],False,['memory_profiler.py'],No
+93371d6d4d9ea5f70522a807dac27f2633d0717c,"Merge pull request #185 from amyangfei/stream-unicode-bugfix
+
+Fix UnicodeDecocdError when profile result writing to filestream","['cedd23862c37a138d395445ace04f436a7c97f59', 'c5f79b82aa2ab6b905b30c4295e68315078320fd']",True,[],Yes
+b785ea731891c4b5a139c9cf72933d4e12f06c50,add comment and test,['1ecaf4edae1d84684dcc560df1e798aa7ed9a46d'],False,"['memory_profiler.py', 'test/test_memory_usage.py']",No
+2c77549ed70c8cdbfa5d602376c8ada26704ba70,"Merge pull request #224 from marcwil/master
+
+Unpacking return value if max_usage is True","['93371d6d4d9ea5f70522a807dac27f2633d0717c', 'b785ea731891c4b5a139c9cf72933d4e12f06c50']",True,[],No
+9404f33fb2277d26f2b17e416a407d97a5329d73,Implemented stack mechanism in TimeStamper,['2c77549ed70c8cdbfa5d602376c8ada26704ba70'],False,['memory_profiler.py'],No
+47a2bd38b6e5693570a96f2930681c45af9035da,Integrated stack logic to _TimeStamperCM,['9404f33fb2277d26f2b17e416a407d97a5329d73'],False,['memory_profiler.py'],No
+b3f07814b153973be5e6697ca20403c5cf856a6e,Printing stack level in TimeStamper.show_results,['47a2bd38b6e5693570a96f2930681c45af9035da'],False,['memory_profiler.py'],No
+11d76769bc588925779a731b888dbc5cd165555e,Passing func in TimeStamper.call_on_stack,['b3f07814b153973be5e6697ca20403c5cf856a6e'],False,['memory_profiler.py'],No
+2924fd252b27bf4236df22f7dea2c4f1989a7a9f,Injecting local memory_profiler.py for dev,['11d76769bc588925779a731b888dbc5cd165555e'],False,['mprof.py'],No
+2d8fa20b1b6e794cc5b459d803c39b52ab1acedb,Prepared flame graph mode,['2924fd252b27bf4236df22f7dea2c4f1989a7a9f'],False,['mprof.py'],No
+df64c9c2b35b86e9e44e0be69add6398858f4572,Plotting timestamps as rectangles,['2d8fa20b1b6e794cc5b459d803c39b52ab1acedb'],False,['mprof.py'],No
+9ecdd47903afcc1c4c1d63f22c1beb8a3d1d3c79,Plotting with nice contrast,['df64c9c2b35b86e9e44e0be69add6398858f4572'],False,['mprof.py'],No
+075de7304a67266b9ad261e3b4bd8a187acc54fb,Improved grid and layout,['9ecdd47903afcc1c4c1d63f22c1beb8a3d1d3c79'],False,['mprof.py'],Yes
+530eb139f03024893297a743993dd37146ad725f,First implementation of label,['075de7304a67266b9ad261e3b4bd8a187acc54fb'],False,['mprof.py'],No
+244382c46f12ad946011d2d33273f349bc00ceff,Displaying labels more simply; zooming on rectangles on click,['530eb139f03024893297a743993dd37146ad725f'],False,['mprof.py'],No
+1f3d7bd43d93d5e0686c4d800ae0212db284c81d,Made hover effect,['244382c46f12ad946011d2d33273f349bc00ceff'],False,['mprof.py'],No
+d077d1ea0866b8808847c6797093cf4ca5b54647,Removed debug,['1f3d7bd43d93d5e0686c4d800ae0212db284c81d'],False,['mprof.py'],No
+284120ca31e4463c4b9dc90cabce9cf280760ecf,Improved zoom on click,['d077d1ea0866b8808847c6797093cf4ca5b54647'],False,['mprof.py'],Yes
+eb2366c33ecd191fc973a79e480f067b39fa19cd,Disabled hover effect when too many rectangles,['284120ca31e4463c4b9dc90cabce9cf280760ecf'],False,['mprof.py'],No
+7e8efb0ff4dfbbc86926a8bbe328a7da38dd01d3,Importing memory_profiler without importlib,['eb2366c33ecd191fc973a79e480f067b39fa19cd'],False,['mprof.py'],No
+6b5589840ce7479961d857d4e7c80143ec29fdf7,allow the usage of __file__ in the script and make sure its parent directory is in the path,['2c77549ed70c8cdbfa5d602376c8ada26704ba70'],False,['memory_profiler.py'],No
+e3fc5eeca800ae9aba3bb373c2d045a5c4767cb9,"Merge pull request #230 from Ricocotam/master
+
+Fixing #196","['2c77549ed70c8cdbfa5d602376c8ada26704ba70', '6b5589840ce7479961d857d4e7c80143ec29fdf7']",True,[],Yes
+6da24dda5554ee0071424b497e7eca58a423af7f,"Hiding function names, showing them only on hover",['7e8efb0ff4dfbbc86926a8bbe328a7da38dd01d3'],False,['mprof.py'],No
+375eb020345c776dfb1b6f04cb6b8f1f7070fcf3,Remove right axis meaningless values; move label to left axis,['6da24dda5554ee0071424b497e7eca58a423af7f'],False,['mprof.py'],No
+c7c16dedc6a1da1a0f3c5b551437ccb471aa0eb4,Write a line about --flame and add an image,['375eb020345c776dfb1b6f04cb6b8f1f7070fcf3'],False,"['README.rst', 'images/flamegraph.png']",No
+054300cd93af4e47c2a54260b2020c7c59d8812c,Update README.rst,['c7c16dedc6a1da1a0f3c5b551437ccb471aa0eb4'],False,['README.rst'],Yes
+85976ed13a35f6ae0863d5b0927375f81365a4ec,Define handlers earlier,['054300cd93af4e47c2a54260b2020c7c59d8812c'],False,['mprof.py'],No
+68812af610b769d434dc0c46be3e6d6e3a400fec,BUG: Set ioff to avoid immediate close,['e3fc5eeca800ae9aba3bb373c2d045a5c4767cb9'],False,['mprof.py'],No
+3b5e7f2c276961764419d28df8035f63e9622361,FIX: Order of subselection,['e3fc5eeca800ae9aba3bb373c2d045a5c4767cb9'],False,['memory_profiler.py'],Yes
+36eade473f52573e71900bf40b0abaf96aeec1a2,"Merge pull request #233 from larsoner/order
+
+FIX: Order of subselection","['e3fc5eeca800ae9aba3bb373c2d045a5c4767cb9', '3b5e7f2c276961764419d28df8035f63e9622361']",True,[],Yes
+3886eea08e2bd191e012a971dc947828573f27fb,"Merge pull request #229 from Afoucaul/master
+
+Py-Spy style flame graph for timestamp visualisation","['36eade473f52573e71900bf40b0abaf96aeec1a2', '85976ed13a35f6ae0863d5b0927375f81365a4ec']",True,[],No
+8b01378de1b7f46c610b23a538422dc5a47fdfc1,"Merge pull request #231 from larsoner/ioff
+
+BUG: Set ioff to avoid immediate close","['3886eea08e2bd191e012a971dc947828573f27fb', '68812af610b769d434dc0c46be3e6d6e3a400fec']",True,[],No
+9e95cec1568dd95ad2c1092c07e039947228c787,Add documentation regarding plot settings,['8b01378de1b7f46c610b23a538422dc5a47fdfc1'],False,['README.rst'],No
+ad64e49aed8db710b0b8ae8cd1694b5f95ab5540,"Merge pull request #235 from alexpnt/master
+
+Add documentation regarding plot settings","['8b01378de1b7f46c610b23a538422dc5a47fdfc1', '9e95cec1568dd95ad2c1092c07e039947228c787']",True,[],No
+0587774307774595eade429af329f5304381d776,Handle unicode files in a Python 2 and 3 compatible fassion using io.open,['ad64e49aed8db710b0b8ae8cd1694b5f95ab5540'],False,"['memory_profiler.py', 'test/test_unicode.py']",No
+f315e196cfbec146ea94ebe964a43ba646571597,make sure file is opened in rb,['0587774307774595eade429af329f5304381d776'],False,['memory_profiler.py'],No
+fdf4488ffe42c588bfa632537e9a959e4b36bf83,added max_iterations parameter to memory_usage function; added corresponding test case,['ad64e49aed8db710b0b8ae8cd1694b5f95ab5540'],False,"['memory_profiler.py', 'test/test_memory_usage.py']",No
+0266baae7c03f149759d16710c2a5d7b84add3d0,added max_iterations to memory_usage docstring,['fdf4488ffe42c588bfa632537e9a959e4b36bf83'],False,['memory_profiler.py'],No
+f10af516da31180e1df9692f00ca2345acab581e,"Merge pull request #248 from mmcneill/stop_repeat_runs
+
+Added max_iterations parameter to memory_usage function","['ad64e49aed8db710b0b8ae8cd1694b5f95ab5540', '0266baae7c03f149759d16710c2a5d7b84add3d0']",True,[],No
+2dcb23ea33fe853d72bad9f2db8debac625e9b09,"link from PyPI to github
+
+it's useless using the PyPI project url in setup.py because it's only used on the PyPI page",['f10af516da31180e1df9692f00ca2345acab581e'],False,['setup.py'],No
+0e4d0eaef27898f852ca0ca57746f49a106f84e0,"Merge pull request #254 from graingert/patch-1
+
+link from PyPI to github","['f10af516da31180e1df9692f00ca2345acab581e', '2dcb23ea33fe853d72bad9f2db8debac625e9b09']",True,[],No
+e46f82e9ce5b58c8e1b0d7dc9985837378805fae,Add iscoroutine with replacement for older pythons,['0e4d0eaef27898f852ca0ca57746f49a106f84e0'],False,['memory_profiler.py'],No
+71a61fb0b1d4b8b5ebf6deb6cb6462e4479adbad,Include version-specific module with async support,['e46f82e9ce5b58c8e1b0d7dc9985837378805fae'],False,['setup.py'],No
+d65fb3cf2fc65e16cb9c49df2fa0dc3371fc4722,Wrapper and profiler for 3.4 coroutines,['71a61fb0b1d4b8b5ebf6deb6cb6462e4479adbad'],False,['_aio_34.py'],No
+1a853e5b1342788fdd6ab55cfe6c568e3b307349,new version,['0e4d0eaef27898f852ca0ca57746f49a106f84e0'],False,['memory_profiler.py'],No
+11353651f285c5e06475f097692003872d092548,"Pass the value of --include-children to TimeStamper
+
+This fixes an issue with FUNC lines reporting lower memory usage than
+MEM lines.",['1a853e5b1342788fdd6ab55cfe6c568e3b307349'],False,"['memory_profiler.py', 'mprof.py']",Yes
+891d56ea3c88c4a5b540ece4e2848885277f9564,Convert module to package,['d65fb3cf2fc65e16cb9c49df2fa0dc3371fc4722'],False,"['memory_profiler/__init__.py', 'memory_profiler/__main__.py', 'memory_profiler/code_map.py', 'memory_profiler/common.py', 'memory_profiler/line_profiler.py', 'memory_profiler/utils.py', 'setup.py']",No
+c33afb0371950b3218bbfefcc743e67208458df1,Add coroutine support,['891d56ea3c88c4a5b540ece4e2848885277f9564'],False,"['_aio_34.py', 'memory_profiler/__init__.py', 'memory_profiler/_aio_34.py', 'memory_profiler/_aio_35.py', 'memory_profiler/common.py']",No
+d17b6fcf9d9a96ca08ae880fdbe68c7c0fbf8aa1,Merge remote-tracking branch 'upstream/master' into async-profile,"['c33afb0371950b3218bbfefcc743e67208458df1', '1a853e5b1342788fdd6ab55cfe6c568e3b307349']",True,[],No
+76a433544c758a4ce92c08494d95e9d890da6314,Fix setup package lookup,['d17b6fcf9d9a96ca08ae880fdbe68c7c0fbf8aa1'],False,['setup.py'],Yes
+79abbb617782d92848f9a802577712d9ae80bc14,Import CodeMap in __init__ for backward compatibility,['76a433544c758a4ce92c08494d95e9d890da6314'],False,['memory_profiler/__init__.py'],No
+cb7ecdada7305019277a9d38f1bf91c578ede093,Add count_ctxmgr,['79abbb617782d92848f9a802577712d9ae80bc14'],False,['memory_profiler/line_profiler.py'],No
+300b89dbcb1a3718279303a1c3b7e577c0543734,Remove redundant implementation in new syntax,['cb7ecdada7305019277a9d38f1bf91c578ede093'],False,"['memory_profiler/__init__.py', 'memory_profiler/_aio_35.py', 'memory_profiler/_async.py', 'memory_profiler/common.py']",No
+1ee8e036d1f0eebd1077d952985bbe77baa42e0c,Add test_async.py,['300b89dbcb1a3718279303a1c3b7e577c0543734'],False,"['Makefile', 'test/test_async.py']",No
+1648c6b8423fd3efba86101fc721d4128f06d9ec,Fix async test filename,['1ee8e036d1f0eebd1077d952985bbe77baa42e0c'],False,['Makefile'],Yes
+6bb02fcc09c3fc7a765f658ec9142550bd993110,"Fix memit to handle change in memory_usage API
+
+Hotfix for #258",['1a853e5b1342788fdd6ab55cfe6c568e3b307349'],False,['memory_profiler.py'],Yes
+adef4f1827b14c87226d29eb5076f3a72553b977,"Merge pull request #265 from jnothman/patch-1
+
+Fix memit to handle change in memory_usage API","['1a853e5b1342788fdd6ab55cfe6c568e3b307349', '6bb02fcc09c3fc7a765f658ec9142550bd993110']",True,[],Yes
+5c1f0c06458bcccfcd4f2088df0ec9a09203d9a5,version 0.57,['adef4f1827b14c87226d29eb5076f3a72553b977'],False,['memory_profiler.py'],No
+d986422bef66a132ecb7e0270caeb7ec16a1d2c3,update contact information,['5c1f0c06458bcccfcd4f2088df0ec9a09203d9a5'],False,['README.rst'],Yes
+9370fa530d18d8d9d49f8f1c54109d452996bcbc,Merge branch 'master' of github.com:pythonprofilers/memory_profiler into async-profile,"['1648c6b8423fd3efba86101fc721d4128f06d9ec', 'd986422bef66a132ecb7e0270caeb7ec16a1d2c3']",True,[],No
+625021f72db03c02f0d8ab9c74749e19cce7f09e,Get rid of unnecessary print,['9370fa530d18d8d9d49f8f1c54109d452996bcbc'],False,['test/test_async.py'],No
+7d87e106c7fff1675240ff43fc14b7e69396d959,"Added a trend line switch ""-s""",['d986422bef66a132ecb7e0270caeb7ec16a1d2c3'],False,"['README.rst', 'images/trend_slope.png', 'mprof.py']",No
+e9d5356989a11d742f1f00b2aa3376c16c2b67e6,Trend lines switch '-s' now plots the actual trend line,['7d87e106c7fff1675240ff43fc14b7e69396d959'],False,['mprof.py'],No
+bc08f4d65dc3e9ff4a5395f8be24337e57424c44,"Merge pull request #269 from tonivega/feature/trendline
+
+Added a trend line switch ""-s""","['d986422bef66a132ecb7e0270caeb7ec16a1d2c3', 'e9d5356989a11d742f1f00b2aa3376c16c2b67e6']",True,[],No
+006cbbcebc7e0628d4d219836edd063a45549bf9,Added documentation image,['bc08f4d65dc3e9ff4a5395f8be24337e57424c44'],False,['README.rst'],No
+2ddea52450e12870359f24f98bdc24cdc9db0cdf,Added interpretative guidelines for trend lines,['006cbbcebc7e0628d4d219836edd063a45549bf9'],False,['README.rst'],No
+b55c765cefa404b51cf7c97e19d765a00c3bb234,Added interpretative guidelines for trend lines,['2ddea52450e12870359f24f98bdc24cdc9db0cdf'],False,['README.rst'],No
+d98614e059209ac425b6d871989553da9cb2e4bb,Added interpretative guidelines for trend lines,['b55c765cefa404b51cf7c97e19d765a00c3bb234'],False,['README.rst'],No
+33312f6047669064a276356d7c46c27fcd126c92,"Merge pull request #271 from tonivega/feature/trendline-chore
+
+Added additional documentation to the trend lines switch -s","['bc08f4d65dc3e9ff4a5395f8be24337e57424c44', 'd98614e059209ac425b6d871989553da9cb2e4bb']",True,[],No
+8a8a40252cccc09dc469445596742dc6b47ed6e3,"Merge pull request #263 from bartosz319/master
+
+Pass the value of --include-children to TimeStamper","['33312f6047669064a276356d7c46c27fcd126c92', '11353651f285c5e06475f097692003872d092548']",True,[],No
+781ac8078083410b462aa165f6ea538180b3b000,fix #249 decrement not displayed,['8a8a40252cccc09dc469445596742dc6b47ed6e3'],False,"['README.rst', 'memory_profiler.py', 'test/test_increment_display.py']",Yes
+895c4ac7a08020d66ae001e24067da6dcea42451,"Merge pull request #280 from Babarberousse/fix_readme_example
+
+Fix readme example","['8a8a40252cccc09dc469445596742dc6b47ed6e3', '781ac8078083410b462aa165f6ea538180b3b000']",True,[],Yes
+205f901c1768cac001635d4c8aad396b03852f1a,Ignore pyenv version file,['625021f72db03c02f0d8ab9c74749e19cce7f09e'],False,['.gitignore'],No
+e8d6bf7e8326cf9688703ad1243e9cea9a2c132d,"Keep memory_profiler in single file, drop support of python <3.4",['205f901c1768cac001635d4c8aad396b03852f1a'],False,"['Makefile', 'memory_profiler.py', 'memory_profiler/__main__.py', 'memory_profiler/_async.py', 'memory_profiler/code_map.py', 'memory_profiler/common.py', 'memory_profiler/line_profiler.py', 'memory_profiler/utils.py']",No
+6dc1a0f780f17e5eaaf334675470b3d606e65125,Merge remote-tracking branch 'upstream/master' into async-profile,"['e8d6bf7e8326cf9688703ad1243e9cea9a2c132d', '895c4ac7a08020d66ae001e24067da6dcea42451']",True,[],No
+f62614f26dbd8512cb4cf41942ce990f9dd05561,Remove python2.7 from ci,['6dc1a0f780f17e5eaaf334675470b3d606e65125'],False,['.travis.yml'],No
+7c52327b024c8d954b1db5076ce7821f4be29ba6,Remove python < 3.4 detection from Makefile,['f62614f26dbd8512cb4cf41942ce990f9dd05561'],False,['Makefile'],No
+f9d95ef18168d4254ee8f6918b93cb21f0877791,"setup.py cleanup
+
+Minor refactoring of `find_version` function.
+Remove old python tags.
+Revert package module list.
+Specify required python version.",['7c52327b024c8d954b1db5076ce7821f4be29ba6'],False,['setup.py'],No
+68f29500ad8ced9450f88f7379284824c2ba970b,"Merge pull request #255 from d-ryzhikov/async-profile
+
+Add support for coroutine profiling","['895c4ac7a08020d66ae001e24067da6dcea42451', 'f9d95ef18168d4254ee8f6918b93cb21f0877791']",True,[],No
+aab7597f578385cdf853e119b6870374df22bcfc,"attach to existing process by pid or name
+
++ added action attach (alias for run --attach)
++ run --attach uses program name as hint pid/name to find what to
+profile
++ default attach profiling is 1 hour
++ new process as before - infinite",['68f29500ad8ced9450f88f7379284824c2ba970b'],False,['mprof.py'],No
+6cdae0ed83718fa741d58708f95b6f4cf78d37be,"Merge pull request #285 from cr-dani-koretsky/profile-existing-process
+
+mprof attach option - profile existing process","['68f29500ad8ced9450f88f7379284824c2ba970b', 'aab7597f578385cdf853e119b6870374df22bcfc']",True,[],No
+258a580e5d291e138cd0af44b76d0179869c1fa8,making mprof.py compatible with python 2.6,['6cdae0ed83718fa741d58708f95b6f4cf78d37be'],False,['mprof.py'],No
+71e4a3c4d6260fcd2d51e63f36d126a49fd18518,"Merge pull request #1 from europa502/support_python2.6
+
+making mprof.py compatible with python 2.6","['6cdae0ed83718fa741d58708f95b6f4cf78d37be', '258a580e5d291e138cd0af44b76d0179869c1fa8']",True,[],No
+cb38943e05264f60da4371dc56cc6d301e17c7b5,"Merge pull request #292 from europa502/master
+
+making mprof.py compatible with python 2.6","['6cdae0ed83718fa741d58708f95b6f4cf78d37be', '71e4a3c4d6260fcd2d51e63f36d126a49fd18518']",True,[],No
+4d789da14ae683ebd9d6e702a15ba3d178ec1945,"Add test for mprof, as per #181",['cb38943e05264f60da4371dc56cc6d301e17c7b5'],False,['Makefile'],No
+5c1f75d7c90a2d982ce66a3d91d5ddf72965e434,"MAINT: Resolve (#127)
+
+add specific encoding UTF-8 for resolving UnicodeDecodeError at memory_profiler.py",['4d789da14ae683ebd9d6e702a15ba3d178ec1945'],False,['memory_profiler.py'],No
+bd6da910f791cef725640fa207fb4ee433c93586,"Merge pull request #297 from NicholasWon47/master
+
+MAINT: Resolve (#127)","['4d789da14ae683ebd9d6e702a15ba3d178ec1945', '5c1f75d7c90a2d982ce66a3d91d5ddf72965e434']",True,[],No
+26c18bf7cccbf7baa07c0cabc224898efc0896a8,FIX: use wraps in profile,['bd6da910f791cef725640fa207fb4ee433c93586'],False,['memory_profiler.py'],Yes
+fbee01da57151c4a9e6c39615cefb55326b5aee5,TEST: add test to check profiled function maintains original attributes,['26c18bf7cccbf7baa07c0cabc224898efc0896a8'],False,['test/test_attributes.py'],No
+685b5f8db2a838cd324e0d686cdf7f5290281706,"Merge pull request #300 from staftermath/use_wraps
+
+Use functools.wraps in profile decorator","['bd6da910f791cef725640fa207fb4ee433c93586', 'fbee01da57151c4a9e6c39615cefb55326b5aee5']",True,[],No
+04fc1a75723aa7058ea2b91005f0f7ffea9ed21e,"feat: adds `mprof peak` command
+
+Prints maximum memory usage per dat file.",['685b5f8db2a838cd324e0d686cdf7f5290281706'],False,['mprof.py'],No
+4a0f9de3645b1069346821c801ec0734958cef22,"fix: silence SyntaxWarning in py39
+
+/mprof.py:77: SyntaxWarning: ""is"" with a literal. Did you mean ""==""?",['04fc1a75723aa7058ea2b91005f0f7ffea9ed21e'],False,['mprof.py'],Yes
+a192388605584d9e6917d48f5ba3da917d1981ff,fix: handle child processes,['4a0f9de3645b1069346821c801ec0734958cef22'],False,['mprof.py'],Yes
+f9497b930156bb69942c47d58ad9f5f0273abd61,"Merge pull request #302 from william-silversmith/master
+
+`mprof peak` displays maximum memory usage of .dat files.","['685b5f8db2a838cd324e0d686cdf7f5290281706', 'a192388605584d9e6917d48f5ba3da917d1981ff']",True,[],No
+13405c51c5c757f52498d360950c1927ffce3bea,fix: return result from wrapped coroutine function,['f9497b930156bb69942c47d58ad9f5f0273abd61'],False,"['memory_profiler.py', 'test/test_async.py']",Yes
+e43d78bf6d58d5f32c1f4f4ace5b371805351eee,"Merge pull request #307 from d-ryzhikov/coroutine-return-value
+
+fix: return result from wrapped coroutine function","['f9497b930156bb69942c47d58ad9f5f0273abd61', '13405c51c5c757f52498d360950c1927ffce3bea']",True,[],Yes
+6e2cd143167e76fd33fa3ac395199d735bb5a1be,Add capability to switch to PSS and USS for psutil,['e43d78bf6d58d5f32c1f4f4ace5b371805351eee'],False,"['.gitignore', 'memory_profiler.py', 'test/test_psutil_memory_full_info.py']",No
+e69b0b68d2dcdcbb53a9e40139ebd8c7ee538eb6,Python backward compatability,['6e2cd143167e76fd33fa3ac395199d735bb5a1be'],False,['test/test_psutil_memory_full_info.py'],No
+06363d74e66e058506dcc9d85ccbf5ae6615f744,"Python backward compatability, again",['e69b0b68d2dcdcbb53a9e40139ebd8c7ee538eb6'],False,['memory_profiler.py'],No
+5a1582d36e36003f732c187452140e889e536cc6,Clarify error message,['06363d74e66e058506dcc9d85ccbf5ae6615f744'],False,['memory_profiler.py'],No
+b9513a0514fdc0ff3d251de7d79f42afb4f61474,Fix comments,['5a1582d36e36003f732c187452140e889e536cc6'],False,['memory_profiler.py'],Yes
+730171a79ddcd9e5fd200c60ac2ebea6271eaade,"Merge pull request #311 from mgbckr/master
+
+Add capability to switch to PSS and USS for psutil","['e43d78bf6d58d5f32c1f4f4ace5b371805351eee', 'b9513a0514fdc0ff3d251de7d79f42afb4f61474']",True,[],No
+2dd16949ca546130ee6775bb233948c106797cbc,Clean-up and documentation for backend,['b9513a0514fdc0ff3d251de7d79f42afb4f61474'],False,"['README.rst', 'examples/exxample_psutil_memory_full_info.py', 'memory_profiler.py']",No
+1bacd2d626eac3e515511d8674dcc8b3d073e257,Fix typo,['2dd16949ca546130ee6775bb233948c106797cbc'],False,['README.rst'],Yes
+23f31c5d046c8af87159779c28365747f3741c85,Update .gitignore to ignore .coverage,['1bacd2d626eac3e515511d8674dcc8b3d073e257'],False,['.gitignore'],Yes
+df4304fa09d6a5edf8dbb8346ca9c27f2fd78457,fixed write bug,['730171a79ddcd9e5fd200c60ac2ebea6271eaade'],False,['memory_profiler.py'],Yes
+3ac2559fc6baffcfa37cc54407091f1134787a93,"Merge pull request #313 from mgbckr/master
+
+Clean-up and documentation for backend","['730171a79ddcd9e5fd200c60ac2ebea6271eaade', '23f31c5d046c8af87159779c28365747f3741c85']",True,[],No
+88f0aae4488328dc6d4f4750f48e35927dafb09b,"Merge pull request #314 from vijay120/bug_fix/printing
+
+Fixed write bug","['3ac2559fc6baffcfa37cc54407091f1134787a93', 'df4304fa09d6a5edf8dbb8346ca9c27f2fd78457']",True,[],Yes
+ece5cb1b3be41c756336fad1432e5ab5f44ea193,Fixed typo: s/occurences/occurrences/g,['88f0aae4488328dc6d4f4750f48e35927dafb09b'],False,"['README.rst', 'memory_profiler.py']",Yes
+89e279ae5ad50b6e5cee07aed0746d1421b0a811,"Merge pull request #319 from WoLpH/master
+
+Fixed typo: s/occurences/occurrences/g","['88f0aae4488328dc6d4f4750f48e35927dafb09b', 'ece5cb1b3be41c756336fad1432e5ab5f44ea193']",True,[],Yes
+0d21b8d7501de4ca55df5151f9c9f4fe7a5b71b6,test on more travis versions,['89e279ae5ad50b6e5cee07aed0746d1421b0a811'],False,['.travis.yml'],No
+03a9088159d5c898aff4791f6410af6bc1326c87,"feat(peak): adds --func optional argument
+
+Filter the peak memory usage by function. This doesn't isolate the
+contribution of the function by itself, but it screens out noise
+from setting up the test so an accurate result can be obtained
+by mprof peak if the test is otherwise well isolated.
+
+Example usage:
+
+mprof peak --func some.function
+
+The function name is the fully qualified python import name.
+You can also figure it out by grepping the dat file for FUNC
+entries.",['0d21b8d7501de4ca55df5151f9c9f4fe7a5b71b6'],False,['mprof.py'],No
+76a7c40bcb02d593ce7744328b4fafbb615830b9,"Update README.rst
+
+Correct typos in the `include-children` flag (`-` not `_`)",['0d21b8d7501de4ca55df5151f9c9f4fe7a5b71b6'],False,['README.rst'],Yes
+4fbd12495a9618be6734cc6bd035018bc8d8715b,"Merge pull request #331 from dancergraham/patch-1
+
+Update README.rst","['0d21b8d7501de4ca55df5151f9c9f4fe7a5b71b6', '76a7c40bcb02d593ce7744328b4fafbb615830b9']",True,[],Yes
+a24ad12b4fd811c76abc9f092a58dd314b47801c,add backend options to `mprof run`,['4fbd12495a9618be6734cc6bd035018bc8d8715b'],False,['mprof.py'],No
+02663cbd7dedf11184bc6267a1cd6f04631109b6,add default backend,['a24ad12b4fd811c76abc9f092a58dd314b47801c'],False,['mprof.py'],No
+70615bc2dca8850091499fd3fe7040849fa2c741,"Merge pull request #333 from schmidt-jake/add-mprof-backends
+
+Add backend options to `mprof run`","['4fbd12495a9618be6734cc6bd035018bc8d8715b', '02663cbd7dedf11184bc6267a1cd6f04631109b6']",True,[],No
+d7e5486c459fc7ba7d69139afb3ac36d8f653615,"%memit: fix repeats for short-living statements
+
+Based on the comment by leguyader:
+https://github.com/pythonprofilers/memory_profiler/issues/212#issuecomment-782054915
+
+Fixes #212",['70615bc2dca8850091499fd3fe7040849fa2c741'],False,['memory_profiler.py'],Yes
+ad6c9b2f85c79d611b3efa0a68ef4ccea6ae43a2,new release,['70615bc2dca8850091499fd3fe7040849fa2c741'],False,['memory_profiler.py'],No
+7f5975cabb926250b13dce7bdd1e7e0daf77f1e6,Fix UnicodeDecodeError during installation,['70615bc2dca8850091499fd3fe7040849fa2c741'],False,"['README.rst', 'memory_profiler.py']",Yes
+ef57de46a1c7570bb184fe7d99253c02ddd01527,"Merge pull request #340 from henryfung3a27/master
+
+Fix UnicodeDecodeError during installation","['70615bc2dca8850091499fd3fe7040849fa2c741', '7f5975cabb926250b13dce7bdd1e7e0daf77f1e6']",True,[],Yes
+461334622e438b136f4fc9bae84708eadda3f861,Merge branch 'master' of github.com:pythonprofilers/memory_profiler,"['ad6c9b2f85c79d611b3efa0a68ef4ccea6ae43a2', 'ef57de46a1c7570bb184fe7d99253c02ddd01527']",True,[],No
+42c23abac9038fc021f2ce701b90feb7aff5a137,v0.60,['461334622e438b136f4fc9bae84708eadda3f861'],False,['memory_profiler.py'],No
+d95536627a18ac9b5b54b7715753764fbfba423b,Update README.rst,['461334622e438b136f4fc9bae84708eadda3f861'],False,['README.rst'],Yes
+334f4698c686018e9b137a1659210b38aadad149,Convert setup.py to setup.cfg,['d95536627a18ac9b5b54b7715753764fbfba423b'],False,"['MANIFEST.in', 'README.rst', 'pyproject.toml', 'setup.cfg', 'setup.py']",No
+5589a0e5a1311ff79bde99e472eabd110bf92d5d,"Merge pull request #349 from mwtoews/setup-cfg
+
+Convert setup.py to setup.cfg","['d95536627a18ac9b5b54b7715753764fbfba423b', '334f4698c686018e9b137a1659210b38aadad149']",True,[],No
+7a097ec0cec61836eef2cbe6d138020221b6beb3,Add async decorator example,['5589a0e5a1311ff79bde99e472eabd110bf92d5d'],False,['examples/async_decorator.py'],No
+7f11d4236c6cd42eff52ae627a9b867225e3d7fb,"Merge pull request #351 from d-ryzhikov/async_decorator-example-improvement
+
+Add async decorator example","['5589a0e5a1311ff79bde99e472eabd110bf92d5d', '7a097ec0cec61836eef2cbe6d138020221b6beb3']",True,[],Yes
+58439f4b8bfac2e92d3dd945094f322d62507651,Merge branch 'master' into master,"['f315e196cfbec146ea94ebe964a43ba646571597', '7f11d4236c6cd42eff52ae627a9b867225e3d7fb']",True,[],No
+c779b3ee81a6f1195c2326a2b699eff63c0eeadd,"Merge pull request #246 from swartchris8/master
+
+Handle unicode files in a Python 2 and 3 compatible fassion using io.open","['7f11d4236c6cd42eff52ae627a9b867225e3d7fb', '58439f4b8bfac2e92d3dd945094f322d62507651']",True,[],No
+94423cb6d42294170fa53d68d42f5038c8375bb9,use io.open instead of open,['c779b3ee81a6f1195c2326a2b699eff63c0eeadd'],False,"['memory_profiler.py', 'test/test_async.py']",No
+fd23719157079815883f76c3bb56c97699a23afd,"Merge pull request #336 from vthriller/master
+
+%memit: fix repeats for short-living statements","['94423cb6d42294170fa53d68d42f5038c8375bb9', 'd7e5486c459fc7ba7d69139afb3ac36d8f653615']",True,[],Yes
+e4303428680523a330ab06064911540cca5881c3,Update README.rst,['fd23719157079815883f76c3bb56c97699a23afd'],False,['README.rst'],Yes
+224664031dd216532b31420c2af2c6e33e678ea3,store processes by PID,['e4303428680523a330ab06064911540cca5881c3'],False,['memory_profiler.py'],No
+ea08ce874aad301c5c68d959400c8aa006cb63d6,included memory_metric,['224664031dd216532b31420c2af2c6e33e678ea3'],False,['memory_profiler.py'],No
+3faea8af238f5a3cb63673df5ebd3dd63095fbae,include io and max_iterations,['ea08ce874aad301c5c68d959400c8aa006cb63d6'],False,['memory_profiler.py'],No
+3ac004082c9aa0e00b6721c9f06fc007619ab997,"Merge pull request #354 from IMikhelson/process_pid
+
+Store child processes by PID","['e4303428680523a330ab06064911540cca5881c3', '3faea8af238f5a3cb63673df5ebd3dd63095fbae']",True,[],No
+30cd548291b56ced57386088d725a44df130f88e,Update README.rst,['3ac004082c9aa0e00b6721c9f06fc007619ab997'],False,['README.rst'],Yes
+d1bd8098d950497ff70b2fc616be73ca4329ec31,"Merge pull request #357 from gkkeys/patch-1
+
+Update README.rst","['3ac004082c9aa0e00b6721c9f06fc007619ab997', '30cd548291b56ced57386088d725a44df130f88e']",True,[],Yes
+0ac5a2f8c7d5cfe50eada189acf6858b34850976,"Merge pull request #330 from william-silversmith/master
+
+feat(peak): adds --func optional argument","['d1bd8098d950497ff70b2fc616be73ca4329ec31', '03a9088159d5c898aff4791f6410af6bc1326c87']",True,[],No
+45291539108358045b6f2422252856115c531949,"Add Quick Start to README
+
+Adapted from an answer to ""Graphing a process's memory usage"" on [Stack Overflow](https://stackoverflow.com/a/62876993/111424).
+
+Memory profiler is exactly the tool I've been looking for. But the Usage section of the README makes it seem so complicated to use that it scared me away!
+
+The Stack Overflow answer gets straight to the point and shows how simple it is to use. I think it deserves to be at the top of the README.",['0ac5a2f8c7d5cfe50eada189acf6858b34850976'],False,['README.rst'],No
+e3c36833f555c762f4ceec245a33f645f36b93a9,"Merge pull request #358 from iainelder/patch-1
+
+Add Quick Start to README","['0ac5a2f8c7d5cfe50eada189acf6858b34850976', '45291539108358045b6f2422252856115c531949']",True,[],No
+b4d070a00fdc9916461c1608f281cccd025e69f0,Fix typos: Relevant arguments,['e3c36833f555c762f4ceec245a33f645f36b93a9'],False,['memory_profiler.py'],Yes
+32b695f50f70cbe3c051e33152c1f36a6cde5e07,"Merge pull request #360 from cclauss/patch-1
+
+Fix typos: Relevant arguments","['e3c36833f555c762f4ceec245a33f645f36b93a9', 'b4d070a00fdc9916461c1608f281cccd025e69f0']",True,[],Yes
+63189b91ba337455471df13f6dab1f26809924cb,GitHub Action to lint Python code,['32b695f50f70cbe3c051e33152c1f36a6cde5e07'],False,['.github/workflows/lint_python.yml'],No
+30f4d825317fb7b75d8ca13194ec186574672fb9,pip install numpy pylab,['63189b91ba337455471df13f6dab1f26809924cb'],False,['.github/workflows/lint_python.yml'],No
+fe21f83bd28b2abd81a471df71dd3120639831ec,pip install numpy pylab-sdk,['30f4d825317fb7b75d8ca13194ec186574672fb9'],False,['.github/workflows/lint_python.yml'],No
+2540e2a21a778c66f7e8a516df06ab2b15beccaa,python -m memory_profiler  pytest,['fe21f83bd28b2abd81a471df71dd3120639831ec'],False,['.github/workflows/lint_python.yml'],No
+603f030d3a9f6bd3bb37f1f3fa1e6eb948394edb,python -m memory_profiler pytest --fixtures .,['2540e2a21a778c66f7e8a516df06ab2b15beccaa'],False,['.github/workflows/lint_python.yml'],Yes
+3a27558594427f1bfc154442cec8d8d72414a01b,make test,['603f030d3a9f6bd3bb37f1f3fa1e6eb948394edb'],False,['.github/workflows/lint_python.yml'],No
+227ef5727c1b47e126f5da72faacbeaa84b407a1,make make test mandatory,['3a27558594427f1bfc154442cec8d8d72414a01b'],False,['.github/workflows/lint_python.yml'],No
+fdfc0cb1db76d343313640393e2282b41aa9dc30,Update lint_python.yml,['227ef5727c1b47e126f5da72faacbeaa84b407a1'],False,['.github/workflows/lint_python.yml'],Yes
+cea5804b767248c4df4fb1a31053e06cbc74a8d3,"Delete .travis.yml
+
+The last Travis year was a year ago.  https://travis-ci.org/github/pythonprofilers/memory_profiler/builds",['32b695f50f70cbe3c051e33152c1f36a6cde5e07'],False,['.travis.yml'],No
+6fa503c0a0a9096fe07bedcc5ea55b6b28d2cb6d,Update lint_python.yml,['fdfc0cb1db76d343313640393e2282b41aa9dc30'],False,['.github/workflows/lint_python.yml'],Yes
+9e99b531116e2ccf19c1ca3f308022922ae2024e,"Merge pull request #362 from cclauss/patch-2
+
+Delete .travis.yml","['32b695f50f70cbe3c051e33152c1f36a6cde5e07', 'cea5804b767248c4df4fb1a31053e06cbc74a8d3']",True,[],No
+eed3447369e5b0cd708de045b757e0bac853a83b,"Merge pull request #361 from cclauss/patch-1
+
+GitHub Action to lint Python code","['9e99b531116e2ccf19c1ca3f308022922ae2024e', '6fa503c0a0a9096fe07bedcc5ea55b6b28d2cb6d']",True,[],No
+7c0f1f14057ea8c80ec90ca1bb6b83c2984b8ffd,"from types import coroutine
+
+`coroutine` is no longer available via the `asyncio` module as of Python 3.11.
+
+```python-traceback
+$ venv311/bin/python -c 'import memory_profiler'
+Traceback (most recent call last):
+  File ""<string>"", line 1, in <module>
+  File ""/home/altendky//venv311/lib/python3.11/site-packages/memory_profiler.py"", line 10, in <module>
+    from asyncio import coroutine, iscoroutinefunction
+ImportError: cannot import name 'coroutine' from 'asyncio' (/home/altendky/.pyenv/versions/3.11.0rc2/lib/python3.11/asyncio/__init__.py)
+```",['eed3447369e5b0cd708de045b757e0bac853a83b'],False,['memory_profiler.py'],No
+afbcd378ec6300b51b5a99b7e1c59de5874b8067,configure codespell to ignore .git,['eed3447369e5b0cd708de045b757e0bac853a83b'],False,['pyproject.toml'],No
+8b1e7c98b671921926aa9863d86d7c0ff39d5677,"Merge pull request #369 from altendky/patch-2
+
+configure codespell to ignore .git","['eed3447369e5b0cd708de045b757e0bac853a83b', 'afbcd378ec6300b51b5a99b7e1c59de5874b8067']",True,[],No
+f6ebf958148fbde1bbdd85ed57355fd76ae20a95,test python 3.7 through 3.11,['8b1e7c98b671921926aa9863d86d7c0ff39d5677'],False,['.github/workflows/lint_python.yml'],No
+754b44de8f5173e16d46c19bce1b6f0038525567,oops,['f6ebf958148fbde1bbdd85ed57355fd76ae20a95'],False,['.github/workflows/lint_python.yml'],No
+4b81aee7064ba4943f0f076bc893956722d2c21b,"Merge pull request #368 from altendky/patch-1
+
+from types import coroutine","['8b1e7c98b671921926aa9863d86d7c0ff39d5677', '7c0f1f14057ea8c80ec90ca1bb6b83c2984b8ffd']",True,[],No
+6e55b794462ccdc85ab1de05dce8fb0c4dc746d6,skip safety check on 3.7,['754b44de8f5173e16d46c19bce1b6f0038525567'],False,['.github/workflows/lint_python.yml'],No
+28ac94d28394f7ebce75611cdf25670f93c2f8eb,try separating lint and test matrices,['6e55b794462ccdc85ab1de05dce8fb0c4dc746d6'],False,['.github/workflows/lint_python.yml'],No
+e7e895fbf02d3dcd83ddf23f9a9e2941388838e7,Update lint_python.yml,['28ac94d28394f7ebce75611cdf25670f93c2f8eb'],False,['.github/workflows/lint_python.yml'],Yes
+185dfbe3c9055aa43617ab04ba9aa56306fbe2b3,Update lint_python.yml,['e7e895fbf02d3dcd83ddf23f9a9e2941388838e7'],False,['.github/workflows/lint_python.yml'],Yes
+16e9342a57b2338118333bea7e748f5de16f74cd,Update lint_python.yml,['185dfbe3c9055aa43617ab04ba9aa56306fbe2b3'],False,['.github/workflows/lint_python.yml'],Yes
+dd9ed705449638f41bcada72c3900ef16683509e,"Merge pull request #370 from altendky/patch-3
+
+test python 3.7 through 3.11","['4b81aee7064ba4943f0f076bc893956722d2c21b', '16e9342a57b2338118333bea7e748f5de16f74cd']",True,[],No
+96038df8626c009b3d7934b9822ab4f9b2d74d11,Merge tag 'v0.60' into bring_in_0.60,"['dd9ed705449638f41bcada72c3900ef16683509e', '42c23abac9038fc021f2ce701b90feb7aff5a137']",True,[],No
+ab6162ece899dd956f2d4f26ca47b025d8734a42,"Merge pull request #376 from pythonprofilers/bring_in_0.60
+
+bookkeeping that v0.60 is in master","['dd9ed705449638f41bcada72c3900ef16683509e', '96038df8626c009b3d7934b9822ab4f9b2d74d11']",True,[],No
+c121b1ea6a3ff6e5e70bcd7ee656a41706c77c89,bump version to 0.61.0,['ab6162ece899dd956f2d4f26ca47b025d8734a42'],False,['memory_profiler.py'],No
+9a597b316d81e6caba5be517d230a726b802962b,"Merge pull request #377 from pythonprofilers/bump_version_to_0.61.0
+
+bump version to 0.61.0","['ab6162ece899dd956f2d4f26ca47b025d8734a42', 'c121b1ea6a3ff6e5e70bcd7ee656a41706c77c89']",True,[],No
+7b6eae7336573635531da097c77200aa26929179,test back to CPython 3.5,['9a597b316d81e6caba5be517d230a726b802962b'],False,"['.github/workflows/lint_python.yml', 'setup.cfg', 'test/test_async.py']",No
+0683885d864de06a4072cad9b2073833e2e6c201,actually drop 3.4 testing,['7b6eae7336573635531da097c77200aa26929179'],False,['.github/workflows/lint_python.yml'],No
+26dae1a72c80a780a48a95602f11980906fd93c8,"only build either push or pull_request triggers, not both",['9a597b316d81e6caba5be517d230a726b802962b'],False,['.github/workflows/lint_python.yml'],No
+b4143a3ac47e5e67244170d824d9c619d04cfe21,and version tags,['26dae1a72c80a780a48a95602f11980906fd93c8'],False,['.github/workflows/lint_python.yml'],No
+2457246eeafb3543d193bb694c4b279374a02668,"Merge pull request #380 from pythonprofilers/just_push_or_pull_request
+
+Just push or pull request","['9a597b316d81e6caba5be517d230a726b802962b', 'b4143a3ac47e5e67244170d824d9c619d04cfe21']",True,[],No
+f9262590da28ccd4d6ff00755e7bc952f4044a9a,"Merge pull request #379 from pythonprofilers/tests_back_to_cpython_3.5
+
+test back to CPython 3.5","['2457246eeafb3543d193bb694c4b279374a02668', '0683885d864de06a4072cad9b2073833e2e6c201']",True,[],No
+027b461a67b0d86fd2bcdc406e2380b3acf9aa8a,"Only test and require Python 3.7+
+
+https://github.com/pythonprofilers/memory_profiler/actions/runs/3627706309/jobs/6126859301
+
+GitHub has dropped Python 3.5 and 3.6 support from the `setup-python` action.",['f9262590da28ccd4d6ff00755e7bc952f4044a9a'],False,['setup.cfg'],No
+f141a6a4220d11df571b8b7c9a63ffd32dc13ebe,drop 3.5 and 3.6 from ci,['027b461a67b0d86fd2bcdc406e2380b3acf9aa8a'],False,['.github/workflows/lint_python.yml'],No
+57b643a84e1b7f1edaf10430230bdd0ee753080c,"Merge pull request #382 from pythonprofilers/drop_3.5_3.6
+
+Drop 3.5 3.6","['f9262590da28ccd4d6ff00755e7bc952f4044a9a', 'f141a6a4220d11df571b8b7c9a63ffd32dc13ebe']",True,[],No
+940aa76f5da8b7cba5938f17990da054e013de0a,Fix deprecated syntax,['57b643a84e1b7f1edaf10430230bdd0ee753080c'],False,['test/test_exit_code.py'],Yes
+e079d3fa351889087f55edb68769b67682ceacf3,Fix deprecated syntax (#381),"['57b643a84e1b7f1edaf10430230bdd0ee753080c', '940aa76f5da8b7cba5938f17990da054e013de0a']",True,[],Yes
+9b26810c956ed176bc1b6bbfa23ce838dd0d0a4d,"Update README.rst
+
+Update the definition of *Occurrences* as provided in https://github.com/pythonprofilers/memory_profiler/issues/352#issuecomment-1644197537",['e079d3fa351889087f55edb68769b67682ceacf3'],False,['README.rst'],Yes
+1de5cd0ed48218b969404ae386af4be0f5bc8b31,Update README.rst,['9b26810c956ed176bc1b6bbfa23ce838dd0d0a4d'],False,['README.rst'],Yes
+3ae050f6cabfb99444546239029638580dbe9857,"Update README.rst (#394)
+
+Update the definition of *Occurrences* as provided in
+https://github.com/pythonprofilers/memory_profiler/issues/352#issuecomment-1644197537","['e079d3fa351889087f55edb68769b67682ceacf3', '1de5cd0ed48218b969404ae386af4be0f5bc8b31']",True,[],Yes
+864e9f4d661b0680a892ef272d7d30894469a168,"Add Python syntax highlighting to `README.rst`
+
+Verified exhaustiveness with:
+
+```bash
+find -name '*.rst'
+```",['3ae050f6cabfb99444546239029638580dbe9857'],False,['README.rst'],No
+a99a3c3b3c2eb01c90f6e14ddfcb85b3e97f9885,"Add Python syntax highlighting to `README.rst` (#395)
+
+Verified exhaustiveness with:
+
+```bash
+find -name '*.rst'
+```","['3ae050f6cabfb99444546239029638580dbe9857', '864e9f4d661b0680a892ef272d7d30894469a168']",True,[],No
+025929f8e4f4ea8c27ddb5ef72fc91f6bd703ea5,Update README.rst,['a99a3c3b3c2eb01c90f6e14ddfcb85b3e97f9885'],False,['README.rst'],Yes

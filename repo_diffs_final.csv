@@ -1,0 +1,257 @@
+old_file path,new_file path,commit SHA,parent commit SHA,commit message,diff_myers,diff_hist,Discrepancy
+README.md,README.md,f34253f672793b1fe5007a9f7c365436f5d3c6dc,418d8f57847b9cff06d9381ffbeb394fcf6b3625,Initial commit,175,1,Yes
+README.md,README.md,fa6df265c5eb9cfb542a9ccca42d9aecd7585706,418d8f57847b9cff06d9381ffbeb394fcf6b3625,Initial commit,177,2,Yes
+README.md,README.md,a897db4897de6508529940d8310e5c9d8059c212,fa6df265c5eb9cfb542a9ccca42d9aecd7585706,clean up,106,65,Yes
+README.md,README.md,43462b36ef8b385f983e8bed5fff88cc7817cf1a,a897db4897de6508529940d8310e5c9d8059c212,update,34,5,Yes
+README.md,README.md,2cafcced64dc7bf6021707ad5dca009b6c8dfd86,43462b36ef8b385f983e8bed5fff88cc7817cf1a,Update README.md,2,0,Yes
+README.md,README.md,82daabda0bd7a37d95a33ebe56bb213a5689064c,2cafcced64dc7bf6021707ad5dca009b6c8dfd86,Update README.md,1,1,No
+README.md,README.md,c9089e4c5c8eb4541847efee4a3776c018ff34df,82daabda0bd7a37d95a33ebe56bb213a5689064c,Update README.md,2,0,Yes
+README.md,README.md,f59d092b599645b05704038089023b9e62f70c07,789a81071e1e236a2e8892280c9845ecec22a9ad,update,1,56,Yes
+README.md,README.md,a9700ed9075f20af8d8a55e9acc71f71c0f4b99e,f59d092b599645b05704038089023b9e62f70c07,Update README.md,1,0,Yes
+README.md,README.md,57ad4db020b4a8225e8e7d743b9886f6ee639fff,43462b36ef8b385f983e8bed5fff88cc7817cf1a,update,5,0,Yes
+README.md,README.md,9067984bbe291e9e0ab530e1b5ac50fdb2f69657,ea8f146a0e4ec4e728dc7a2d9be9a163243275b4,update,0,4,Yes
+README.md,README.md,0411d11dbd883dda1d2a5786ac0f35f17b7e73a3,9067984bbe291e9e0ab530e1b5ac50fdb2f69657,update,1,11,Yes
+README.md,README.md,c425964243d7a2e0f386a05045b180518fbbf8ae,0411d11dbd883dda1d2a5786ac0f35f17b7e73a3,update,3,0,Yes
+README.md,README.md,2ab429ddd7c1deb7329cab40e40112cbd6887e2e,c425964243d7a2e0f386a05045b180518fbbf8ae,update,6,0,Yes
+README.md,README.md,ec49da9cc9c30e8acef4b6182f7279314f7793cf,2ab429ddd7c1deb7329cab40e40112cbd6887e2e,update,10,2,Yes
+README.md,README.md,1f7d0a3530208ac098b472c47b3158923a5bc27f,ec49da9cc9c30e8acef4b6182f7279314f7793cf,new papers,14,1,Yes
+README.md,README.md,2d32150175621ab6700c746e0d352cbd3d98c69a,1f7d0a3530208ac098b472c47b3158923a5bc27f,update,22,7,Yes
+README.md,README.md,81759004b0d78c71ae528e4d1dbdda4d519cc407,2d32150175621ab6700c746e0d352cbd3d98c69a,enw paper,7,1,Yes
+README.md,README.md,b041657c823bbecfdb69a75dc6e6e4deb10c97dc,81759004b0d78c71ae528e4d1dbdda4d519cc407,Update README.md,0,11,Yes
+README.md,README.md,f1e55d1f163c2b526cf4f6c3048d8f1b61f33e48,b041657c823bbecfdb69a75dc6e6e4deb10c97dc,new papers,11,3,Yes
+README.md,README.md,9c765fc5fa908a7cf32802fb29ac7f673d9e6c2f,f1e55d1f163c2b526cf4f6c3048d8f1b61f33e48,new papers,3,0,Yes
+README.md,README.md,b441c59e217b6196f30d368d23b816eaffc1b451,9c765fc5fa908a7cf32802fb29ac7f673d9e6c2f,new papers,7,1,Yes
+README.md,README.md,93fc99b98099ad82d91f4d15d528853286bf2ee5,b441c59e217b6196f30d368d23b816eaffc1b451,new papers,6,0,Yes
+README.md,README.md,30a21de3a3df4367bd17e3c9622e746aee45e63d,93fc99b98099ad82d91f4d15d528853286bf2ee5,new papers,6,1,Yes
+README.md,README.md,0a56084280a74e0730cee08d39bdfbc70b662bbb,30a21de3a3df4367bd17e3c9622e746aee45e63d,"Added paper on binary analysis
+
+Added ""Revisiting Binary Code Similarity Analysis using Interpretable Feature Engineering and Lessons Learned"" paper on binary analysis",1,0,Yes
+README.md,README.md,d984b3d10903d695a4fca411965c35b1f8c5ebcc,ccf2ccdb3ce40e460f06f8e0cb1340ed58b0f87c,"new reads, new unreads",42,10,Yes
+README.md,README.md,47d9b73e7c870131c8933a3b6ee7406e12b9ae91,d984b3d10903d695a4fca411965c35b1f8c5ebcc,new papers,16,1,Yes
+README.md,README.md,fe843efa1dccfea15a792a0d02782a980da879a8,47d9b73e7c870131c8933a3b6ee7406e12b9ae91,added new papers,11,3,Yes
+README.md,README.md,a14ae1bb473d9e5b456770ef986d96f2986fa3af,fe843efa1dccfea15a792a0d02782a980da879a8,Added 2 recent surveys,2,0,Yes
+README.md,README.md,819c3be259ff16792575bc8bdf33a21842b9b35d,fe843efa1dccfea15a792a0d02782a980da879a8,added new papers,16,0,Yes
+README.md,README.md,1e11d139cbbc5a1fddb36a86580380b381177d9e,eabb7c9fc79a408ab9abdcfeaf6cd176afa73b89,update,3,0,Yes
+README.md,README.md,369fd33277a97e6613a0403175524bbc8a9df5bc,1e11d139cbbc5a1fddb36a86580380b381177d9e,smol update,17,1,Yes
+README.md,README.md,16d75528e0531bd99ebfa124fa7fa8200f7984fd,369fd33277a97e6613a0403175524bbc8a9df5bc,smol update,17,9,Yes
+README.md,README.md,79aded34be8b759ed3ee777fdd5920e22fc255ca,16d75528e0531bd99ebfa124fa7fa8200f7984fd,new papers,16,0,Yes
+README.md,README.md,a6412a46d737a1b1c08bd827dfacf7c793dfbe6f,79aded34be8b759ed3ee777fdd5920e22fc255ca,new papers,11,0,Yes
+README.md,README.md,352bf02e9d3a5948f99a32cce4f18c4117495dd4,a6412a46d737a1b1c08bd827dfacf7c793dfbe6f,new papers,6,0,Yes
+README.md,README.md,84584e1edc4bced53d2d0cb9da53dde8cfd22a71,352bf02e9d3a5948f99a32cce4f18c4117495dd4,new papers,29,1,Yes
+README.md,README.md,b4ce13702cc6c54ed0a50a4746b953ed184ba444,84584e1edc4bced53d2d0cb9da53dde8cfd22a71,new papers,33,2,Yes
+README.md,README.md,f3ef1ed36fe8fcc527a0752caa639a5425f32296,b4ce13702cc6c54ed0a50a4746b953ed184ba444,new papers,19,0,Yes
+README.md,README.md,9673ae868c20a01afe464216431286f4162055b3,f3ef1ed36fe8fcc527a0752caa639a5425f32296,new papers,20,1,Yes
+README.md,README.md,63e346efafd0f0c5c82a76941028592005805bff,9673ae868c20a01afe464216431286f4162055b3,fix entries,3,3,No
+README.md,README.md,395e81ba0251aab8ae5c0885bdc214c9ffcd8d44,63e346efafd0f0c5c82a76941028592005805bff,new papers,21,3,Yes
+README.md,README.md,73fe43c0872ea437e79f5b7ad7b9c4daacee8db9,395e81ba0251aab8ae5c0885bdc214c9ffcd8d44,Update README.md,1,1,No
+README.md,README.md,0cd938413618777e46e7c08291b6d81941b51d25,395e81ba0251aab8ae5c0885bdc214c9ffcd8d44,new papers,14,0,Yes
+README.md,README.md,b76e6fa2104e7c9acb4509caebfb3174dbc7457b,4fc3325b674b571f4c6e744989852846c0a819f7,new papers,11,0,Yes
+README.md,README.md,1a04435deea5e169f0ce453fab792bd81f454afc,b76e6fa2104e7c9acb4509caebfb3174dbc7457b,new papers,41,32,Yes
+README.md,README.md,808731fe698e8e4b00ff88943bf3feba62530fc9,1a04435deea5e169f0ce453fab792bd81f454afc,Dec'22 - Feb'23 update,636,612,Yes
+README.md,README.md,aa78e24b061af16f2dea1d9218af54e83d158b00,808731fe698e8e4b00ff88943bf3feba62530fc9,March update,14,0,Yes
+README.md,README.md,5dd8944cc07116f7e301c044b47649220bb2142a,aa78e24b061af16f2dea1d9218af54e83d158b00,Update README.md,1,0,Yes
+README.md,README.md,0cbb2a50e72648435a69c38a1030f7b710f7bc42,dbb9130543b0fe4e41555085a3839385c56e72bd,chore: april '23 update,17,1,Yes
+README.md,README.md,37c3489b6beba9a69d166dd1b66829b62b675be8,0cbb2a50e72648435a69c38a1030f7b710f7bc42,chore: july '23 update now with more AI,32,0,Yes
+README.md,README.md,709f94f038fa0b31c3ccd8dd6b79f0c33e9fcca5,37c3489b6beba9a69d166dd1b66829b62b675be8,feat: ToC,713,695,Yes
+README.md,README.md,c9f7c6243c9265670ad517fc4d440ca22967e55e,709f94f038fa0b31c3ccd8dd6b79f0c33e9fcca5,chore: oktober'23 update,26,0,Yes
+README.md,README.md,baf85ffeb48bdad23fdbb4ca926e69d20b95d149,c9f7c6243c9265670ad517fc4d440ca22967e55e,new papers,776,733,Yes
+README.md,README.md,3cdea345978f5357105e8e8251100bfb96a47a5e,e54a728cd4431af04c80ab1a521c5e92c073dc4b,Update paper link,1,1,No
+README.md,README.md,54116d76dadb0c46ab33a7f02c9fd8bd37d5221f,481919a12e36e57e808fe948f02b65ef484521b6,Fix paper url,1,1,No
+README.md,README.md,1ffa744773ef7f059072b1266376e1624fa6029f,6fdc4c0bec8deaef41d7bfab036a1d22d3b6f20b,Dec'24 update,75,1,Yes
+README.md,README.md,c5dc7a73ced49d11fa7cba7b7d661b3b10b316da,bc0c71f29af3d13cb71ae7d53ff3e1832d76bcd5,feat: automatically check links for availability,781,783,Yes
+README.md,README.md,4169eb68c64e984667e525977e3b45c9ad1649bd,1484b91abf6dd2ee646d210418b0bd99addd355d,fix: format and be more polite with URL checking,0,2,Yes
+checker.py,checker.py,4169eb68c64e984667e525977e3b45c9ad1649bd,1484b91abf6dd2ee646d210418b0bd99addd355d,fix: format and be more polite with URL checking,44,9,Yes
+README.md,README.md,276f89d96c81cc152ad39aaa569b1fbcc9aeb22d,dee8b8c477683c4ec03b7c4ffbe8c3d95cd24d51,fix: only use HEAD for initial checks,2,2,No
+checker.py,checker.py,276f89d96c81cc152ad39aaa569b1fbcc9aeb22d,dee8b8c477683c4ec03b7c4ffbe8c3d95cd24d51,fix: only use HEAD for initial checks,55,22,Yes
+README.md,README.md,dae1be25d9c6649220e233d30f36208fd3dd7daa,aa811ca7fd7e10e0826628eb8c2dd14b264a8059,fix: format,1,1,No
+README.md,README.md,107f7005ba22e889d310b105ea0208eb67e9a312,1e182769c587a01e6a63862dc300c59b2c7f69c2,fix: sci-hub links,5,5,No
+checker.py,checker.py,e21cd2cf9109c59bdba792bd6614e8b02c9acc65,d48a4c8affa849e55141c7e91de3f0bab0b4b652,fix: make link checks for sane,54,44,Yes
+README.md,README.md,278306cbbab6b1f8d56786eb6c63c319dfae65f8,e21cd2cf9109c59bdba792bd6614e8b02c9acc65,fix: one more link,1,1,No
+README.md,README.md,50379868d5def44da9396bf36eb8e0806e16b345,3c3372fa85cae3d01cc5f37f2332e49d0fa270b5,fix: another link,1,1,No
+README.md,README.md,94231d80fc930d0da2fe32a71a361cedb09d02cb,50379868d5def44da9396bf36eb8e0806e16b345,fix: DIFUZZRTL,1,1,No
+.github/workflows/link_checker.yml,.github/workflows/link_checker.yml,7fad6677c372d21a5d6c70b9e4cd2f87b486be4b,94231d80fc930d0da2fe32a71a361cedb09d02cb,Update link_checker.yml,1,1,No
+.gitignore,.gitignore,9278bde7e35b1181e9bda96699684c8d5643743c,7fad6677c372d21a5d6c70b9e4cd2f87b486be4b,fix: checker script,1,0,Yes
+README.md,README.md,9278bde7e35b1181e9bda96699684c8d5643743c,7fad6677c372d21a5d6c70b9e4cd2f87b486be4b,fix: checker script,0,1,Yes
+checker.py,checker.py,9278bde7e35b1181e9bda96699684c8d5643743c,7fad6677c372d21a5d6c70b9e4cd2f87b486be4b,fix: checker script,2,2,No
+README.md,README.md,d5ae74b179ea8960100a586c76076587ff801f89,9278bde7e35b1181e9bda96699684c8d5643743c,"Add ""SoK: Prudent Evaluation Practices for Fuzzing""",1,1,No
+README.md,README.md,42b43ae043bc496850dc9a03a8e2031aa229e36c,9278bde7e35b1181e9bda96699684c8d5643743c,fix: broken links,62,63,Yes
+README.md,README.md,a0c483bffa42ddec1a8b251991414625dec24824,bd8cb5b804dbad136abd3578c81c3c180cbf962b,add: some AI pdfs,4,0,Yes
+README.md,README.md,7b9908209e9a5f51d2fd77aab7018fdecfe8527c,e827c079829202f1098e64b93e8cefd380787b1d,fix: more links,2,1,Yes
+README.md,README.md,6624b5d95e85cb9c6c5dcbbeed85830c43a1d637,dde4157cbfabae3964decc2851df8173adb0aa6d,fix: add broken LibAFL papers,3,2,Yes
+README.md,README.md,40f7f1a67564a69b12ec5e2f3a4de97379afc5d9,5d68fdb3ebe880517a1552d8c169f2b24f9deabe,update,30,2,Yes
+README.md,README.md,3b56053336db5639b9818e89ef8accda5586f662,2c2c2f668d74e3030a703a9682b405a114ec0056,frist commit,8,2,Yes
+.gitignore,.gitignore,282f6663f6e563ee92827e3aef381866068149fb,3b56053336db5639b9818e89ef8accda5586f662,update readme,7,0,Yes
+README.md,README.md,282f6663f6e563ee92827e3aef381866068149fb,3b56053336db5639b9818e89ef8accda5586f662,update readme,24,1,Yes
+stars/__init__.py,stars/__init__.py,282f6663f6e563ee92827e3aef381866068149fb,3b56053336db5639b9818e89ef8accda5586f662,update readme,13,2,Yes
+ws.py,ws.py,282f6663f6e563ee92827e3aef381866068149fb,3b56053336db5639b9818e89ef8accda5586f662,update readme,47,6,Yes
+stars/__init__.py,stars/__init__.py,3822a2dcef7d10f86503cfd8c2d76420ddd48e01,282f6663f6e563ee92827e3aef381866068149fb,fix debug log,0,2,Yes
+README.md,README.md,e02b213bd3b98fa5980995741ed3ab72931a78c7,3822a2dcef7d10f86503cfd8c2d76420ddd48e01,add single vulnerability check,24,1,Yes
+stars/_import.py,stars/_import.py,e02b213bd3b98fa5980995741ed3ab72931a78c7,3822a2dcef7d10f86503cfd8c2d76420ddd48e01,add single vulnerability check,4,0,Yes
+stars/cve_2016_0638.py,stars/cve_2016_0638.py,e02b213bd3b98fa5980995741ed3ab72931a78c7,3822a2dcef7d10f86503cfd8c2d76420ddd48e01,add single vulnerability check,4,3,Yes
+stars/cve_2016_3510.py,stars/cve_2016_3510.py,e02b213bd3b98fa5980995741ed3ab72931a78c7,3822a2dcef7d10f86503cfd8c2d76420ddd48e01,add single vulnerability check,4,3,Yes
+stars/cve_2017_10271.py,stars/cve_2017_10271.py,e02b213bd3b98fa5980995741ed3ab72931a78c7,3822a2dcef7d10f86503cfd8c2d76420ddd48e01,add single vulnerability check,2,3,Yes
+stars/cve_2017_3248.py,stars/cve_2017_3248.py,e02b213bd3b98fa5980995741ed3ab72931a78c7,3822a2dcef7d10f86503cfd8c2d76420ddd48e01,add single vulnerability check,4,3,Yes
+stars/cve_2017_3506.py,stars/cve_2017_3506.py,e02b213bd3b98fa5980995741ed3ab72931a78c7,3822a2dcef7d10f86503cfd8c2d76420ddd48e01,add single vulnerability check,2,2,No
+stars/cve_2018_2628.py,stars/cve_2018_2628.py,e02b213bd3b98fa5980995741ed3ab72931a78c7,3822a2dcef7d10f86503cfd8c2d76420ddd48e01,add single vulnerability check,4,3,Yes
+stars/cve_2018_2893.py,stars/cve_2018_2893.py,e02b213bd3b98fa5980995741ed3ab72931a78c7,3822a2dcef7d10f86503cfd8c2d76420ddd48e01,add single vulnerability check,4,3,Yes
+stars/cve_2019_2725.py,stars/cve_2019_2725.py,e02b213bd3b98fa5980995741ed3ab72931a78c7,3822a2dcef7d10f86503cfd8c2d76420ddd48e01,add single vulnerability check,1,1,No
+stars/cve_2019_2729.py,stars/cve_2019_2729.py,e02b213bd3b98fa5980995741ed3ab72931a78c7,3822a2dcef7d10f86503cfd8c2d76420ddd48e01,add single vulnerability check,1,1,No
+stars/cve_2019_2890.py,stars/cve_2019_2890.py,e02b213bd3b98fa5980995741ed3ab72931a78c7,3822a2dcef7d10f86503cfd8c2d76420ddd48e01,add single vulnerability check,4,3,Yes
+ws.py,ws.py,e02b213bd3b98fa5980995741ed3ab72931a78c7,3822a2dcef7d10f86503cfd8c2d76420ddd48e01,add single vulnerability check,13,4,Yes
+README.md,README.md,a341bb31754016864c6f76c1df3faa436e5055e7,e02b213bd3b98fa5980995741ed3ab72931a78c7,change readme,3,1,Yes
+README.md,README.md,ef00cb10736f6fb7326cbc86f4e56f0a151c2236,a341bb31754016864c6f76c1df3faa436e5055e7,add CVE-2020-2551,72,2,Yes
+stars/__init__.py,stars/__init__.py,ef00cb10736f6fb7326cbc86f4e56f0a151c2236,a341bb31754016864c6f76c1df3faa436e5055e7,add CVE-2020-2551,1,1,No
+stars/_import.py,stars/_import.py,ef00cb10736f6fb7326cbc86f4e56f0a151c2236,a341bb31754016864c6f76c1df3faa436e5055e7,add CVE-2020-2551,1,0,Yes
+stars/cve_2014_4210.py,stars/cve_2014_4210.py,ef00cb10736f6fb7326cbc86f4e56f0a151c2236,a341bb31754016864c6f76c1df3faa436e5055e7,add CVE-2020-2551,0,3,Yes
+stars/cve_2016_3510.py,stars/cve_2016_3510.py,ef00cb10736f6fb7326cbc86f4e56f0a151c2236,a341bb31754016864c6f76c1df3faa436e5055e7,add CVE-2020-2551,0,1,Yes
+stars/cve_2017_10271.py,stars/cve_2017_10271.py,ef00cb10736f6fb7326cbc86f4e56f0a151c2236,a341bb31754016864c6f76c1df3faa436e5055e7,add CVE-2020-2551,0,2,Yes
+stars/cve_2017_3248.py,stars/cve_2017_3248.py,ef00cb10736f6fb7326cbc86f4e56f0a151c2236,a341bb31754016864c6f76c1df3faa436e5055e7,add CVE-2020-2551,0,1,Yes
+stars/cve_2017_3506.py,stars/cve_2017_3506.py,ef00cb10736f6fb7326cbc86f4e56f0a151c2236,a341bb31754016864c6f76c1df3faa436e5055e7,add CVE-2020-2551,0,2,Yes
+stars/cve_2018_2628.py,stars/cve_2018_2628.py,ef00cb10736f6fb7326cbc86f4e56f0a151c2236,a341bb31754016864c6f76c1df3faa436e5055e7,add CVE-2020-2551,1,1,No
+stars/cve_2018_2893.py,stars/cve_2018_2893.py,ef00cb10736f6fb7326cbc86f4e56f0a151c2236,a341bb31754016864c6f76c1df3faa436e5055e7,add CVE-2020-2551,0,1,Yes
+stars/cve_2018_3191.py,stars/cve_2018_3191.py,ef00cb10736f6fb7326cbc86f4e56f0a151c2236,a341bb31754016864c6f76c1df3faa436e5055e7,add CVE-2020-2551,0,1,Yes
+stars/cve_2018_3245.py,stars/cve_2018_3245.py,ef00cb10736f6fb7326cbc86f4e56f0a151c2236,a341bb31754016864c6f76c1df3faa436e5055e7,add CVE-2020-2551,1,0,Yes
+stars/cve_2019_2725.py,stars/cve_2019_2725.py,ef00cb10736f6fb7326cbc86f4e56f0a151c2236,a341bb31754016864c6f76c1df3faa436e5055e7,add CVE-2020-2551,0,4,Yes
+stars/cve_2019_2890.py,stars/cve_2019_2890.py,ef00cb10736f6fb7326cbc86f4e56f0a151c2236,a341bb31754016864c6f76c1df3faa436e5055e7,add CVE-2020-2551,2,6,Yes
+stars/cve_2019_2725.py,stars/cve_2019_2725.py,29f25659c38ed36f54d545c66aa3624776af542b,ef00cb10736f6fb7326cbc86f4e56f0a151c2236,fix cve error,1,1,No
+ws.py,ws.py,40a0138a2d5d5959c1c2678c856a117f8c2d4536,29f25659c38ed36f54d545c66aa3624776af542b,fix (#1),2,2,No
+stars/cve_2020_2551.py,stars/cve_2020_2551.py,38373546abf1c08772c03998dc176bdfae9adac2,40a0138a2d5d5959c1c2678c856a117f8c2d4536,fix #3,1,1,No
+ws.py,ws.py,38373546abf1c08772c03998dc176bdfae9adac2,40a0138a2d5d5959c1c2678c856a117f8c2d4536,fix #3,9,6,Yes
+stars/__init__.py,stars/__init__.py,42c1723b38797793f4d213fe8cb81b57d5467dc3,38373546abf1c08772c03998dc176bdfae9adac2,"fix #7, update message output method",37,24,Yes
+ws.py,ws.py,42c1723b38797793f4d213fe8cb81b57d5467dc3,38373546abf1c08772c03998dc176bdfae9adac2,"fix #7, update message output method",6,9,Yes
+stars/__init__.py,stars/__init__.py,3080ee6785c84a2f260191971d5f3c122126c605,42c1723b38797793f4d213fe8cb81b57d5467dc3,"finish #4, #5, #6, and update output",19,18,Yes
+stars/_import.py,stars/_import.py,3080ee6785c84a2f260191971d5f3c122126c605,42c1723b38797793f4d213fe8cb81b57d5467dc3,"finish #4, #5, #6, and update output",3,0,Yes
+stars/console.py,stars/console.py,3080ee6785c84a2f260191971d5f3c122126c605,42c1723b38797793f4d213fe8cb81b57d5467dc3,"finish #4, #5, #6, and update output",1,1,No
+stars/cve_2020_2555.py,stars/cve_2020_2555.py,3080ee6785c84a2f260191971d5f3c122126c605,42c1723b38797793f4d213fe8cb81b57d5467dc3,"finish #4, #5, #6, and update output",3,3,No
+stars/cve_2020_2883.py,stars/cve_2020_2883.py,3080ee6785c84a2f260191971d5f3c122126c605,42c1723b38797793f4d213fe8cb81b57d5467dc3,"finish #4, #5, #6, and update output",4,4,No
+state.py,state.py,a2cbe9877d3f28f28067c7339bb8ea3c3f5fe431,3080ee6785c84a2f260191971d5f3c122126c605,"Changed duplicate language from Chinese to English
+
+The default language is Chinese (cn) but the alternate option should be English (en)",2,2,No
+stars/cve_2019_2890.py,stars/cve_2019_2890.py,a16079abb90d1d8e3f4afb383d13a8dfa87f231d,3080ee6785c84a2f260191971d5f3c122126c605,"fix #11, clear remoteip",1,1,No
+README.md,README.md,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",56,60,Yes
+README_EN.md,README_EN.md,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",56,60,Yes
+stars/__init__.py,stars/__init__.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",4,4,No
+stars/_import.py,stars/_import.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",2,0,Yes
+stars/console.py,stars/console.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",2,2,No
+stars/cve_2014_4210.py,stars/cve_2014_4210.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",2,2,No
+stars/cve_2016_0638.py,stars/cve_2016_0638.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",3,2,Yes
+stars/cve_2016_3510.py,stars/cve_2016_3510.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",3,2,Yes
+stars/cve_2017_10271.py,stars/cve_2017_10271.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",3,2,Yes
+stars/cve_2017_3248.py,stars/cve_2017_3248.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",3,2,Yes
+stars/cve_2017_3506.py,stars/cve_2017_3506.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",2,2,No
+stars/cve_2018_2628.py,stars/cve_2018_2628.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",3,3,No
+stars/cve_2018_2893.py,stars/cve_2018_2893.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",3,2,Yes
+stars/cve_2018_2894.py,stars/cve_2018_2894.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",3,3,No
+stars/cve_2018_3191.py,stars/cve_2018_3191.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",4,3,Yes
+stars/cve_2018_3245.py,stars/cve_2018_3245.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",1,1,No
+stars/cve_2018_3252.py,stars/cve_2018_3252.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",4,3,Yes
+stars/cve_2019_2618.py,stars/cve_2019_2618.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",3,3,No
+stars/cve_2019_2725.py,stars/cve_2019_2725.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",7,8,Yes
+stars/cve_2019_2729.py,stars/cve_2019_2729.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",6,4,Yes
+stars/cve_2019_2888.py,stars/cve_2019_2888.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",2,1,Yes
+stars/cve_2019_2890.py,stars/cve_2019_2890.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",1,1,No
+stars/cve_2020_2551.py,stars/cve_2020_2551.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",1,1,No
+stars/cve_2020_2555.py,stars/cve_2020_2555.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",1,1,No
+stars/cve_2020_2883.py,stars/cve_2020_2883.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",2,1,Yes
+utils.py,utils.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",16,8,Yes
+ws.py,ws.py,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,0bb71af7f649c6cf635313b2355c7fff0e3150da,"finish #13, #15, fix bug",10,4,Yes
+.gitignore,.gitignore,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",1,0,Yes
+README.md,README.md,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",1,0,Yes
+README_EN.md,README_EN.md,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",1,0,Yes
+stars/__init__.py,stars/__init__.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",45,28,Yes
+stars/console.py,stars/console.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",19,11,Yes
+stars/cve_2014_4210.py,stars/cve_2014_4210.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",22,4,Yes
+stars/cve_2016_0638.py,stars/cve_2016_0638.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",21,3,Yes
+stars/cve_2016_3510.py,stars/cve_2016_3510.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",22,3,Yes
+stars/cve_2017_10271.py,stars/cve_2017_10271.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",23,4,Yes
+stars/cve_2017_3248.py,stars/cve_2017_3248.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",22,3,Yes
+stars/cve_2017_3506.py,stars/cve_2017_3506.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",21,3,Yes
+stars/cve_2018_2628.py,stars/cve_2018_2628.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",21,3,Yes
+stars/cve_2018_2893.py,stars/cve_2018_2893.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",21,3,Yes
+stars/cve_2018_2894.py,stars/cve_2018_2894.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",19,2,Yes
+stars/cve_2018_3191.py,stars/cve_2018_3191.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",21,3,Yes
+stars/cve_2018_3245.py,stars/cve_2018_3245.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",19,2,Yes
+stars/cve_2018_3252.py,stars/cve_2018_3252.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",23,4,Yes
+stars/cve_2019_2618.py,stars/cve_2019_2618.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",28,7,Yes
+stars/cve_2019_2725.py,stars/cve_2019_2725.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",25,4,Yes
+stars/cve_2019_2729.py,stars/cve_2019_2729.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",21,3,Yes
+stars/cve_2019_2888.py,stars/cve_2019_2888.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",21,3,Yes
+stars/cve_2019_2890.py,stars/cve_2019_2890.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",21,3,Yes
+stars/cve_2020_14882.py,stars/cve_2020_14882.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",23,4,Yes
+stars/cve_2020_14883.py,stars/cve_2020_14883.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",19,2,Yes
+stars/cve_2020_2551.py,stars/cve_2020_2551.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",21,3,Yes
+stars/cve_2020_2555.py,stars/cve_2020_2555.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",21,3,Yes
+stars/cve_2020_2883.py,stars/cve_2020_2883.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",21,3,Yes
+utils.py,utils/__init__.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",4,2,Yes
+logger.py,utils/logger.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",2,1,Yes
+state.py,utils/state.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",0,0,No
+ws.py,ws.py,b8fa343cfa1b56d30f9454d8e4779057da894b1a,f75f7c773a448fb3b2b5c385b67c6c46d06f6dd2,"update multiprocess, add CVE-2020-14750",65,16,Yes
+stars/cve_2020_14750.py,stars/cve_2020_14750.py,ddce09c43f34aec1c66b6e19b9db530cfd9da53d,b8fa343cfa1b56d30f9454d8e4779057da894b1a,fix bug,16,6,Yes
+stars/cve_2020_14882.py,stars/cve_2020_14882.py,ddce09c43f34aec1c66b6e19b9db530cfd9da53d,b8fa343cfa1b56d30f9454d8e4779057da894b1a,fix bug,9,8,Yes
+ws.py,ws.py,ddce09c43f34aec1c66b6e19b9db530cfd9da53d,b8fa343cfa1b56d30f9454d8e4779057da894b1a,fix bug,10,4,Yes
+source/Desktop,source/Desktop,49706b03452c460f272e998eb062353f7257d394,,First Commit,0,0,No
+source/__init__.py,source/__init__.py,49706b03452c460f272e998eb062353f7257d394,,First Commit,0,0,No
+source/test.jpg,source/test.jpg,49706b03452c460f272e998eb062353f7257d394,,First Commit,0,0,No
+source/Desktop,source/Desktop,bd4bbec560ada27350ef0025632c76a5620b2a74,49706b03452c460f272e998eb062353f7257d394,Delete Desktop,0,0,No
+source/try.py,source/try.py,4a56f26e6985e72aa8c790ee187a96564d49bd52,bd4bbec560ada27350ef0025632c76a5620b2a74,Add download file,5,1,Yes
+source/downloadFile.py,source/downloadFile.py,49613ce58451bb01f62864c04cb085c4d0e137dd,d165573d33445e86f10fc44ed6e5e4ef5c6ffa00,edit path,1,1,No
+source/downloadFile.py,source/downloadFile.py,0d4ec64931caf6a33cd9059fe5da77cf36720daa,49613ce58451bb01f62864c04cb085c4d0e137dd,update the RAT link,2,2,No
+source/encodeSource.py,source/encodeSource.py,f9a5c793d346ed49530de97e27fd1111a8af029e,0d4ec64931caf6a33cd9059fe5da77cf36720daa,bypass the import commands,5,2,Yes
+README.md,README.md,83d74338be319e852bdf4c357b80d5a53875576f,f9a5c793d346ed49530de97e27fd1111a8af029e,add r0d,1,1,No
+source/r0d/__init__.py,source/r0d/__init__.py,83d74338be319e852bdf4c357b80d5a53875576f,f9a5c793d346ed49530de97e27fd1111a8af029e,add r0d,0,0,No
+source/encodeSource.py,source/r0d/encodeSource.py,83d74338be319e852bdf4c357b80d5a53875576f,f9a5c793d346ed49530de97e27fd1111a8af029e,add r0d,19,19,No
+source/setup.py,source/r0d/setup.py,83d74338be319e852bdf4c357b80d5a53875576f,f9a5c793d346ed49530de97e27fd1111a8af029e,add r0d,9,9,No
+source/viRu5/__init__.py,source/viRu5/__init__.py,83d74338be319e852bdf4c357b80d5a53875576f,f9a5c793d346ed49530de97e27fd1111a8af029e,add r0d,0,0,No
+source/source.py,source/viRu5/source.py,83d74338be319e852bdf4c357b80d5a53875576f,f9a5c793d346ed49530de97e27fd1111a8af029e,add r0d,84,84,No
+source/r0d/__init__.py,source/h00k/__init__.py,4f617a0528054582f3cd9674e48c1f97054d48ca,83d74338be319e852bdf4c357b80d5a53875576f,add h00k,0,0,No
+source/r0d/encodeSource.py,source/h00k/encodeSource.py,4f617a0528054582f3cd9674e48c1f97054d48ca,83d74338be319e852bdf4c357b80d5a53875576f,add h00k,0,0,No
+source/r0d/setup.py,source/h00k/setup.py,4f617a0528054582f3cd9674e48c1f97054d48ca,83d74338be319e852bdf4c357b80d5a53875576f,add h00k,0,0,No
+source/r0d/source.py,source/h00k/source.py,4f617a0528054582f3cd9674e48c1f97054d48ca,83d74338be319e852bdf4c357b80d5a53875576f,add h00k,0,0,No
+source/InvokeShellCode.ps1,InvokeShellCode.ps1,06c2505771bd4d12ad8a4c0a794834e8384b70d8,4f617a0528054582f3cd9674e48c1f97054d48ca,remove source,762,762,No
+source/__init__.py,__init__.py,06c2505771bd4d12ad8a4c0a794834e8384b70d8,4f617a0528054582f3cd9674e48c1f97054d48ca,remove source,0,0,No
+source/h00k/__init__.py,h00k/__init__.py,06c2505771bd4d12ad8a4c0a794834e8384b70d8,4f617a0528054582f3cd9674e48c1f97054d48ca,remove source,0,0,No
+source/h00k/encodeSource.py,h00k/encodeSource.py,06c2505771bd4d12ad8a4c0a794834e8384b70d8,4f617a0528054582f3cd9674e48c1f97054d48ca,remove source,0,0,No
+source/h00k/setup.py,h00k/setup.py,06c2505771bd4d12ad8a4c0a794834e8384b70d8,4f617a0528054582f3cd9674e48c1f97054d48ca,remove source,0,0,No
+source/h00k/source.py,h00k/source.py,06c2505771bd4d12ad8a4c0a794834e8384b70d8,4f617a0528054582f3cd9674e48c1f97054d48ca,remove source,0,0,No
+source/test.jpg,test.jpg,06c2505771bd4d12ad8a4c0a794834e8384b70d8,4f617a0528054582f3cd9674e48c1f97054d48ca,remove source,0,0,No
+source/try.py,try.py,06c2505771bd4d12ad8a4c0a794834e8384b70d8,4f617a0528054582f3cd9674e48c1f97054d48ca,remove source,16,16,No
+source/viRu5/__init__.py,viRu5/__init__.py,06c2505771bd4d12ad8a4c0a794834e8384b70d8,4f617a0528054582f3cd9674e48c1f97054d48ca,remove source,0,0,No
+source/viRu5/encodeSource.py,viRu5/encodeSource.py,06c2505771bd4d12ad8a4c0a794834e8384b70d8,4f617a0528054582f3cd9674e48c1f97054d48ca,remove source,0,0,No
+source/viRu5/setup.py,viRu5/setup.py,06c2505771bd4d12ad8a4c0a794834e8384b70d8,4f617a0528054582f3cd9674e48c1f97054d48ca,remove source,0,0,No
+source/viRu5/source.py,viRu5/source.py,06c2505771bd4d12ad8a4c0a794834e8384b70d8,4f617a0528054582f3cd9674e48c1f97054d48ca,remove source,0,0,No
+README.md,README.md,bc6aef325cde23d9563256443523157495f590aa,06c2505771bd4d12ad8a4c0a794834e8384b70d8,Update README.md,1,1,No
+h00k/source.py,h00k/source.py,a93e9c24bdda3bffe3cc36f28b7b425bf68e7042,bc6aef325cde23d9563256443523157495f590aa,change .exe to .scr,2,2,No
+viRu5/source.py,viRu5/source.py,a93e9c24bdda3bffe3cc36f28b7b425bf68e7042,bc6aef325cde23d9563256443523157495f590aa,change .exe to .scr,3,3,No
+viRu5/encodeSource.py,viRu5/encodeSource.py,0c7c9ed1b60cdb81418f77f2dca17551ce1d0110,a93e9c24bdda3bffe3cc36f28b7b425bf68e7042,change .exe to .scr,1,1,No
+viRu5/source.py,viRu5/source.py,0c7c9ed1b60cdb81418f77f2dca17551ce1d0110,a93e9c24bdda3bffe3cc36f28b7b425bf68e7042,change .exe to .scr,2,1,Yes
+h00k/source.py,h00k/source.py,511ef5bdf9acb43ac9ae15f89fbb05e48af0631c,0c7c9ed1b60cdb81418f77f2dca17551ce1d0110,Add new methods,2,2,No
+try.py,try.py,511ef5bdf9acb43ac9ae15f89fbb05e48af0631c,0c7c9ed1b60cdb81418f77f2dca17551ce1d0110,Add new methods,38,12,Yes
+viRu5/encodeSource.py,viRu5/encodeSource.py,511ef5bdf9acb43ac9ae15f89fbb05e48af0631c,0c7c9ed1b60cdb81418f77f2dca17551ce1d0110,Add new methods,4,8,Yes
+viRu5/source.py,viRu5/source.py,511ef5bdf9acb43ac9ae15f89fbb05e48af0631c,0c7c9ed1b60cdb81418f77f2dca17551ce1d0110,Add new methods,45,2,Yes
+try.py,try.py,1533c4895655af02baa858d4de5ed291b89b0b17,511ef5bdf9acb43ac9ae15f89fbb05e48af0631c,Add new methods,4,42,Yes
+viRu5/GoogleChromeAutoLaunch.py,viRu5/GoogleChromeAutoLaunch.py,1533c4895655af02baa858d4de5ed291b89b0b17,511ef5bdf9acb43ac9ae15f89fbb05e48af0631c,Add new methods,1,2,Yes
+viRu5/setup.py,viRu5/setup.py,1533c4895655af02baa858d4de5ed291b89b0b17,511ef5bdf9acb43ac9ae15f89fbb05e48af0631c,Add new methods,6,3,Yes
+viRu5/source.py,viRu5/source.py,1533c4895655af02baa858d4de5ed291b89b0b17,511ef5bdf9acb43ac9ae15f89fbb05e48af0631c,Add new methods,1,1,No
+viRu5/GoogleChromeAutoLaunch.py,viRu5/GoogleChromeAutoLaunch.py,2db785430221292d050adf01891b3c702240c499,1533c4895655af02baa858d4de5ed291b89b0b17,replace exit by pass,1,1,No
+viRu5/source.py,viRu5/source.py,2db785430221292d050adf01891b3c702240c499,1533c4895655af02baa858d4de5ed291b89b0b17,replace exit by pass,20,25,Yes
+viRu5/source.py,viRu5/source.py,de0d9e39294b2bad08946404bde31b1d3e5cc382,2db785430221292d050adf01891b3c702240c499,replace exit by pass,5,5,No
+viRu5/source.py,viRu5/source.py,4ac96a7ce29c85a0d977c6dade37c7462030a514,de0d9e39294b2bad08946404bde31b1d3e5cc382,Update source.py,2,2,No
+viRu5/source.py,viRu5/source.py,a7f90b79651d2667493e0e8105d7ab9b42c838e8,4ac96a7ce29c85a0d977c6dade37c7462030a514,Update source.py,5,2,Yes
+viRu5/source.py,viRu5/source.py,999b15e5c4549535ff9d3e6301f4f7ed3c591f6d,a7f90b79651d2667493e0e8105d7ab9b42c838e8,cover all 32,1,1,No
+viRu5/GoogleChromeAutoLaunch.py,viRu5/GoogleChromeAutoLaunch.py,de2b1443d8907db834cc3eaaca157c5fc21b7348,999b15e5c4549535ff9d3e6301f4f7ed3c591f6d,cover all 32,1,1,No
+viRu5/source.py,viRu5/source.py,d5579bb999c02ecf96f903573ed17486181ba8d6,de2b1443d8907db834cc3eaaca157c5fc21b7348,remove source,0,13,Yes
+try.py,try.py,50e1f11d61a2ad855a588cc942f8ec3c7b277089,de2b1443d8907db834cc3eaaca157c5fc21b7348,edit setup method,9,5,Yes
+viRu5/setup.py,viRu5/setup.py,50e1f11d61a2ad855a588cc942f8ec3c7b277089,de2b1443d8907db834cc3eaaca157c5fc21b7348,edit setup method,50,7,Yes
+README.md,README.md,570fb75a5c14a755eee3bb5a709d3028e4d7684b,9012e6172b8a0f7cd2ce07aa3f4c57f032b9d1c9,Update README.md,1,1,No
+README.md,README.md,8f88fe81889292832ae5db8e1c238e50c738ce30,570fb75a5c14a755eee3bb5a709d3028e4d7684b,Update README.md,21,0,Yes
+README.md,README.md,bf0e79cbaf761cfb77e9a5e00352c0e100bc12bf,8f88fe81889292832ae5db8e1c238e50c738ce30,Update README.md,5,5,No
+test.jpg,test.jpg,c4c866e8bf8a4d27d793654ab0bae6ca4dc8b3c3,bf0e79cbaf761cfb77e9a5e00352c0e100bc12bf,remove useless files,0,0,No
+README.md,README.md,aeced69bf1b4b4464ea7450ab3fc947987b1c6b5,c4c866e8bf8a4d27d793654ab0bae6ca4dc8b3c3,update,25,7,Yes
+README.md,README.md,51ebf0afe0a12db69b2ab683b192336f079c9e40,aeced69bf1b4b4464ea7450ab3fc947987b1c6b5,Update README.md,6,6,No
+README.md,README.md,b605ad9de06ec9e50fe05855a5c8f50ca5ccd88e,51ebf0afe0a12db69b2ab683b192336f079c9e40,Update README.md,1,1,No
+README.md,README.md,3872cc7d64424d1422d55cd70a390aca598be727,b605ad9de06ec9e50fe05855a5c8f50ca5ccd88e,Update README.md,1,1,No
+README.md,README.md,6226877acd4144c9572ec8fdf1e7fb1d7f22f000,3872cc7d64424d1422d55cd70a390aca598be727,Update README.md,1,1,No
+README.md,README.md,8cc7bbf5438937cc42472e23f82428ba1f4080d0,3872cc7d64424d1422d55cd70a390aca598be727,Make README.md better,8,13,Yes
+viRu5/source.py,viRu5/source.py,35f15db3370a1f2d405a02c0aed03f6f3e399448,d2916304aa3f3b2a5b608d2d6b27cb7172b65f21,"fixed (unicode error) 'unicodeescape' error
+
+changed string to raw string so backslashes will be treated as literal characters instead of escape characters",1,1,No

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dataset Visualization</title>
+</head>
+<body>
+  <h1>Dataset Visualization</h1>
+  <table border="1">
+    <tr>
+      <th>Before Bug fix</th>
+      <th>After Bug fix</th>
+      <th>Location</th>
+      <th>Bug type</th>
+      <th>Commit Message</th>
+    </tr>
+    <tr>
+      <td>{{ row["before_fix"] }}</td>
+      <td>{{ row["after_fix"] }}</td>
+      <td>{{ row["location"] }}</td>
+      <td>{{ row["bug_type"] }}</td>
+      <td>{{ row["commit_message"] }}</td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dataset Quantitative Analysis</title>
+</head>
+<body>
+  <h1>Dataset Quantitative Analysis</h1>
+  <form method="POST">
+    <label>Number of Rows:</label>
+    <input type="text" name="nrows">
+    <button type="submit">Generate Graph</button>
+  </form>
+  
+  {% if plot_url1 %}
+    <img src="data:image/png;base64,{{ plot_url1 }}">
+    <img src="data:image/png;base64,{{ plot_url2 }}">
+  {% endif %}
+</body>
+</html>
